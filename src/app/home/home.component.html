@@ -1,0 +1,34 @@
+<div class="cover">
+  <img class="cover-image w-100" src="../../assets/images/cover.jpg" alt="Dead By Daylight Helper">
+  <div class="cover-title"><b>Dead By Daylight Perks Helper</b></div>
+</div>
+<div class="container-fluid">
+  <div class="row toolbar">
+    <div class="col-3">
+      <label for="character">Character:</label>
+      <select class="item-selector" name="character" id="character" (change)="selectChanged($event)">
+        <option *ngFor="let survivor of survivors" value="{{ survivor }}">{{ survivor }}</option>
+      </select>
+    </div>
+    <div class="col-3">
+      <label for="usage">Related To:</label>
+      <select class="item-selector" name="usage" id="usage" (change)="selectChanged($event)">
+        <option *ngFor="let usage of usages" value="{{ usage }}">{{ usage }}</option>
+      </select>
+    </div>
+    <div class="col-3">
+      <label for="function">Function:</label>
+      <select class="item-selector" name="function" id="function" (change)="selectChanged($event)">
+        <option *ngFor="let function of functions" value="{{ function }}">{{ function }}</option>
+      </select>
+    </div>
+    <div class="col-3">
+      <label for="status">Status:</label>
+      <select class="item-selector" name="status" id="status" (change)="selectChanged($event)">
+        <option *ngFor="let stat of status" value="{{ stat }}">{{ stat }}</option>
+      </select>
+    </div>
+  </div>
+<app-perks [characterFilter]="characterFilter" [usagesFilter]="usagesFilter" [functionsFilter]="functionsFilter" [statusFilter]="statusFilter"></app-perks>
+</div>
+<app-footer></app-footer>

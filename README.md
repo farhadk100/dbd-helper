@@ -1,27 +1,26 @@
-# DbdHelper
+# dbd-helper
+dbd-helper is an open-source web app created by flutter to help Dead By Daylight players find and use their perks better than ever.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+You can see the live app from [this link](http://dead-by-daylight-helper.web.app/)
 
-## Development server
+## Technologies
+- Flutter 2.0.0
+- Json
+- Python (for crawling the data)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Libraries
+- [Dio](https://pub.dev/packages/dio)
+- [provider](https://pub.dev/packages/provider)
+- [Cached_network_images](https://pub.dev/packages/cached_network_image)
+- [simple_animations](https://pub.dev/packages/simple_animations)
+- [firebase_core](https://pub.dev/packages/firebase_core)
 
-## Code scaffolding
+## Sources
+All the data is crawled from [Dead by Daylight fandom](https://deadbydaylight.fandom.com) and modified for the application usage by Reza Gharavi.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## To-Do
+- [ ] Make the application tremendously lighter
+- [ ] Add Killer filters and perks
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Known bugs
+- The app is too heavy that it doens't work on mobile browsers and even some desktop browsers.

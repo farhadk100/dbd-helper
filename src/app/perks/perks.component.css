@@ -1,0 +1,26 @@
+p{
+  font-size: 0.8rem;
+}
+
+.perk{
+  border-radius: 20px;
+
+}
+
+.perk-image{
+
+  margin: auto;
+}
+
+.perk-name{
+  text-align: center;
+  margin: auto;
+}
+
+.perk-description{
+  text-align: left;
+}
+
+.perk-character{
+
+}

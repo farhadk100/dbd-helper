@@ -20,5 +20,5 @@ You can see the live app from [this link](http://dead-by-daylight-helper.web.app
 All the data is crawled from [Dead by Daylight fandom](https://deadbydaylight.fandom.com) and modified for the application usage by Reza Gharavi.
 
 ## To-Do
-- [x] Make the application tremendously lighter (I did so by migrating from flutter web to Angular, it was a good target practice, so why not :D)
+- [X] Make the application tremendously lighter (I did so by migrating from flutter web to Angular, it was a good target practice, so why not :D)
 - [ ] Add Killer filters and perks

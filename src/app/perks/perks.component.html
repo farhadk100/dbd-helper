@@ -1,0 +1,23 @@
+<ng-container *ngFor="let perk of perks">
+  <ng-container *ngIf="characterFilter == 'Show All' || perk.character == characterFilter">
+    <ng-container *ngIf="usagesFilter == 'Show All' || perk.usage.includes(usagesFilter) || perk.dependencies.includes(usagesFilter) || perk.interactables.includes(usagesFilter)">
+      <ng-container *ngIf="functionsFilter == 'Show All' || perk.functions.includes(functionsFilter)">
+        <ng-container *ngIf="statusFilter == 'Show All' || perk.status_effects.includes(statusFilter)">
+          <div class="perk row bg-dark m-2">
+            <img class="perk-image order-1 col-6 col-sm-2 col-lg-2 col-md-2" src="{{ perk.imageURL }}" />
+            <p class="perk-name order-3 order-sm-2 col-4 col-sm-2 col-lg-1 col-md-2 text-light"><b>
+                {{ perk.name }}
+              </b></p>
+            <p class="perk-description order-4 order-sm-3 col-8 col-sm-5 col-lg-8 col-md-6 m-auto text-light"
+              [innerHTML]="sanitizeText(perk.description)">
+            </p>
+            <div class="m-auto order-2 order-sm-4 col-6 col-sm-2 col-lg-1 col-md-2">
+              <img *ngIf="perk.character != 'All'" class="perk-character w-100" [src]="'../../assets/images/characters/' + perk.character + '.png'" />
+              <p class="text-center text-light">{{ perk.character }}</p>
+            </div>
+          </div>
+        </ng-container>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</ng-container>

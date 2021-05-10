@@ -1,0 +1,45 @@
+.cover{
+  position: relative;
+  text-align: center;
+}
+
+.cover-image{
+  filter: brightness(0.5);
+}
+
+.cover-title{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.toolbar{
+  background-color: rgba(0, 0, 0, 0.747);
+  text-align: center;
+  position:sticky;
+  top:0;
+}
+
+label{
+  color: white;
+  margin: auto;
+  padding: 10px;
+}
+
+.item-selector {
+  position: relative;
+}
+
+.item-selector select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.item-selector {
+  background-color: black;
+  color: white;
+  border: none;
+}

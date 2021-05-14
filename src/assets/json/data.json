@@ -972,7 +972,8 @@
         "Exhausted"
       ],
       "interactables": [
-        "Window"
+        "Window",
+        "Pallet"
       ],
       "game mechanics": []
     },

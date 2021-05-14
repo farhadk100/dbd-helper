@@ -465,13 +465,15 @@
       ],
       "dependencies": [
         "Locker",
-        "Window"
+        "Window",
+        "Pallet"
       ],
       "functions": [],
       "status_effects": [],
       "interactables": [
         "Locker",
-        "Window"
+        "Window",
+        "Pallet"
       ],
       "game mechanics": []
     },
@@ -962,7 +964,8 @@
         "Evade"
       ],
       "dependencies": [
-        "Window"
+        "Window",
+        "Pallet"
       ],
       "functions": [
         "Haste"
@@ -1240,7 +1243,7 @@
     {
       "id": 60,
       "player_type": "survivor",
-      "name": "Quick &amp; Quiet",
+      "name": "Quick and Quiet",
       "character": "Meg",
       "unlock_level": 30,
       "description": "<td>\n<p>You do not make as much noise as others when quickly vaulting over obstacles or hiding in <span style=\"color: #4287f5\">Lockers</span> .\n</p><p>The vault and hide actions' noise detection and audio range is reduced by <b><span class=\"clr\" style=\"color: #e8c252 ;\">100\u00a0%</span></b>.\n</p><p><i>Quick &amp; Quiet</i> can only be triggered once every <span class=\"clr\" style=\"color: #e8c252;\"><b>30</b></span>/<span class=\"clr\" style=\"color: #199b1e;\"><b>25</b></span>/<span class=\"clr\" style=\"color: #ac3ee3;\"><b>20</b></span>\u00a0<b>seconds</b>.\n</p>\n</td>",
@@ -1251,13 +1254,15 @@
       ],
       "dependencies": [
         "Locker",
-        "Window"
+        "Window",
+        "Pallet"
       ],
       "functions": [],
       "status_effects": [],
       "interactables": [
         "Locker",
-        "Window"
+        "Window",
+        "Pallet"
       ],
       "game mechanics": []
     },
@@ -1860,7 +1865,8 @@
       "status_effects": [],
       "interactables": [
         "Pallet",
-        "Breakable Wall"
+        "Breakable Wall",
+        "Window"
       ],
       "game mechanics": []
     },

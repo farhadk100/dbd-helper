@@ -465,13 +465,15 @@
       ],
       "dependencies": [
         "Locker",
-        "Window"
+        "Window",
+        "Pallet"
       ],
       "functions": [],
       "status_effects": [],
       "interactables": [
         "Locker",
-        "Window"
+        "Window",
+        "Pallet"
       ],
       "game mechanics": []
     },
@@ -1863,7 +1865,8 @@
       "status_effects": [],
       "interactables": [
         "Pallet",
-        "Breakable Wall"
+        "Breakable Wall",
+        "Window"
       ],
       "game mechanics": []
     },

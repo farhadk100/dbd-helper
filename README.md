@@ -1,7 +1,7 @@
 # dbd-helper
 dbd-helper is an open-source web app created by Angular to help Dead By Daylight players find and use their perks better than ever.
 
-You can see the live app from [this link](http://dead-by-daylight-helper.web.app/)
+You can see the live app from [this link](http://dbdhelper.web.app/)
 
 ## Technologies
 - Angular 11

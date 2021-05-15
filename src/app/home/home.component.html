@@ -4,31 +4,35 @@
 </div>
 <div class="container-fluid">
   <div class="row toolbar">
-    <div class="col-3">
-      <label for="character">Character:</label>
-      <select class="item-selector" name="character" id="character" (change)="selectChanged($event)">
-        <option *ngFor="let survivor of survivors" value="{{ survivor }}">{{ survivor }}</option>
-      </select>
-    </div>
-    <div class="col-3">
-      <label for="usage">Related To:</label>
-      <select class="item-selector" name="usage" id="usage" (change)="selectChanged($event)">
-        <option *ngFor="let usage of usages" value="{{ usage }}">{{ usage }}</option>
-      </select>
-    </div>
-    <div class="col-3">
-      <label for="function">Function:</label>
-      <select class="item-selector" name="function" id="function" (change)="selectChanged($event)">
-        <option *ngFor="let function of functions" value="{{ function }}">{{ function }}</option>
-      </select>
-    </div>
-    <div class="col-3">
-      <label for="status">Status:</label>
-      <select class="item-selector" name="status" id="status" (change)="selectChanged($event)">
-        <option *ngFor="let stat of status" value="{{ stat }}">{{ stat }}</option>
-      </select>
-    </div>
+    <mat-button-toggle-group class="text-center m-auto text-light" (change)="tabChanged($event)" name="playerType" aria-label="Player Type">
+      <mat-button-toggle class="w-50 m-auto" [ngClass]="playerType == 'survivor' ? 'bg-success' : 'bg-secondary'" value="survivor">Survivors</mat-button-toggle>
+      <mat-button-toggle class="w-50 m-auto" [ngClass]="playerType == 'killer' ? 'bg-success' : 'bg-secondary'" value="killer">Killers</mat-button-toggle>
+    </mat-button-toggle-group>
+    <mat-form-field appearance="fill" class="col-3 text-light">
+      <mat-label>Character:</mat-label>
+      <mat-select id="character" (selectionChange)="selectChanged($event)">
+        <mat-option *ngFor="let survivor of survivors" value="{{ survivor }}">{{ survivor }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="col-3 text-light">
+      <mat-label>Related to:</mat-label>
+      <mat-select id="usage" (selectionChange)="selectChanged($event)">
+        <mat-option *ngFor="let usage of usages" value="{{ usage }}">{{ usage }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="col-3 text-light">
+      <mat-label>Function:</mat-label>
+      <mat-select id="function" (selectionChange)="selectChanged($event)">
+        <mat-option *ngFor="let function of functions" value="{{ function }}">{{ function }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="col-3 text-light">
+      <mat-label>Status:</mat-label>
+      <mat-select id="status" (selectionChange)="selectChanged($event)">
+        <mat-option *ngFor="let stat of status" value="{{ stat }}">{{ stat }}</mat-option>
+      </mat-select>
+  </mat-form-field>
   </div>
-<app-perks [characterFilter]="characterFilter" [usagesFilter]="usagesFilter" [functionsFilter]="functionsFilter" [statusFilter]="statusFilter"></app-perks>
+<app-perks [characterFilter]="characterFilter" [usagesFilter]="usagesFilter" [functionsFilter]="functionsFilter" [statusFilter]="statusFilter" [playerType]="playerType"></app-perks>
 </div>
 <app-footer></app-footer>

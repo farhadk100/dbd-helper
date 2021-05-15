@@ -9,7 +9,7 @@ import basics from '../../assets/json/Basics.json';
 export class HomeComponent implements OnInit {
 
   basics: any = basics;
-  survivors: string[] = [];
+  characters: string[] = [];
   usages: string[] = [];
   functions: string[] = [];
   status: string[] = [];
@@ -22,10 +22,10 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.survivors = basics.survivors;
-    this.usages = basics.usages;
-    this.functions = basics.functions;
-    this.status = basics.status;
+    this.characters = basics.survivor;
+    this.usages = basics.usages[this.playerType];
+    this.functions = basics.functions[this.playerType];
+    this.status = basics.status[this.playerType];
 
   }
 
@@ -49,6 +49,14 @@ export class HomeComponent implements OnInit {
 
   tabChanged(event: any){
     this.playerType = event.value;
+    this.characters = basics[event.value];
+    this.usages = basics.usages[this.playerType];
+    this.functions = basics.functions[this.playerType];
+    this.status = basics.status[this.playerType];
+    this.characterFilter = 'Show All';
+    this.usagesFilter = 'Show All';
+    this.functionsFilter = 'Show All';
+    this.statusFilter = 'Show All';
   }
 
 }

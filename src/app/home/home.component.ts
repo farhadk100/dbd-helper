@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
   usages: string[] = [];
   functions: string[] = [];
   status: string[] = [];
+  @Output() playerType = 'survivor';
   @Output() characterFilter = 'Show All';
   @Output() usagesFilter = 'Show All';
   @Output() functionsFilter = 'Show All';
@@ -29,20 +30,25 @@ export class HomeComponent implements OnInit {
   }
 
   selectChanged(event: any){
-    switch(event.target.id){
+    console.log(event);
+    switch(event.source._id){
       case 'function':
-        this.functionsFilter = event.target.value;
+        this.functionsFilter = event.value;
         break;
       case 'character':
-        this.characterFilter = event.target.value;
+        this.characterFilter = event.value;
         break;
       case 'usage':
-        this.usagesFilter = event.target.value;
+        this.usagesFilter = event.value;
         break;
       case 'status':
-        this.statusFilter = event.target.value;
+        this.statusFilter = event.value;
         break;
     }
+  }
+
+  tabChanged(event: any){
+    this.playerType = event.value;
   }
 
 }

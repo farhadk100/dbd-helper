@@ -5,11 +5,8 @@
   "targets": {
     "dead-by-daylight-helper": {
       "hosting": {
-        "deadhelper": [
+        "dbd-helper": [
           "dead-by-daylight-helper"
-        ],
-        "dbdhelper": [
-          "dbdhelper"
         ]
       }
     }

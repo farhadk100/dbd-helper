@@ -125,6 +125,10 @@
               "devServerTarget": "dbd-helper:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }

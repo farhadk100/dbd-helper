@@ -13,6 +13,7 @@ export class PerksComponent implements OnInit {
 
   perks: any = perks.perks;
   pubSanitizer: DomSanitizer;
+  @Input() playerType = 'survivor';
   @Input() characterFilter = 'Show All';
   @Input() usagesFilter = 'Show All';
   @Input() functionsFilter = 'Show All';

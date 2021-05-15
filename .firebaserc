@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "dead-by-daylight-helper"
+  },
+  "targets": {
+    "dead-by-daylight-helper": {
+      "hosting": {
+        "deadhelper": [
+          "dead-by-daylight-helper"
+        ],
+        "dbdhelper": [
+          "dbdhelper"
+        ]
+      }
+    }
   }
 }

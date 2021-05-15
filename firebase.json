@@ -2,7 +2,7 @@
   "database": {
     "rules": "database.rules.json"
   },
-  "hosting": {
+  "hosting": [{
     "site": "dbdhelper",
     "public": "dist/dbd-helper",
     "ignore": [
@@ -10,5 +10,15 @@
       "**/.*",
       "**/node_modules/**"
     ]
+  },
+  {
+    "site": "dead-by-daylight-helper",
+    "public": "dist/dbd-helper",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
   }
+]
 }

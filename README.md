@@ -13,4 +13,7 @@ All the data is crawled from [Dead by Daylight fandom](https://deadbydaylight.fa
 
 ## To-Do
 - [X] Make the application tremendously lighter (I did so by migrating from flutter web to Angular, it was a good target practice, so why not :D)
-- [ ] Add Killer filters and perks
+- [X] Add Killer filters and perks
+- [ ] Add Offerings
+- [ ] Add Tools, Powers and Add-ons
+- [ ] Add smart loadout creator!

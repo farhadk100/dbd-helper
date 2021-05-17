@@ -2,9 +2,7 @@
 	"perks": [
 		{
 			"id": 1,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Ace in the Hole",
 			"character": "Ace",
 			"unlock_level": 40,
@@ -24,9 +22,7 @@
 		},
 		{
 			"id": 2,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Adrenaline",
 			"character": "Meg",
 			"unlock_level": 40,
@@ -51,9 +47,7 @@
 		},
 		{
 			"id": 3,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Aftercare",
 			"character": "Jeff",
 			"unlock_level": 35,
@@ -75,9 +69,7 @@
 		},
 		{
 			"id": 4,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Alert",
 			"character": "Feng",
 			"unlock_level": 40,
@@ -95,9 +87,7 @@
 		},
 		{
 			"id": 5,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Any Means Necessary",
 			"character": "Yui",
 			"unlock_level": 35,
@@ -116,9 +106,7 @@
 		},
 		{
 			"id": 6,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Appraisal",
 			"character": "Elodie",
 			"unlock_level": 30,
@@ -140,9 +128,7 @@
 		},
 		{
 			"id": 7,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Autodidact",
 			"character": "Adam",
 			"unlock_level": 40,
@@ -163,9 +149,7 @@
 		},
 		{
 			"id": 8,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Babysitter",
 			"character": "Steve",
 			"unlock_level": 30,
@@ -187,9 +171,7 @@
 		},
 		{
 			"id": 9,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Balanced Landing",
 			"character": "Nea",
 			"unlock_level": 30,
@@ -210,9 +192,7 @@
 		},
 		{
 			"id": 10,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Better Together",
 			"character": "Nancy",
 			"unlock_level": 30,
@@ -235,9 +215,7 @@
 		},
 		{
 			"id": 11,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Blood Pact",
 			"character": "Cheryl",
 			"unlock_level": 35,
@@ -257,9 +235,7 @@
 		},
 		{
 			"id": 12,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Boil Over",
 			"character": "Kate",
 			"unlock_level": 40,
@@ -278,9 +254,7 @@
 		},
 		{
 			"id": 13,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Bond",
 			"character": "Dwight",
 			"unlock_level": 30,
@@ -298,9 +272,7 @@
 		},
 		{
 			"id": 14,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Borrowed Time",
 			"character": "Bill",
 			"unlock_level": 35,
@@ -322,9 +294,7 @@
 		},
 		{
 			"id": 15,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Botany Knowledge",
 			"character": "Claudette",
 			"unlock_level": 35,
@@ -343,9 +313,7 @@
 		},
 		{
 			"id": 16,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Breakdown",
 			"character": "Jeff",
 			"unlock_level": 30,
@@ -368,9 +336,7 @@
 		},
 		{
 			"id": 17,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Breakout",
 			"character": "Yui",
 			"unlock_level": 40,
@@ -393,9 +359,7 @@
 		},
 		{
 			"id": 18,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Buckle Up",
 			"character": "Ash",
 			"unlock_level": 35,
@@ -414,9 +378,7 @@
 		},
 		{
 			"id": 19,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Built to Last",
 			"character": "Felix",
 			"unlock_level": 40,
@@ -434,9 +396,7 @@
 		},
 		{
 			"id": 20,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Calm Spirit",
 			"character": "Jake",
 			"unlock_level": 35,
@@ -453,9 +413,7 @@
 		},
 		{
 			"id": 21,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Camaraderie",
 			"character": "Steve",
 			"unlock_level": 35,
@@ -472,9 +430,7 @@
 		},
 		{
 			"id": 22,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Dance With Me",
 			"character": "Kate",
 			"unlock_level": 30,
@@ -499,9 +455,7 @@
 		},
 		{
 			"id": 23,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Dark Sense",
 			"character": "All",
 			"unlock_level": 0,
@@ -521,9 +475,7 @@
 		},
 		{
 			"id": 24,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Dead Hard",
 			"character": "David",
 			"unlock_level": 35,
@@ -543,9 +495,7 @@
 		},
 		{
 			"id": 25,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Deception",
 			"character": "Elodie",
 			"unlock_level": 35,
@@ -566,9 +516,7 @@
 		},
 		{
 			"id": 26,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Decisive Strike",
 			"character": "Laurie",
 			"unlock_level": 40,
@@ -588,9 +536,7 @@
 		},
 		{
 			"id": 27,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Déjà Vu",
 			"character": "All",
 			"unlock_level": 0,
@@ -610,9 +556,7 @@
 		},
 		{
 			"id": 28,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Deliverance",
 			"character": "Adam",
 			"unlock_level": 35,
@@ -633,9 +577,7 @@
 		},
 		{
 			"id": 29,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Desperate Measures",
 			"character": "Felix",
 			"unlock_level": 35,
@@ -653,9 +595,7 @@
 		},
 		{
 			"id": 30,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Detective's Hunch",
 			"character": "Tapp",
 			"unlock_level": 35,
@@ -678,9 +618,7 @@
 		},
 		{
 			"id": 31,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Distortion",
 			"character": "Jeff",
 			"unlock_level": 40,
@@ -698,9 +636,7 @@
 		},
 		{
 			"id": 32,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Diversion",
 			"character": "Adam",
 			"unlock_level": 30,
@@ -721,9 +657,7 @@
 		},
 		{
 			"id": 33,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Empathy",
 			"character": "Claudette",
 			"unlock_level": 30,
@@ -742,9 +676,7 @@
 		},
 		{
 			"id": 34,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Fast Track",
 			"character": "Yun-Jin",
 			"unlock_level": 30,
@@ -762,9 +694,7 @@
 		},
 		{
 			"id": 35,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Fixated",
 			"character": "Nancy",
 			"unlock_level": 35,
@@ -780,9 +710,7 @@
 		},
 		{
 			"id": 36,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Flip-Flop",
 			"character": "Ash",
 			"unlock_level": 30,
@@ -800,9 +728,7 @@
 		},
 		{
 			"id": 37,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "For the People",
 			"character": "Zarina",
 			"unlock_level": 40,
@@ -823,9 +749,7 @@
 		},
 		{
 			"id": 38,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Head On",
 			"character": "Jane",
 			"unlock_level": 40,
@@ -847,9 +771,7 @@
 		},
 		{
 			"id": 39,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Hope",
 			"character": "All",
 			"unlock_level": 0,
@@ -871,9 +793,7 @@
 		},
 		{
 			"id": 40,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Inner Strength",
 			"character": "Nancy",
 			"unlock_level": 40,
@@ -896,9 +816,7 @@
 		},
 		{
 			"id": 41,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Iron Will",
 			"character": "Jake",
 			"unlock_level": 30,
@@ -914,9 +832,7 @@
 		},
 		{
 			"id": 42,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Kindred",
 			"character": "All",
 			"unlock_level": 0,
@@ -934,9 +850,7 @@
 		},
 		{
 			"id": 43,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Leader",
 			"character": "Dwight",
 			"unlock_level": 40,
@@ -953,9 +867,7 @@
 		},
 		{
 			"id": 44,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Left Behind",
 			"character": "Bill",
 			"unlock_level": 30,
@@ -976,9 +888,7 @@
 		},
 		{
 			"id": 45,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Lightweight",
 			"character": "All",
 			"unlock_level": 0,
@@ -995,9 +905,7 @@
 		},
 		{
 			"id": 46,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Lithe",
 			"character": "Feng",
 			"unlock_level": 35,
@@ -1024,9 +932,7 @@
 		},
 		{
 			"id": 47,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Lucky Break",
 			"character": "Yui",
 			"unlock_level": 30,
@@ -1042,9 +948,7 @@
 		},
 		{
 			"id": 48,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Mettle of Man",
 			"character": "Ash",
 			"unlock_level": 40,
@@ -1062,9 +966,7 @@
 		},
 		{
 			"id": 49,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "No Mither",
 			"character": "David",
 			"unlock_level": 40,
@@ -1083,9 +985,7 @@
 		},
 		{
 			"id": 50,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "No One Left Behind",
 			"character": "All",
 			"unlock_level": 0,
@@ -1107,9 +1007,7 @@
 		},
 		{
 			"id": 51,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Object of Obsession",
 			"character": "Laurie",
 			"unlock_level": 35,
@@ -1127,9 +1025,7 @@
 		},
 		{
 			"id": 52,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Off the Record",
 			"character": "Zarina",
 			"unlock_level": 30,
@@ -1147,9 +1043,7 @@
 		},
 		{
 			"id": 53,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Open-Handed",
 			"character": "Ace",
 			"unlock_level": 30,
@@ -1166,9 +1060,7 @@
 		},
 		{
 			"id": 54,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Pharmacy",
 			"character": "Quentin",
 			"unlock_level": 35,
@@ -1190,9 +1082,7 @@
 		},
 		{
 			"id": 55,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Plunderer's Instinct",
 			"character": "All",
 			"unlock_level": 0,
@@ -1214,9 +1104,7 @@
 		},
 		{
 			"id": 56,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Poised",
 			"character": "Jane",
 			"unlock_level": 35,
@@ -1234,9 +1122,7 @@
 		},
 		{
 			"id": 57,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Power Struggle",
 			"character": "Elodie",
 			"unlock_level": 40,
@@ -1258,9 +1144,7 @@
 		},
 		{
 			"id": 58,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Premonition",
 			"character": "All",
 			"unlock_level": 0,
@@ -1276,9 +1160,7 @@
 		},
 		{
 			"id": 59,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Prove Thyself",
 			"character": "Dwight",
 			"unlock_level": 35,
@@ -1297,9 +1179,7 @@
 		},
 		{
 			"id": 60,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Quick and Quiet",
 			"character": "Meg",
 			"unlock_level": 30,
@@ -1324,9 +1204,7 @@
 		},
 		{
 			"id": 61,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Red Herring",
 			"character": "Zarina",
 			"unlock_level": 35,
@@ -1352,9 +1230,7 @@
 		},
 		{
 			"id": 62,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Repressed Alliance",
 			"character": "Cheryl",
 			"unlock_level": 40,
@@ -1379,9 +1255,7 @@
 		},
 		{
 			"id": 63,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Resilience",
 			"character": "All",
 			"unlock_level": 0,
@@ -1397,9 +1271,7 @@
 		},
 		{
 			"id": 64,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Saboteur",
 			"character": "Jake",
 			"unlock_level": 40,
@@ -1421,9 +1293,7 @@
 		},
 		{
 			"id": 65,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Second Wind",
 			"character": "Steve",
 			"unlock_level": 40,
@@ -1446,9 +1316,7 @@
 		},
 		{
 			"id": 66,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Self-Care",
 			"character": "Claudette",
 			"unlock_level": 40,
@@ -1467,9 +1335,7 @@
 		},
 		{
 			"id": 67,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Self-Preservation",
 			"character": "Yun-Jin",
 			"unlock_level": 40,
@@ -1486,9 +1352,7 @@
 		},
 		{
 			"id": 68,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Slippery Meat",
 			"character": "All",
 			"unlock_level": 0,
@@ -1505,9 +1369,7 @@
 		},
 		{
 			"id": 69,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Small Game",
 			"character": "All",
 			"unlock_level": 0,
@@ -1523,9 +1385,7 @@
 		},
 		{
 			"id": 70,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Smash Hit",
 			"character": "Yun-Jin",
 			"unlock_level": 35,
@@ -1548,9 +1408,7 @@
 		},
 		{
 			"id": 71,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Sole Survivor",
 			"character": "Laurie",
 			"unlock_level": 30,
@@ -1566,9 +1424,7 @@
 		},
 		{
 			"id": 72,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Solidarity",
 			"character": "Jane",
 			"unlock_level": 30,
@@ -1589,9 +1445,7 @@
 		},
 		{
 			"id": 73,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Soul Guard",
 			"character": "Cheryl",
 			"unlock_level": 30,
@@ -1613,9 +1467,7 @@
 		},
 		{
 			"id": 74,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Spine Chill",
 			"character": "All",
 			"unlock_level": 0,
@@ -1632,9 +1484,7 @@
 		},
 		{
 			"id": 75,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Sprint Burst",
 			"character": "Meg",
 			"unlock_level": 35,
@@ -1655,9 +1505,7 @@
 		},
 		{
 			"id": 76,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Stake Out",
 			"character": "Tapp",
 			"unlock_level": 40,
@@ -1675,9 +1523,7 @@
 		},
 		{
 			"id": 77,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Streetwise",
 			"character": "Nea",
 			"unlock_level": 40,
@@ -1696,9 +1542,7 @@
 		},
 		{
 			"id": 78,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Technician",
 			"character": "Feng",
 			"unlock_level": 30,
@@ -1718,9 +1562,7 @@
 		},
 		{
 			"id": 79,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Tenacity",
 			"character": "Tapp",
 			"unlock_level": 30,
@@ -1739,9 +1581,7 @@
 		},
 		{
 			"id": 80,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "This Is Not Happening",
 			"character": "All",
 			"unlock_level": 0,
@@ -1757,9 +1597,7 @@
 		},
 		{
 			"id": 81,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Up the Ante",
 			"character": "Ace",
 			"unlock_level": 35,
@@ -1776,9 +1614,7 @@
 		},
 		{
 			"id": 82,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Unbreakable",
 			"character": "Bill",
 			"unlock_level": 40,
@@ -1797,9 +1633,7 @@
 		},
 		{
 			"id": 83,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Urban Evasion",
 			"character": "Nea",
 			"unlock_level": 35,
@@ -1816,9 +1650,7 @@
 		},
 		{
 			"id": 84,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Vigil",
 			"character": "Quentin",
 			"unlock_level": 40,
@@ -1841,9 +1673,7 @@
 		},
 		{
 			"id": 85,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Visionary",
 			"character": "Felix",
 			"unlock_level": 30,
@@ -1863,9 +1693,7 @@
 		},
 		{
 			"id": 86,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Wake Up!",
 			"character": "Quentin",
 			"unlock_level": 30,
@@ -1887,9 +1715,7 @@
 		},
 		{
 			"id": 87,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "We'll Make It",
 			"character": "All",
 			"unlock_level": 0,
@@ -1910,9 +1736,7 @@
 		},
 		{
 			"id": 88,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "We're Gonna Live Forever",
 			"character": "David",
 			"unlock_level": 30,
@@ -1931,9 +1755,7 @@
 		},
 		{
 			"id": 89,
-			"player_type": [
-				"survivor"
-			],
+			"player_type": "survivor",
 			"name": "Windows of Opportunity",
 			"character": "Kate",
 			"unlock_level": 35,
@@ -1956,9 +1778,7 @@
 		},
 		{
 			"id": 90,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "A Nurse's Calling",
 			"character": "Nurse",
 			"unlock_level": 40,
@@ -1980,9 +1800,7 @@
 		},
 		{
 			"id": 91,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Agitation",
 			"character": "Trapper",
 			"unlock_level": 40,
@@ -2002,9 +1820,7 @@
 		},
 		{
 			"id": 92,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Bamboozle",
 			"character": "Clown",
 			"unlock_level": 30,
@@ -2026,9 +1842,7 @@
 		},
 		{
 			"id": 93,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Barbecue &amp; Chilli",
 			"character": "Cannibal",
 			"unlock_level": 35,
@@ -2052,9 +1866,7 @@
 		},
 		{
 			"id": 94,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Beast of Prey",
 			"character": "Huntress",
 			"unlock_level": 30,
@@ -2074,9 +1886,7 @@
 		},
 		{
 			"id": 95,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Bitter Murmur",
 			"character": "All",
 			"unlock_level": 0,
@@ -2098,9 +1908,7 @@
 		},
 		{
 			"id": 96,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Blood Echo",
 			"character": "Oni",
 			"unlock_level": 35,
@@ -2124,9 +1932,7 @@
 		},
 		{
 			"id": 97,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Blood Warden",
 			"character": "Nightmare",
 			"unlock_level": 40,
@@ -2153,9 +1959,7 @@
 		},
 		{
 			"id": 98,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Bloodhound",
 			"character": "Wraith",
 			"unlock_level": 35,
@@ -2172,9 +1976,7 @@
 		},
 		{
 			"id": 99,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Brutal Strength",
 			"character": "Trapper",
 			"unlock_level": 35,
@@ -2196,9 +1998,7 @@
 		},
 		{
 			"id": 100,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Corrupt Intervention",
 			"character": "Plague",
 			"unlock_level": 30,
@@ -2219,9 +2019,7 @@
 		},
 		{
 			"id": 101,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Coulrophobia",
 			"character": "Clown",
 			"unlock_level": 35,
@@ -2240,9 +2038,7 @@
 		},
 		{
 			"id": 102,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Coup de Grâce",
 			"character": "Twins",
 			"unlock_level": 40,
@@ -2263,9 +2059,7 @@
 		},
 		{
 			"id": 103,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Cruel Limits",
 			"character": "Demogorgon",
 			"unlock_level": 35,
@@ -2285,9 +2079,7 @@
 		},
 		{
 			"id": 104,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Dark Devotion",
 			"character": "Plague",
 			"unlock_level": 40,
@@ -2310,9 +2102,7 @@
 		},
 		{
 			"id": 105,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Dead Man's Switch",
 			"character": "Deathslinger",
 			"unlock_level": 35,
@@ -2335,9 +2125,7 @@
 		},
 		{
 			"id": 106,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Deathbound",
 			"character": "Executioner",
 			"unlock_level": 40,
@@ -2357,9 +2145,7 @@
 		},
 		{
 			"id": 107,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Deerstalker",
 			"character": "All",
 			"unlock_level": 0,
@@ -2377,9 +2163,7 @@
 		},
 		{
 			"id": 108,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Discordance",
 			"character": "Legion",
 			"unlock_level": 30,
@@ -2402,9 +2186,7 @@
 		},
 		{
 			"id": 109,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Distressing",
 			"character": "All",
 			"unlock_level": 0,
@@ -2424,9 +2206,7 @@
 		},
 		{
 			"id": 110,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Dragon's Grip",
 			"character": "Blight",
 			"unlock_level": 30,
@@ -2450,9 +2230,7 @@
 		},
 		{
 			"id": 111,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Dying Light",
 			"character": "Shape",
 			"unlock_level": 40,
@@ -2474,9 +2252,7 @@
 		},
 		{
 			"id": 112,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Enduring",
 			"character": "Hillbilly",
 			"unlock_level": 30,
@@ -2497,9 +2273,7 @@
 		},
 		{
 			"id": 113,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Fire Up",
 			"character": "Nightmare",
 			"unlock_level": 30,
@@ -2523,9 +2297,7 @@
 		},
 		{
 			"id": 114,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Forced Penance",
 			"character": "Executioner",
 			"unlock_level": 30,
@@ -2543,9 +2315,7 @@
 		},
 		{
 			"id": 115,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Franklin's Demise",
 			"character": "Cannibal",
 			"unlock_level": 40,
@@ -2564,9 +2334,7 @@
 		},
 		{
 			"id": 116,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Furtive Chase",
 			"character": "Ghost Face",
 			"unlock_level": 40,
@@ -2591,9 +2359,7 @@
 		},
 		{
 			"id": 117,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Gearhead",
 			"character": "Deathslinger",
 			"unlock_level": 30,
@@ -2613,9 +2379,7 @@
 		},
 		{
 			"id": 118,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hangman's Trick",
 			"character": "Pig",
 			"unlock_level": 30,
@@ -2635,9 +2399,7 @@
 		},
 		{
 			"id": 119,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hex: Blood Favour",
 			"character": "Blight",
 			"unlock_level": 35,
@@ -2660,9 +2422,7 @@
 		},
 		{
 			"id": 120,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hex: Crowd Control",
 			"character": "Trickster",
 			"unlock_level": 35,
@@ -2685,9 +2445,7 @@
 		},
 		{
 			"id": 121,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hex: Devour Hope",
 			"character": "Hag",
 			"unlock_level": 40,
@@ -2717,9 +2475,7 @@
 		},
 		{
 			"id": 122,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hex: Haunted Ground",
 			"character": "Spirit",
 			"unlock_level": 35,
@@ -2741,9 +2497,7 @@
 		},
 		{
 			"id": 123,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hex: Huntress Lullaby",
 			"character": "Huntress",
 			"unlock_level": 40,
@@ -2767,9 +2521,7 @@
 		},
 		{
 			"id": 124,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hex: No One Escapes Death",
 			"character": "All",
 			"unlock_level": 0,
@@ -2791,9 +2543,7 @@
 		},
 		{
 			"id": 125,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hex: Retribution",
 			"character": "Deathslinger",
 			"unlock_level": 40,
@@ -2818,9 +2568,7 @@
 		},
 		{
 			"id": 126,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hex: Ruin",
 			"character": "Hag",
 			"unlock_level": 35,
@@ -2842,9 +2590,7 @@
 		},
 		{
 			"id": 127,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hex: The Third Seal",
 			"character": "Hag",
 			"unlock_level": 30,
@@ -2869,9 +2615,7 @@
 		},
 		{
 			"id": 128,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hex: Thrill of the Hunt",
 			"character": "All",
 			"unlock_level": 0,
@@ -2892,9 +2636,7 @@
 		},
 		{
 			"id": 129,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hex: Undying",
 			"character": "Blight",
 			"unlock_level": 40,
@@ -2917,9 +2659,7 @@
 		},
 		{
 			"id": 130,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Hoarder",
 			"character": "Twins",
 			"unlock_level": 30,
@@ -2940,9 +2680,7 @@
 		},
 		{
 			"id": 131,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "I'm All Ears",
 			"character": "Ghost Face",
 			"unlock_level": 30,
@@ -2966,9 +2704,7 @@
 		},
 		{
 			"id": 132,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Infectious Fright",
 			"character": "Plague",
 			"unlock_level": 35,
@@ -2987,9 +2723,7 @@
 		},
 		{
 			"id": 133,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Insidious",
 			"character": "All",
 			"unlock_level": 0,
@@ -3007,9 +2741,7 @@
 		},
 		{
 			"id": 134,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Iron Grasp",
 			"character": "All",
 			"unlock_level": 0,
@@ -3025,9 +2757,7 @@
 		},
 		{
 			"id": 135,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Iron Maiden",
 			"character": "Legion",
 			"unlock_level": 40,
@@ -3049,9 +2779,7 @@
 		},
 		{
 			"id": 136,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Knock Out",
 			"character": "Cannibal",
 			"unlock_level": 30,
@@ -3071,9 +2799,7 @@
 		},
 		{
 			"id": 137,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Lightborn",
 			"character": "Hillbilly",
 			"unlock_level": 35,
@@ -3093,9 +2819,7 @@
 		},
 		{
 			"id": 138,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Mad Grit",
 			"character": "Legion",
 			"unlock_level": 35,
@@ -3115,9 +2839,7 @@
 		},
 		{
 			"id": 139,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Make Your Choice",
 			"character": "Pig",
 			"unlock_level": 40,
@@ -3140,9 +2862,7 @@
 		},
 		{
 			"id": 140,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Mindbreaker",
 			"character": "Demogorgon",
 			"unlock_level": 40,
@@ -3164,9 +2884,7 @@
 		},
 		{
 			"id": 141,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Monitor &amp; Abuse",
 			"character": "Doctor",
 			"unlock_level": 35,
@@ -3187,9 +2905,7 @@
 		},
 		{
 			"id": 142,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Monstrous Shrine",
 			"character": "All",
 			"unlock_level": 0,
@@ -3209,9 +2925,7 @@
 		},
 		{
 			"id": 143,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Nemesis",
 			"character": "Oni",
 			"unlock_level": 40,
@@ -3236,9 +2950,7 @@
 		},
 		{
 			"id": 144,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "No Way Out",
 			"character": "Trickster",
 			"unlock_level": 40,
@@ -3261,9 +2973,7 @@
 		},
 		{
 			"id": 145,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Oppression",
 			"character": "Twins",
 			"unlock_level": 35,
@@ -3279,9 +2989,7 @@
 		},
 		{
 			"id": 146,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Overcharge",
 			"character": "Doctor",
 			"unlock_level": 40,
@@ -3297,9 +3005,7 @@
 		},
 		{
 			"id": 147,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Overwhelming Presence",
 			"character": "Doctor",
 			"unlock_level": 30,
@@ -3318,9 +3024,7 @@
 		},
 		{
 			"id": 148,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Play with Your Food",
 			"character": "Shape",
 			"unlock_level": 35,
@@ -3343,9 +3047,7 @@
 		},
 		{
 			"id": 149,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Pop Goes the Weasel",
 			"character": "Clown",
 			"unlock_level": 40,
@@ -3367,9 +3069,7 @@
 		},
 		{
 			"id": 150,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Predator",
 			"character": "Wraith",
 			"unlock_level": 30,
@@ -3385,9 +3085,7 @@
 		},
 		{
 			"id": 151,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Rancor",
 			"character": "Spirit",
 			"unlock_level": 40,
@@ -3410,9 +3108,7 @@
 		},
 		{
 			"id": 152,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Remember Me",
 			"character": "Nightmare",
 			"unlock_level": 35,
@@ -3435,9 +3131,7 @@
 		},
 		{
 			"id": 153,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Save the Best for Last",
 			"character": "Shape",
 			"unlock_level": 30,
@@ -3458,9 +3152,7 @@
 		},
 		{
 			"id": 154,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Shadowborn",
 			"character": "Wraith",
 			"unlock_level": 40,
@@ -3476,9 +3168,7 @@
 		},
 		{
 			"id": 155,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Sloppy Butcher",
 			"character": "All",
 			"unlock_level": 0,
@@ -3500,9 +3190,7 @@
 		},
 		{
 			"id": 156,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Spies from the Shadows",
 			"character": "All",
 			"unlock_level": 0,
@@ -3519,9 +3207,7 @@
 		},
 		{
 			"id": 157,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Spirit Fury",
 			"character": "Spirit",
 			"unlock_level": 30,
@@ -3541,9 +3227,7 @@
 		},
 		{
 			"id": 158,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Starstruck",
 			"character": "Trickster",
 			"unlock_level": 30,
@@ -3567,9 +3251,7 @@
 		},
 		{
 			"id": 159,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Stridor",
 			"character": "Nurse",
 			"unlock_level": 30,
@@ -3586,9 +3268,7 @@
 		},
 		{
 			"id": 160,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Surge",
 			"character": "Demogorgon",
 			"unlock_level": 30,
@@ -3606,9 +3286,7 @@
 		},
 		{
 			"id": 161,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Surveillance",
 			"character": "Pig",
 			"unlock_level": 35,
@@ -3627,9 +3305,7 @@
 		},
 		{
 			"id": 162,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Territorial Imperative",
 			"character": "Huntress",
 			"unlock_level": 35,
@@ -3647,9 +3323,7 @@
 		},
 		{
 			"id": 163,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Thanatophobia",
 			"character": "Nurse",
 			"unlock_level": 35,
@@ -3671,9 +3345,7 @@
 		},
 		{
 			"id": 164,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Thrilling Tremors",
 			"character": "Ghost Face",
 			"unlock_level": 35,
@@ -3694,9 +3366,7 @@
 		},
 		{
 			"id": 165,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Tinkerer",
 			"character": "Hillbilly",
 			"unlock_level": 40,
@@ -3719,9 +3389,7 @@
 		},
 		{
 			"id": 166,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Trail of Torment",
 			"character": "Executioner",
 			"unlock_level": 35,
@@ -3739,9 +3407,7 @@
 		},
 		{
 			"id": 167,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Unnerving Presence",
 			"character": "Trapper",
 			"unlock_level": 30,
@@ -3762,9 +3428,7 @@
 		},
 		{
 			"id": 168,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Unrelenting",
 			"character": "All",
 			"unlock_level": 0,
@@ -3782,9 +3446,7 @@
 		},
 		{
 			"id": 169,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Whispers",
 			"character": "All",
 			"unlock_level": 0,
@@ -3801,9 +3463,7 @@
 		},
 		{
 			"id": 170,
-			"player_type": [
-				"killer"
-			],
+			"player_type": "killer",
 			"name": "Zanshin Tactics",
 			"character": "Oni",
 			"unlock_level": 30,

@@ -48,5 +48,3 @@ Thumbs.db
 # Environment Files
 src/environments/environment.ts
 src/environments/environment.prod.ts
-
-bfg.jar

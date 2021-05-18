@@ -13,15 +13,6 @@
       ]
     },
     {
-      "site": "dead-by-daylight-helper",
-      "public": "dist/dbd-helper",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ]
-    },
-    {
       "target": "dbd-helper",
       "public": "dist/dbd-helper",
       "ignore": [

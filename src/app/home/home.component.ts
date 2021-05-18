@@ -14,40 +14,43 @@ export class HomeComponent implements OnInit {
   functions: string[] = [];
   status: string[] = [];
   @Output() playerType = 'survivor';
+  @Output() listType = 'perk';
   @Output() characterFilter = 'Show All';
   @Output() usagesFilter = 'Show All';
   @Output() functionsFilter = 'Show All';
   @Output() statusFilter = 'Show All';
-
+  @Output() categoryFilter = 'Show All';
+  @Output() subCategoryFilter = 'None';
   constructor() { }
 
-  ngOnInit() {
-    this.characters = basics.survivor;
-    this.usages = basics.usages[this.playerType];
-    this.functions = basics.functions[this.playerType];
-    this.status = basics.status[this.playerType];
-
+  ngOnInit(){
   }
 
-  selectChanged(event: any){
-    console.log(event);
-    switch(event.source._id){
-      case 'function':
-        this.functionsFilter = event.value;
-        break;
-      case 'character':
-        this.characterFilter = event.value;
-        break;
-      case 'usage':
-        this.usagesFilter = event.value;
-        break;
-      case 'status':
-        this.statusFilter = event.value;
-        break;
-    }
+  onCharacterFilterChanged(newFilter: string){
+    this.characterFilter = newFilter;
   }
 
-  tabChanged(event: any){
+  onFunctionsFilterChanged(newFilter: string){
+    this.functionsFilter = newFilter;
+  }
+
+  onUsagesFilterChanged(newFilter: string){
+    this.usagesFilter = newFilter;
+  }
+
+  onStatusFilterChanged(newFilter: string){
+    this.statusFilter = newFilter;
+  }
+
+  onCategoryFilterChanged(newFilter: string){
+    this.categoryFilter = newFilter;
+  }
+
+  onSubCategoryFilterChanged(newFilter: string){
+    this.subCategoryFilter = newFilter;
+  }
+
+  playerTypeTabChanged(event: any){
     this.playerType = event.value;
     this.characters = basics[event.value];
     this.usages = basics.usages[this.playerType];
@@ -57,6 +60,10 @@ export class HomeComponent implements OnInit {
     this.usagesFilter = 'Show All';
     this.functionsFilter = 'Show All';
     this.statusFilter = 'Show All';
+  }
+
+  listTypeTabChanged(event: any){
+    this.listType = event.value;
   }
 
 }

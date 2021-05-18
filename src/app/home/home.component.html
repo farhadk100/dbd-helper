@@ -4,35 +4,18 @@
 </div>
 <div class="container-fluid">
   <div class="row toolbar">
-    <mat-button-toggle-group class="text-center m-auto text-light" (change)="tabChanged($event)" name="playerType" aria-label="Player Type">
+    <mat-button-toggle-group class="text-center m-auto text-light" (change)="playerTypeTabChanged($event)" name="playerType" aria-label="Player Type">
       <mat-button-toggle class="w-50 m-auto" [ngClass]="playerType == 'survivor' ? 'bg-success' : 'bg-secondary'" value="survivor">Survivors</mat-button-toggle>
       <mat-button-toggle class="w-50 m-auto" [ngClass]="playerType == 'killer' ? 'bg-success' : 'bg-secondary'" value="killer">Killers</mat-button-toggle>
     </mat-button-toggle-group>
-    <mat-form-field appearance="fill" class="col-3 text-light">
-      <mat-label>Character:</mat-label>
-      <mat-select id="character" (selectionChange)="selectChanged($event)">
-        <mat-option *ngFor="let character of characters" value="{{ character }}">{{ character }}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field appearance="fill" class="col-3 text-light">
-      <mat-label>Related to:</mat-label>
-      <mat-select id="usage" (selectionChange)="selectChanged($event)">
-        <mat-option *ngFor="let usage of usages" value="{{ usage }}">{{ usage }}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field appearance="fill" class="col-3 text-light">
-      <mat-label>Function:</mat-label>
-      <mat-select id="function" (selectionChange)="selectChanged($event)">
-        <mat-option *ngFor="let function of functions" value="{{ function }}">{{ function }}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <mat-form-field appearance="fill" class="col-3 text-light">
-      <mat-label>Status:</mat-label>
-      <mat-select id="status" (selectionChange)="selectChanged($event)">
-        <mat-option *ngFor="let stat of status" value="{{ stat }}">{{ stat }}</mat-option>
-      </mat-select>
-  </mat-form-field>
+    <mat-button-toggle-group class="text-center m-auto text-light" (change)="listTypeTabChanged($event)" name="listType" aria-label="List Type">
+      <mat-button-toggle class="w-50 m-auto" [ngClass]="listType == 'perk' ? 'bg-warning' : 'bg-secondary'" value="perk">Perks</mat-button-toggle>
+      <mat-button-toggle class="w-50 m-auto" [ngClass]="listType == 'offering' ? 'bg-warning' : 'bg-secondary'" value="offering">Offerings</mat-button-toggle>
+    </mat-button-toggle-group>
+    <app-perks-filter  *ngIf="listType == 'perk'" [playerType]="playerType" [characters]="characters" [usages]="usages" [functions]="functions" [status]="status" [characterFilter]="characterFilter" (characterFilterChanged)="onCharacterFilterChanged($event)" [usagesFilter]="usagesFilter" (usagesFilterChanged)="onUsagesFilterChanged($event)" [functionsFilter]="functionsFilter" (functionsFilterChanged)="onFunctionsFilterChanged($event)" [statusFilter]="statusFilter" (statusFilterChanged)="onStatusFilterChanged($event)"></app-perks-filter>
+    <app-offerings-filter  *ngIf="listType == 'offering'" [playerType]="playerType" [categoryFilter]="categoryFilter" [subCategoryFilter]="subCategoryFilter" (categoryFilterChanged)="onCategoryFilterChanged($event)" (subCategoryFilterChanged)="onSubCategoryFilterChanged($event)"></app-offerings-filter>
   </div>
-<app-perks [characterFilter]="characterFilter" [usagesFilter]="usagesFilter" [functionsFilter]="functionsFilter" [statusFilter]="statusFilter" [playerType]="playerType"></app-perks>
+<app-perks *ngIf="listType == 'perk'" [characterFilter]="characterFilter" [usagesFilter]="usagesFilter" [functionsFilter]="functionsFilter" [statusFilter]="statusFilter" [playerType]="playerType"></app-perks>
+<app-offerings *ngIf="listType == 'offering'" [playerType]="playerType" [categoryFilter]="categoryFilter" [subCategoryFilter]="subCategoryFilter"></app-offerings>
 </div>
 <app-footer></app-footer>

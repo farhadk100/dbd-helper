@@ -161,5 +161,70 @@
       "Oblivious",
       "Undetectable"
     ]
+  },
+  "categories": {
+    "Show All": ["None"],
+    "Bonus Bloodpoints": [
+      "Show All",
+      "All Categories",
+      "Altruism",
+      "Boldness",
+      "Brutality",
+      "Deviousness",
+      "Hunter",
+      "Objectives",
+      "Sacrifice",
+      "Survival"
+    ],
+    "Events": [
+      "Show All",
+      "Blights",
+      "Lunar New Years",
+      "Summer BBQs"
+    ],
+    "Luck": [
+      "Show All",
+      "One Survivor",
+      "All Survivors"
+    ],
+    "Map Modifications": [
+      "Show All",
+      "Basement Location",
+      "Chest Numbers",
+      "Fog Thickness",
+      "Hatch Location",
+      "Hook Numbers",
+      "Moonlight Brightness"
+    ],
+    "Memento Mori": [
+      "None"
+    ],
+    "Realm Selection": [
+      "Show All",
+      "Autohaven Wreckers",
+      "Backwater Swamp",
+      "Coldwind Farm",
+      "Crotus Prenn Asylum",
+      "Gideon Meat Plant",
+      "Grave of Glenvale",
+      "Haddonfield",
+      "Hawkins National Laboratory",
+      "LÃ©ry's Memorial Institute",
+      "The MacMillan Estate",
+      "Ormond",
+      "Red Forest",
+      "Silent Hill",
+      "Springwood",
+      "Yamaoka Estate"
+    ],
+    "Shrouds": [
+      "None"
+    ],
+    "Splinters": [
+      "None"
+    ],
+    "Wards": [
+      "None"
+    ]
   }
 }

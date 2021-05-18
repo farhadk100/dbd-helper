@@ -1793,7 +1793,7 @@
 				"Heal"
 			],
 			"functions": [
-				"Aura"	
+				"Aura"
 			],
 			"status_effects": [],
 			"interactables": []
@@ -3482,6 +3482,1248 @@
 				"Pallet",
 				"Window"
 			]
+		}
+	],
+	"offerings": [
+		{
+			"id": 1,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Escape! Cake",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "All Categories",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> bonus Bloodpoints in all Categories.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"This picture of a cake sure is real.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e4/FulliconFavors_escapeCake.png"
+		},
+		{
+			"id": 2,
+			"player_type": [
+				"killer"
+			],
+			"name": "Hollow Shell",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "All Categories",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">25 %</span></b> bonus Bloodpoints in all Categories.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"An unidentifiable cocoon which was breached by whatever was inside.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/FulliconFavors_hollowShell.png"
+		},
+		{
+			"id": 3,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Sealed Envelope",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "All Categories",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">25 %</span></b> bonus Bloodpoints in all Categories.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"An unaddressed and unopened envelope yellowed by its time. Its message will never be known.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/95/FulliconFavors_sealedEnvelope.png"
+		},
+		{
+			"id": 4,
+			"player_type": [
+				"killer"
+			],
+			"name": "Survivor Pudding",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "All Categories",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> bonus Bloodpoints in all Categories.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A heavily salted pudding...\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f0/FulliconFavors_survivorPudding.png"
+		},
+		{
+			"id": 5,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Bloody Party Streamers",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "All Categories",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> bonus Bloodpoints in all Categories for all Players.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A reminder of a bloody good time when people came together, but left screaming.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/FulliconFavors_bloodyPartyStreamers.png"
+		},
+		{
+			"id": 6,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Bound Envelope",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "All Categories",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">25 %</span></b> bonus Bloodpoints in all Categories to all Survivors.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"An opened envelope re-sealed and bound with 4 coloured ribbons.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/FulliconFavors_boundEnvelope.png"
+		},
+		{
+			"id": 7,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Ghastly Gateau",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "All Categories",
+			"description": "<td>A spectacularly grim cake to mark our four years together. 1 % tastier than a Gruesome Gateau.\n<ul><li>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">104 %</span></b> bonus Bloodpoints in all Categories for all Players this Trial.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Happy Anniversary! Here's to many more!\" — The Dead by Daylight Team</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f4/FulliconFavors_ghastlyGateau.png"
+		},
+		{
+			"id": 8,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Gruesome Gateau",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "All Categories",
+			"description": "<td>A terrific stomach-churning cake to mark our three years together.\n<ul><li>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">103 %</span></b> bonus Bloodpoints in all Categories for all Players this Trial.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Happy Anniversary! Here's to our three years together!\" — The Dead by Daylight Team</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/FulliconFavors_gruesomeGateau.png"
+		},
+		{
+			"id": 9,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Primrose Blossom Sachet",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Altruism",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">50 %</span></b> bonus Bloodpoints in the <i>Altruism</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A palm-sized hand-sewn sachet containing 4 gold petals. The primrose opens at the very last moment before the sun gives place to the night.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/FulliconFavors_primroseBlossomSachet.png"
+		},
+		{
+			"id": 10,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Fresh Primrose Blossom",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Altruism",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">75 %</span></b> bonus Bloodpoints in the <i>Altruism</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Golden flowers harvested at their peak. The primrose opens at the very last moment before the sun gives place to the night.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/68/FulliconFavors_freshPrimroseBlossom.png"
+		},
+		{
+			"id": 11,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Fragrant Primrose Blossom",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Altruism",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> bonus Bloodpoints in the <i>Altruism</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Golden flowers harvested at their peak. Releases a strong earthy and comforting aroma.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7f/FulliconFavors_fragrantPrimroseBlossom.png"
+		},
+		{
+			"id": 12,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Sweet William Sachet",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Boldness",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">50 %</span></b> bonus Bloodpoints in the <i>Boldness</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A palm-sized hand-sewn sachet containing a mix of pale petals and glaucous bluish leaves. Releases a strong spicy, cove-like scent.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/FulliconFavors_sweetWilliamSachet.png"
+		},
+		{
+			"id": 13,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Fresh Sweet William",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Boldness",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">75 %</span></b> bonus Bloodpoints in the <i>Boldness</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A bunch of flowers with pink petals and a blood red core. Releases a spicy, clove-like scent.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/96/FulliconFavors_freshSweetWilliam.png"
+		},
+		{
+			"id": 14,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Fragrant Sweet William",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Boldness",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> bonus Bloodpoints in the <i>Boldness</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A bunch of flowers with pink petals and a blood red core. Releases a strong spicy, clove-lick scent.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fb/FulliconFavors_fragrantSweetWilliam.png"
+		},
+		{
+			"id": 15,
+			"player_type": [
+				"killer"
+			],
+			"name": "Tanager Wreath",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Brutality",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">50 %</span></b> bonus Bloodpoints in the <i>Brutality</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Crafted out of bloody sticks and guts, this wreath calls on the Entity's blessing for more blood.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/FulliconFavors_tanagerWreath.png"
+		},
+		{
+			"id": 16,
+			"player_type": [
+				"killer"
+			],
+			"name": "Devout Tanager Wreath",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Brutality",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">75 %</span></b> bonus Bloodpoints in the <i>Brutality</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Devoutly crafted out of</span></i> sticks and guts, <i>this wreath calls on the Entity's blessing for more blood.\"</i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f9/FulliconFavors_devoutTanagerWreath.png"
+		},
+		{
+			"id": 17,
+			"player_type": [
+				"killer"
+			],
+			"name": "Ardent Tanager Wreath",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Brutality",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> bonus Bloodpoints in the <i>Brutality</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Crafted with a fiery, undying passion out of bloody sticks and guts, this wreath calls on the Entity's blessing fore more blood.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/FulliconFavors_ardentTanagerWreath.png"
+		},
+		{
+			"id": 18,
+			"player_type": [
+				"killer"
+			],
+			"name": "Raven Wreath",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Deviousness",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">50 %</span></b> bonus Bloodpoints in the <i>Deviousness</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Crafted out of blackened branches and coals, this wreath calls on the Entity's blessing for more blood.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/32/FulliconFavors_ravenWreath.png"
+		},
+		{
+			"id": 19,
+			"player_type": [
+				"killer"
+			],
+			"name": "Devout Raven Wreath",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Deviousness",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">75 %</span></b> bonus Bloodpoints in the <i>Deviousness</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Devoutly crafted out of blackened branches and coals, this wreath calls on the Entity's blessing for more blood.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1b/FulliconFavors_devoutRavenWreath.png"
+		},
+		{
+			"id": 20,
+			"player_type": [
+				"killer"
+			],
+			"name": "Ardent Raven Wreath",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Deviousness",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> bonus Bloodpoints in the <i>Deviousness</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Crafted with a fiery, undying passion out of blackened branches and coals, this wreath calls on the Entity's blessing for more blood.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c1/FulliconFavors_ardentRavenWreath.png"
+		},
+		{
+			"id": 21,
+			"player_type": [
+				"killer"
+			],
+			"name": "Spotted Owl Wreath",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Hunter",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">50 %</span></b> bonus Bloodpoints in the <i>Hunter</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Crafted out of sharp metals, ropes and feathers, this wreath calls on the Entity's blessing for more blood.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d8/FulliconFavors_spottedOwlWreath.png"
+		},
+		{
+			"id": 22,
+			"player_type": [
+				"killer"
+			],
+			"name": "Devout Spotted Owl Wreath",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Hunter",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">75 %</span></b> bonus Bloodpoints in the <i>Hunter</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Devoutly crafted out of sharp metals, rope and features, this wreath calls on the Entity's blessing for more blood.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/FulliconFavors_devoutSpottedOwlWreath.png"
+		},
+		{
+			"id": 23,
+			"player_type": [
+				"killer"
+			],
+			"name": "Ardent Spotted Owl Wreath",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Hunter",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> bonus Bloodpoints in the <i>Hunter</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Crafted with a fiery, undying passion out of sharp metals, ropes and feathers, this wreath calls on the Entity's blessing for more blood.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8d/FulliconFavors_ardentSpottedOwlWreath.png"
+		},
+		{
+			"id": 24,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Bog Laurel Sachet",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Objectives",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">50 %</span></b> bonus Bloodpoints in the <i>Objectives</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A palm-sized hand sewn sachet filled with dry leaves. Releases a faint tea-like aroma.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/54/FulliconFavors_bogLaurelSachet.png"
+		},
+		{
+			"id": 25,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Fresh Bog Laurel",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Objectives",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">75 %</span></b> bonus Bloodpoints in the <i>Objectives</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A beautiful purple flower that grows in the midst of the tainted swamp. Releases a mild tea-like aroma.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/FulliconFavors_freshBogLaurel.png"
+		},
+		{
+			"id": 26,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Fragrant Bog Laurel",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Objectives",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> bonus Bloodpoints in the <i>Objectives</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A beautiful purple flower that grows in the midst of the tainted swamp. Releases a strong tea-like aroma.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/FulliconFavors_fragrantBogLaurel.png"
+		},
+		{
+			"id": 27,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Shrike Wreath",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Sacrifice",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">50 %</span></b> bonus Bloodpoints in the <i>Sacrifice</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Crafted out of sticks, strings and bones, this wreath calls on the Entity's blessing for more blood.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bc/FulliconFavors_shrikeWreath.png"
+		},
+		{
+			"id": 28,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Devout Shrike Wreath",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Sacrifice",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">75 %</span></b> bonus Bloodpoints in the <i>Sacrifice</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Devoutly crafted out of sticks, strings and bones, this wreath calls on the Entity's blessing for more blood.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cc/FulliconFavors_devoutShrikeWreath.png"
+		},
+		{
+			"id": 29,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Ardent Shrike Wreath",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Sacrifice",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> bonus Bloodpoints in the <i>Sacrifice</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Crafted with a fiery, undying passion out of sticks, strings and bones, this wreath calls on the Entity's blessing for more blood.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/93/FulliconFavors_ardentShrikeWreath.png"
+		},
+		{
+			"id": 30,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Crispleaf Amaranth Sachet",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Survival",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">50 %</span></b> bonus Bloodpoints in the <i>Survival</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A palm-sized hand-sewn sachet stuffed with bead-like grain. Amaranth is said to be everlasting.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b1/FulliconFavors_crispleafAmaranthSachet.png"
+		},
+		{
+			"id": 31,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Fresh Crispleaf Amaranth",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Survival",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">75 %</span></b> bonus Bloodpoints in the <i>Survival</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"The pale green leaves are highlighted with peculiar crimson veins. Amaranth is said to be everlasting.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b5/FulliconFavors_freshCrispleafAmaranth.png"
+		},
+		{
+			"id": 32,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Fragrant Crispleaf Amaranth",
+			"category_1": "Bonus Bloodpoints",
+			"category_2": "Survival",
+			"description": "<td>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> bonus Bloodpoints in the <i>Survival</i> Category.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"The pale green leaves are highlighted with peculiar crimson veins. Amaranth is said to be everlasting.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/31/FulliconFavors_fragrantCrispleafAmaranth.png"
+		},
+		{
+			"id": 33,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Pustula Petals",
+			"category_1": "Events",
+			"category_2": "Blights",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">NO LONGER AVAILABLE</span></b>\n<p>Calls upon The <span style=\"color: #4287f5\">Entity</span>  to generate <b><span class=\"clr\" style=\"color: #e8c252 ;\">1</span> additional Blighted Hook</b> and <b><span class=\"clr\" style=\"color: #ff8800 ;\">1</span> additional Blighted Generator</b>.\n</p>\n<ul><li>As a Killer, hook a Survivor on a <b>Blighted Hook</b> for the first time to earn bonus <span style=\"color: #4287f5\">Bloodpoints</span> .</li>\n<li>As a Survivor, find and repair a <b>Blighted Generator</b> to earn bonus <span style=\"color: #4287f5\">Bloodpoints</span> .</li>\n<li>Stacks.</li></ul>\n<p>Using <i>Pustula Petals</i> increases the amount of Bloodpoints earned for these interactions.\n</p><p><i>NOTE: During the Event, <b><span class=\"clr\" style=\"color: #d41c1c ;\">1</span> Blighted Hook</b> and <b><span class=\"clr\" style=\"color: #ac3ee3 ;\">1</span> Blighted Generator</b> will spawn on the Map by default.</i>\n</p><p><i>Only playable during the <b>The Eternal Blight</b> Event.</i>\n</p><p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"The Pustulas fill the air with a rancid odour that some may find enticing.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bf/FulliconFavors_pustulaPetals.png"
+		},
+		{
+			"id": 34,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Red Envelope",
+			"category_1": "Events",
+			"category_2": "Lunar New Years",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">NO LONGER AVAILABLE</span></b>\n<p>A special gift for the <span style=\"color: #4287f5\">Lunar New Year</span> celebration.\n</p>\n<ul><li>As a Killer, hook a Survivor on a <b>Lunar Celebration Hook</b> to earn bonus <span style=\"color: #4287f5\">Bloodpoints</span> .</li>\n<li>As a Survivor, whenever a <b>Lunar Celebration Generator</b> is repaired, you earn bonus Bloodpoints.</li></ul>\n<p>Using <i>Red Envelope</i> increases the amount of Bloodpoints earned for these interactions.\n</p><p><i>Only playable during the <b>Gilded Stampede</b> Event.</i>\n</p><p><i>NOTE: During the Event, all Hooks and Generators are replaced with <b>Lunar Celebration Hooks and Generators</b>.</i>\n</p><p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"The Red Envelope is filled with crisp, new bills that bring luck and happiness.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1f/FulliconFavors_redEnvelope.png"
+		},
+		{
+			"id": 35,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "BBQ Invitation",
+			"category_1": "Events",
+			"category_2": "Summer BBQs",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">NO LONGER AVAILABLE</span></b>\n<p>Calls upon The <span style=\"color: #4287f5\">Entity</span>  to generate <b>1 Grill Hook</b> and <b>1 Frozen Cocktail Machine</b>.\n</p>\n<ul><li>As a Killer, hook a Survivor on a <b>Grill Hook</b> for the first time to gain a <b>Survivor Chop</b>. Grants bonus <span style=\"color: #4287f5\">Bloodpoints</span> .</li>\n<li>As a Survivor, complete repairs on a <b>Frozen Cocktail Machine</b> for all Survivors to gain a <b>Frosty Margarita</b>. Grants bonus <span style=\"color: #4287f5\">Bloodpoints</span> .</li>\n<li>Stacks.</li></ul>\n<p><i>Only playable during the <b>Scorching Summer BBQ</b> Event.</i>\n</p><p><i>NOTE: During the Event, <b>2 default Grill Hooks</b> and <b>2 default Frozen Cocktail Machines</b> will spawn on the Map.</i>\n</p><p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Kick back and relax in the moonlight with an ice cold drink and some barbecued meat. The Entity has invited you to enjoy yourself this fine evening.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/40/FulliconFavors_bbqInvitation.png"
+		},
+		{
+			"id": 36,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Chalk Pouch",
+			"category_1": "Luck",
+			"category_2": "One Survivor",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+1 %\">Slightly increases</span></b> <span style=\"color: #4287f5\">Luck</span> .\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A small cotton pouch filled with white chalky powder of unknown origin. Some believe it brings good fortune.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/37/FulliconFavors_chalkPouch.png"
+		},
+		{
+			"id": 37,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Cream Chalk Pouch",
+			"category_1": "Luck",
+			"category_2": "One Survivor",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+2 %\">Moderately increases</span></b> <span style=\"color: #4287f5\">Luck</span> .\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A small cotton pouch half-filled with a cream coloured chalky powder of unknown origin. Releases a faint herbal aroma. Some believe it brings good fortune.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/FulliconFavors_creamChalkPouch.png"
+		},
+		{
+			"id": 38,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Ivory Chalk Pouch",
+			"category_1": "Luck",
+			"category_2": "One Survivor",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+3 %\">Considerably increases</span></b> <span style=\"color: #4287f5\">Luck</span> .\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A small leather pouch displaying a straight white line hand-sewn on one of its sides. The bag is filled with an ivory chalky powder that shines under the moonlight. Some believe it brings good fortune.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/92/FulliconFavors_ivoryChalkPouch.png"
+		},
+		{
+			"id": 39,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Salt Pouch",
+			"category_1": "Luck",
+			"category_2": "All Survivors",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+1 %\">Slightly increases</span></b> <span style=\"color: #4287f5\">Luck</span>  of all <span style=\"color: #4287f5\">Survivors</span> .\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A small cotton pouch filled with black salt crystals. Some believe it brings good fortune. Don't spill it.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f1/FulliconFavors_saltPouch.png"
+		},
+		{
+			"id": 40,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Black Salt Statuette",
+			"category_1": "Luck",
+			"category_2": "All Survivors",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+2 %\">Moderately increases</span></b> the <span style=\"color: #4287f5\">Luck</span>  of all <span style=\"color: #4287f5\">Survivors</span> .\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A friable miniature statuette made of black salt representing a woman in a kneeling position offering a gift. Some believe it brings good fortune.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bd/FulliconFavors_blackSaltStatuette.png"
+		},
+		{
+			"id": 41,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Vigo's Jar of Salty Lips",
+			"category_1": "Luck",
+			"category_2": "All Survivors",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+3 %\">Considerably increases</span></b> the <span style=\"color: #4287f5\">Luck</span>  of all <span style=\"color: #4287f5\">Survivors</span> .\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A tightly sealed glass jar containing torn human lips floating in a murky brine. Some believe it brings good fortune.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/FulliconFavors_vigosJarOfSaltyLips.png"
+		},
+		{
+			"id": 42,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Bloodied Blueprint",
+			"category_1": "Map Modifications",
+			"category_2": "Basement Location",
+			"description": "<td>Reveals the <span style=\"color: #4287f5\">Aura</span>  of the Basement Hooks to you for <b><span class=\"clr\" style=\"color: #e8c252 ;\">20 seconds</span></b> at the start of the Trial.\n<p><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 1\">Tremendously increases</span></b> the chance of spawning the <span style=\"color: #4287f5\">Basement</span>  in the <span style=\"color: #4287f5\">Killer Shack</span> if available.\n</p><p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Spatters of dried blood partially conceal the design.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9c/FulliconFavors_bloodiedBlueprint.png"
+		},
+		{
+			"id": 43,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Torn Blueprint",
+			"category_1": "Map Modifications",
+			"category_2": "Basement Location",
+			"description": "<td>Reveals the <span style=\"color: #4287f5\">Aura</span>  of the Basement Hooks to you for <b><span class=\"clr\" style=\"color: #e8c252 ;\">20 seconds</span></b> at the start of the Trial.\n<p><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 1\">Tremendously increases</span></b> the chance of spawning the <span style=\"color: #4287f5\">Basement</span>  in the main building if available.\n</p><p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Though brittle and torn, the design is mostly legible.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/df/FulliconFavors_tornBlueprint.png"
+		},
+		{
+			"id": 44,
+			"player_type": [
+				"killer"
+			],
+			"name": "Scratched Coin",
+			"category_1": "Map Modifications",
+			"category_2": "Chest Numbers",
+			"description": "<td>Calls upon the <span style=\"color: #4287f5\">Entity</span>  to prevent the appearance of <b><span class=\"clr\" style=\"color: #e8c252 ;\">1</span></b> <span style=\"color: #4287f5\">Chest</span> .\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A defaced coin of unknown origin.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/85/FulliconFavors_scratchedCoin.png"
+		},
+		{
+			"id": 45,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Tarnished Coin",
+			"category_1": "Map Modifications",
+			"category_2": "Chest Numbers",
+			"description": "<td>Calls upon The <span style=\"color: #4287f5\">Entity</span>  to create <b><span class=\"clr\" style=\"color: #e8c252 ;\">1 additional</span></b> <span style=\"color: #4287f5\">Chest</span> .\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A round piece of metal which has lost all sheen.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/FulliconFavors_tarnishedCoin.png"
+		},
+		{
+			"id": 46,
+			"player_type": [
+				"killer"
+			],
+			"name": "Cut Coin",
+			"category_1": "Map Modifications",
+			"category_2": "Chest Numbers",
+			"description": "<td>Calls upon <span style=\"color: #4287f5\">Entity</span>  to prevent the appearance of <b><span class=\"clr\" style=\"color: #e8c252 ;\">Modifier: 2</span></b> <span style=\"color: #4287f5\">Chests</span> .\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Two halves of a thick metallic coin.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8e/FulliconFavors_cutCoin.png"
+		},
+		{
+			"id": 47,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Shiny Coin",
+			"category_1": "Map Modifications",
+			"category_2": "Chest Numbers",
+			"description": "<td>Calls upon The <span style=\"color: #4287f5\">Entity</span>  to create <b><span class=\"clr\" style=\"color: #e8c252 ;\">2 additional</span></b> <span style=\"color: #4287f5\">Chests</span> .\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A clean and polished piece of gold.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/71/FulliconFavors_shinyCoin.png"
+		},
+		{
+			"id": 48,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Clear Reagent",
+			"category_1": "Map Modifications",
+			"category_2": "Fog Thickness",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-50 %\">Moderately thins</span></b> the <span style=\"color: #4287f5\">Dark Mist</span>.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"The Mist rolls in, traps all in its deep madness. There is no running, no escape, no asylum, except for the clear waters of the pond lost in the forest.\" — Unknown, Notebook</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a4/FulliconFavors_clearReagent.png"
+		},
+		{
+			"id": 49,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Faint Reagent",
+			"category_1": "Map Modifications",
+			"category_2": "Fog Thickness",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+25 %\">Slightly thickens</span></b> the <span style=\"color: #4287f5\">Dark Mist</span>.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Paralysed, I stand in the cold as death lingers.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c5/FulliconFavors_faintReagent.png"
+		},
+		{
+			"id": 50,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Hazy Reagent",
+			"category_1": "Map Modifications",
+			"category_2": "Fog Thickness",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+50 %\">Moderately thickens</span></b> the <span style=\"color: #4287f5\">Dark Mist</span>.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"The Mist is alluring, hypnotising. I love it and fear it at the same time.\" — Donna's Sketchbook</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/FulliconFavors_hazyReagent.png"
+		},
+		{
+			"id": 51,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Murky Reagent",
+			"category_1": "Map Modifications",
+			"category_2": "Fog Thickness",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+75 %\">Considerably thickens</span></b> the <span style=\"color: #4287f5\">Dark Mist</span>.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"The Mist seems to protect us from the beast, but it is a poison, a cancer, filling us with darkness and insanity.\" — Unknown, Notebook</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1e/FulliconFavors_murkyReagent.png"
+		},
+		{
+			"id": 52,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Annotated Blueprint",
+			"category_1": "Map Modifications",
+			"category_2": "Hatch Location",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 1\">Tremendously increases</span></b> the chance of spawning the <span style=\"color: #4287f5\">Hatch</span>  in the <span style=\"color: #4287f5\">Killer Shack</span> if available.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Essential information is scribbled along the side, but by whom?\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/47/FulliconFavors_annotatedBlueprint.png"
+		},
+		{
+			"id": 53,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Vigo's Blueprint",
+			"category_1": "Map Modifications",
+			"category_2": "Hatch Location",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 1\">Tremendously increases</span></b> the chance of spawning the <span style=\"color: #4287f5\">Hatch</span>  in the main building if available.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A clever design that has the letter 'V' etched on the bottom.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ab/FulliconFavors_vigosBlueprint.png"
+		},
+		{
+			"id": 54,
+			"player_type": [
+				"killer"
+			],
+			"name": "Mouldy Oak",
+			"category_1": "Map Modifications",
+			"category_2": "Hook Numbers",
+			"description": "<td>Calls upon The <span style=\"color: #4287f5\">Entity</span>  to <b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1.5 metres\">slightly reduce</span></b> the distance between sacrificial <span style=\"color: #4287f5\">Hooks</span>  spawning throughout the Map.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A damp and decaying piece of oak replete with mold.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/85/FulliconFavors_moldyOak.png"
+		},
+		{
+			"id": 55,
+			"player_type": [
+				"killer"
+			],
+			"name": "Rotten Oak",
+			"category_1": "Map Modifications",
+			"category_2": "Hook Numbers",
+			"description": "<td>Calls upon The <span style=\"color: #4287f5\">Entity</span>  to <b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-2.5 metres\">moderately reduce</span></b> the distance between sacrificial <span style=\"color: #4287f5\">Hooks</span>  spawning throughout the Map.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A decomposing piece of oak in which strange markings have been etched.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9b/FulliconFavors_rottenOak.png"
+		},
+		{
+			"id": 56,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Petrified Oak",
+			"category_1": "Map Modifications",
+			"category_2": "Hook Numbers",
+			"description": "<td>Calms The <span style=\"color: #4287f5\">Entity</span>  and <b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+1 metre\">slightly increases</span></b> the distance between sacrificial <span style=\"color: #4287f5\">Hooks</span>  spawning throughout the Map.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A deteriorating piece of petrified wood.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/82/FulliconFavors_petrifiedOak.png"
+		},
+		{
+			"id": 57,
+			"player_type": [
+				"killer"
+			],
+			"name": "Putrid Oak",
+			"category_1": "Map Modifications",
+			"category_2": "Hook Numbers",
+			"description": "<td>Calls upon The <span style=\"color: #4287f5\">Entity</span>  to <b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-3.5 metres\">considerably reduce</span></b> the distance between sacrificial <span style=\"color: #4287f5\">Hooks</span>  spawning throughout the Map.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A ruined piece of oak oozing with a black putrescent liquid.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/43/FulliconFavors_putridOak.png"
+		},
+		{
+			"id": 58,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Crescent Moon Bouquet",
+			"category_1": "Map Modifications",
+			"category_2": "Moonlight Brightness",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">THIS OFFERING HAS BEEN RETIRED.</span></b>\n<p>Calls upon The <span style=\"color: #4287f5\">Entity</span>  for a <b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"n/a\">dimmed Moonlight</span></b>.\n</p><p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"The moon slowly fades into a smile: \"Don't worry, your secret is safe with me.\" Or is it a grin?\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/85/FulliconFavors_crescentMoonBouquet.png"
+		},
+		{
+			"id": 59,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Quarter Moon Bouquet",
+			"category_1": "Map Modifications",
+			"category_2": "Moonlight Brightness",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">THIS OFFERING HAS BEEN RETIRED.</span></b>\n<p>Calls upon The <span style=\"color: #4287f5\">Entity</span>  for a <b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"n/a\">brighter Moonlight</span>.</b>\n</p><p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"The old moon shows her face, looking down on the preys.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/39/FulliconFavors_quarterMoonBouquet.png"
+		},
+		{
+			"id": 60,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Full Moon Bouquet",
+			"category_1": "Map Modifications",
+			"category_2": "Moonlight Brightness",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">THIS OFFERING HAS BEEN RETIRED.</span></b>\n<p>Calls upon The <span style=\"color: #4287f5\">Entity</span>  for the <b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"n/a\">brightest Moonlight</span>.</b>\n</p><p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"As the moon rises, the wolves howl, marking the beginning of the hunt.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/da/FulliconFavors_fullMoonBouquet.png"
+		},
+		{
+			"id": 61,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "New Moon Bouquet",
+			"category_1": "Map Modifications",
+			"category_2": "Moonlight Brightness",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">THIS OFFERING HAS BEEN RETIRED.</span></b>\n<p>Calls upon The <span style=\"color: #4287f5\">Entity</span>  for the <b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"n/a\">darkest Moonlight</span></b>.\n</p><p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Better go back to sleep, there is no moon this night.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d0/FulliconFavors_newMoonBouquet.png"
+		},
+		{
+			"id": 62,
+			"player_type": [
+				"killer"
+			],
+			"name": "Cypress Memento Mori",
+			"category_1": "Memento Mori",
+			"category_2": "None",
+			"description": "<td>Grants the ability to kill the <b><span class=\"clr\" style=\"color: #e8c252 ;\">last remaining</span></b> <span style=\"color: #4287f5\">Survivor</span>  by your hand during the next Trial.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"You worked well, the last one is yours.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/54/FulliconFavors_cypressMementoMori.png"
+		},
+		{
+			"id": 63,
+			"player_type": [
+				"killer"
+			],
+			"name": "Ivory Memento Mori",
+			"category_1": "Memento Mori",
+			"category_2": "None",
+			"description": "<td>Grants the ability to kill <b><span class=\"clr\" style=\"color: #e8c252 ;\">one</span></b> <span style=\"color: #4287f5\">Survivor</span> , who has progressed <b><span class=\"clr\" style=\"color: #ff8800 ;\">two Hook Stages</span></b>, by your hand during the next Trial.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Grant me the favour of killing one.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/FulliconFavors_ivoryMementoMori.png"
+		},
+		{
+			"id": 64,
+			"player_type": [
+				"killer"
+			],
+			"name": "Ebony Memento Mori",
+			"category_1": "Memento Mori",
+			"category_2": "None",
+			"description": "<td>Grants the ability to kill <b><span class=\"clr\" style=\"color: #e8c252 ;\">all</span></b> <span style=\"color: #4287f5\">Survivors</span> , who have progressed <b><span class=\"clr\" style=\"color: #ff8800 ;\">two Hook Stages</span></b>, by your hand during the next Trial.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"I could swear It spoke to the beast. It came to a halt, as if calmly listening to the leaves rustling, and then... grinned.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/86/FulliconFavors_ebonyMementoMori.png"
+		},
+		{
+			"id": 65,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Shredded Plate",
+			"category_1": "Realm Selection",
+			"category_2": "Autohaven Wreckers",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 2\">Slightly increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Autohaven Wreckers</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A heavily rusted, bent and torn metal sheet.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/ca/FulliconFavors_shreddedPlate.png"
+		},
+		{
+			"id": 66,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Virginia Plate",
+			"category_1": "Realm Selection",
+			"category_2": "Autohaven Wreckers",
+			"description": "<td><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 5\">Considerably increases</span> the chance to be sent to <span style=\"color: #4287f5\">Autohaven Wreckers</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A rusted and bent license plate from the state of Virginia.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/81/FulliconFavors_virginiaPlate.png"
+		},
+		{
+			"id": 67,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Azarov's Key",
+			"category_1": "Realm Selection",
+			"category_2": "Autohaven Wreckers",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Autohaven Wreckers</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A broken key pertaining to a vehicle of unknown brand. A key-chain attached to it identifies the owner as a certain <span style=\"color: #4287f5\">A. Azarov</span>\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/FulliconFavors_azarovsKey.png"
+		},
+		{
+			"id": 68,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Fuming Cordage",
+			"category_1": "Realm Selection",
+			"category_2": "Backwater Swamp",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 2\">Slightly increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Backwater Swamp</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A burnt piece of marine rope still emitting a warm black smoke.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f5/FulliconFavors_fumingCordage.png"
+		},
+		{
+			"id": 69,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Fuming Welcome Sign",
+			"category_1": "Realm Selection",
+			"category_2": "Backwater Swamp",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 5\">Considerably increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Backwater Swamp</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A welcome sign made from a coarse piece of water polished cypress board. The sign is charred and still fuming.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a8/FulliconFavors_fumingWelcomeSign.png"
+		},
+		{
+			"id": 70,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Grandma's Cookbook",
+			"category_1": "Realm Selection",
+			"category_2": "Backwater Swamp",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Backwater Swamp</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A leather-bound book containing horrible human meat recipes such as the granny-slapping good chilli.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/FulliconFavors_granmasCookbook.png"
+		},
+		{
+			"id": 71,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Cattle Tag 28",
+			"category_1": "Realm Selection",
+			"category_2": "Coldwind Farm",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 2\">Slightly increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Coldwind Farm</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A blood stained cattle tag identified with the number '28'.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/51/FulliconFavors_cattleTag28.png"
+		},
+		{
+			"id": 72,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Cattle Tag 81",
+			"category_1": "Realm Selection",
+			"category_2": "Coldwind Farm",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 5\">Considerably increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Coldwind Farm</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A blood stained cattle tag identified with 'Coldwind Farm' and the number '81'.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/64/FulliconFavors_cattleTag81.png"
+		},
+		{
+			"id": 73,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Heart Locket",
+			"category_1": "Realm Selection",
+			"category_2": "Coldwind Farm",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Coldwind Farm</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A silver heart locket necklace. The simple interior is engraved with the following: 'E+M'.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a1/FulliconFavors_heartLocket.png"
+		},
+		{
+			"id": 74,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Lunacy Ticket",
+			"category_1": "Realm Selection",
+			"category_2": "Crotus Prenn Asylum",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 2\">Slightly increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Crotus Prenn Asylum</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A worn and faded-out ticket of paper with unreadable information.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a4/FulliconFavors_lunacyTicket.png"
+		},
+		{
+			"id": 75,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "P. Elliott Lunacy Ticket",
+			"category_1": "Realm Selection",
+			"category_2": "Crotus Prenn Asylum",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 5\">Considerably increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Crotus Prenn Asylum</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A pink paper ticket identifying <span style=\"color: #4287f5\">Philip Elliott</span> as to be transferred to Crotus Prenn Asylum.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e6/FulliconFavors_pElliottLunacyTicket.png"
+		},
+		{
+			"id": 76,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Charred Wedding Photograph",
+			"category_1": "Realm Selection",
+			"category_2": "Crotus Prenn Asylum",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Crotus Prenn Asylum</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A burned portrait of a couple on their wedding day, the faces are completely charred and unidentifiable.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/FulliconFavors_charredWeddingPhotograph.png"
+		},
+		{
+			"id": 77,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Jigsaw Piece",
+			"category_1": "Realm Selection",
+			"category_2": "Gideon Meat Plant",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Gideon Meat Plant</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Congratulations. You are still alive. Most people are so ungrateful to be alive. But not you. Not anymore.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b9/FulliconFavors_jigsawPiece.png"
+		},
+		{
+			"id": 78,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Dusty Noose",
+			"category_1": "Realm Selection",
+			"category_2": "Grave of Glenvale",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Grave of Glenvale</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Ask anyone trying to survive on this damn dust-choked land and they'll tell you what a noose really is - a damn mercy.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8a/FulliconFavors_dustyNoose.png"
+		},
+		{
+			"id": 79,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Harvest Festival Leaflet",
+			"category_1": "Realm Selection",
+			"category_2": "Haddonfield",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 2\">Slightly increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Haddonfield</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A washed out informational leaflet for the '78 Haddonfield Harvest Festival. A large cartoon pumpkin is depicted on the front.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/90/FulliconFavors_harvestFestivalLeaflet.png"
+		},
+		{
+			"id": 80,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Decrepit Clapboard",
+			"category_1": "Realm Selection",
+			"category_2": "Haddonfield",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 5\">Considerably increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Haddonfield</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A mouldy and rotten beaded oak clapboard like the ones found on most houses of Haddonfield.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/FulliconFavors_decrepitClapboard.png"
+		},
+		{
+			"id": 81,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Strode Realty Key",
+			"category_1": "Realm Selection",
+			"category_2": "Haddonfield",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Haddonfield</span>  when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A house key, mundane in appearance. A cardboard key-tag attached to it reads 'Strode Real Estate', followed by a handwritten address: '45 Lampkin Lane'.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/FulliconFavors_strodeRealtyKey.png"
+		},
+		{
+			"id": 82,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Hawkins National Laboratory ID",
+			"category_1": "Realm Selection",
+			"category_2": "Hawkins National Laboratory",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Hawkins National Laboratory</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A soggy, bloodstained identification card with a serial number.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fa/FulliconFavors_hawkinsNationalLaboratoryID.png"
+		},
+		{
+			"id": 83,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Emergency Certificate",
+			"category_1": "Realm Selection",
+			"category_2": "Léry's Memorial Institute",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 2\">Slightly increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Léry's Memorial Institute</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A yellow carbon-copy certificate which admits a patient into immediate detention for emergency treatment. Copied information smudged and unreadable.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/eb/FulliconFavors_emergencyCertificate.png"
+		},
+		{
+			"id": 84,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Psychiatric Assessment Report",
+			"category_1": "Realm Selection",
+			"category_2": "Léry's Memorial Institute",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 5\">Considerably increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Léry's Memorial Institute</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A Psychiatric report signed by Herman Carter. It describes the memory deterioration of a patient and suggestions for next steps in the procedure.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c2/FulliconFavors_psychiatricAssessmentReport.png"
+		},
+		{
+			"id": 85,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Shattered Glasses",
+			"category_1": "Realm Selection",
+			"category_2": "Léry's Memorial Institute",
+			"description": "<td><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span> the chance to be sent to <span style=\"color: #4287f5\">Léry's Memorial Institute</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Bent reading glasses. Speckles of dried blood can be seen on the shattered lenses.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b6/FulliconFavors_shatteredGlasses.png"
+		},
+		{
+			"id": 86,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "MacMillan Ledger Page",
+			"category_1": "Realm Selection",
+			"category_2": "The MacMillan Estate",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 2\">Slightly increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">The MacMillan Estate</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A torn and faded-out ledger page with unreadable information except for the MacMillan stamp.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/60/FulliconFavors_macMillanLedgerPage.png"
+		},
+		{
+			"id": 87,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Signed Ledger Page",
+			"category_1": "Realm Selection",
+			"category_2": "The MacMillan Estate",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 5\">Considerably increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">The MacMillan Estate</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A faded-out ledger page referring to mining related equipment and other transactions. Signed by <span style=\"color: #4287f5\">Archie MacMillan</span>.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bb/FulliconFavors_signedLedgerPage.png"
+		},
+		{
+			"id": 88,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "MacMillan's Phalanx Bone",
+			"category_1": "Realm Selection",
+			"category_2": "The MacMillan Estate",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">The MacMillan Estate</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"MacMillan's skeletal remains were found in the basement of the mine's storehouse. His leg bones shattered into pieces and a mining hammer lying in his lap.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/44/FulliconFavors_macMillansPhalanxBone.png"
+		},
+		{
+			"id": 89,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Damaged Photo",
+			"category_1": "Realm Selection",
+			"category_2": "Ormond",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Ormond</span> when burnt.\n<p><b>28 August 1996</b><br/>\n<i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A dormant darkness lies beneath his childlike smile, about to be awakened.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9d/FulliconFavors_damagedPhoto.png"
+		},
+		{
+			"id": 90,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Painted River Rock",
+			"category_1": "Realm Selection",
+			"category_2": "Red Forest",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 2\">Slightly increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Red Forest</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A slick and soft rock, polished by a stream. Decorated with red, black and white paint to depict a serious looking bear.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bd/FulliconFavors_paintedRiverRock.png"
+		},
+		{
+			"id": 91,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Children's Book",
+			"category_1": "Realm Selection",
+			"category_2": "Red Forest",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 5\">Considerably increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Red Forest</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"An ancient and decrepit story book which pages have been lost to the elements.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cf/FulliconFavors_childrensBook.png"
+		},
+		{
+			"id": 92,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "The Last Mask",
+			"category_1": "Realm Selection",
+			"category_2": "Red Forest",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Red Forest</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A beautifully crafted tiger mask that would fit snug on a child's face. A faded note in the Cyrillic alphabet can be found scripted on the back.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/73/FulliconFavors_theLastMask.png"
+		},
+		{
+			"id": 93,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Mary's Letter",
+			"category_1": "Realm Selection",
+			"category_2": "Silent Hill",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Silent Hill</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"In my restless dreams, I see that town.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6f/FulliconFavors_marysLetter.png"
+		},
+		{
+			"id": 94,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "The Pied Piper",
+			"category_1": "Realm Selection",
+			"category_2": "Springwood",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Springwood</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Betrayed by the town, he exacts his revenge by taking all their children.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fa/FulliconFavors_thePiedPiper.png"
+		},
+		{
+			"id": 95,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Yamaoka Family Crest",
+			"category_1": "Realm Selection",
+			"category_2": "Yamaoka Estate",
+			"description": "<td><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"Modifier: 9999\">Tremendously increases</span></b> the chance to be sent to <span style=\"color: #4287f5\">Yamaoka Estate</span> when burnt.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"You never leave a broken home. You only run away until the memories stop haunting you.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/FulliconFavors_yamaokaFamilyCrest.png"
+		},
+		{
+			"id": 96,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Shroud of Union",
+			"category_1": "Shrouds",
+			"category_2": "None",
+			"description": "<td>You start the Trial close to another Survivor.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A knotted piece of fabric.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d0/FulliconFavors_shroudOfUnion.png"
+		},
+		{
+			"id": 97,
+			"player_type": [
+				"killer"
+			],
+			"name": "Shroud of Separation",
+			"category_1": "Shrouds",
+			"category_2": "None",
+			"description": "<td>All <span style=\"color: #4287f5\">Survivors</span>  start the Trial separated from one another.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A thin black shroud which is falling apart.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/86/FulliconFavors_shroudOfSeparation.png"
+		},
+		{
+			"id": 98,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Vigo's Shroud",
+			"category_1": "Shrouds",
+			"category_2": "None",
+			"description": "<td>You start the Trial as far away as possible from the Killer.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"I found marvels through the years in The Fog, but only now do I understand how to bend The Fog's irrefragable rules.\" — Vigo's Journal</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/FulliconFavors_vigosShroud.png"
+		},
+		{
+			"id": 99,
+			"player_type": [
+				"survivor"
+			],
+			"name": "Shroud of Binding",
+			"category_1": "Shrouds",
+			"category_2": "None",
+			"description": "<td>All <span style=\"color: #4287f5\">Survivors</span>  start the Trial together.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A square and washed out piece of fabric with small knots on each end.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/FulliconFavors_shroudOfBinding.png"
+		},
+		{
+			"id": 100,
+			"player_type": [
+				"killer"
+			],
+			"name": "Black Splinter",
+			"category_1": "Splinters",
+			"category_2": "None",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">THIS OFFERING HAS BEEN RETIRED.</span></b>\n<p>Allows you to take on the role of The <span style=\"color: #4287f5\">Shape</span>  for the next Trial.\n</p>\n<ul><li>Your current <span style=\"color: #4287f5\">Perks</span>  and <span style=\"color: #4287f5\">Add-ons</span>  will not be used.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"He came home!\" - Dr. Sam Loomis</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/60/FulliconFavors_blackSplinter.png"
+		},
+		{
+			"id": 101,
+			"player_type": [
+				"killer"
+			],
+			"name": "Bone Splinter",
+			"category_1": "Splinters",
+			"category_2": "None",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">THIS OFFERING HAS BEEN RETIRED.</span></b>\n<p>Allows you to take on the role of The <span style=\"color: #4287f5\">Cannibal</span>  for the next Trial.\n</p>\n<ul><li>Your current <span style=\"color: #4287f5\">Perks</span>  and <span style=\"color: #4287f5\">Add-ons</span>  will not be used.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"You like this face?\" — Hitchhiker</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/FulliconFavors_boneSplinter.png"
+		},
+		{
+			"id": 102,
+			"player_type": [
+				"killer"
+			],
+			"name": "Glass Splinter",
+			"category_1": "Splinters",
+			"category_2": "None",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">THIS OFFERING HAS BEEN RETIRED.</span></b>\n<p>Allows you to take on the role of The <span style=\"color: #4287f5\">Pig</span>  for the next Trial.\n</p>\n<ul><li>Your current <span style=\"color: #4287f5\">Perks</span>  and <span style=\"color: #4287f5\">Add-ons</span>  will not be used.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Amanda, do not be afraid. Your life has just begun.\" — Jigsaw</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/40/FulliconFavors_glassSplinter.png"
+		},
+		{
+			"id": 103,
+			"player_type": [
+				"killer"
+			],
+			"name": "Muddy Splinter",
+			"category_1": "Splinters",
+			"category_2": "None",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">THIS OFFERING HAS BEEN RETIRED.</span></b>\n<p>Allows you to take on the role of The <span style=\"color: #4287f5\">Hag</span>  for the next Trial.\n</p>\n<ul><li>Your current <span style=\"color: #4287f5\">Perks</span>  and <span style=\"color: #4287f5\">Add-ons</span>  will not be used.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Avoid walking in the mud or the Hag will eat your bones.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/FulliconFavors_muddySplinter.png"
+		},
+		{
+			"id": 104,
+			"player_type": [
+				"killer"
+			],
+			"name": "Shock Splinter",
+			"category_1": "Splinters",
+			"category_2": "None",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">THIS OFFERING HAS BEEN RETIRED.</span></b>\n<p>Allows you to take on the role of The <span style=\"color: #4287f5\">Doctor</span> for the next Trial.\n</p>\n<ul><li>Your current <span style=\"color: #4287f5\">Perks</span>  and <span style=\"color: #4287f5\">Add-ons</span>  will not be used.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Your secrets are safe with me.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/94/FulliconFavors_shockSplinter.png"
+		},
+		{
+			"id": 105,
+			"player_type": [
+				"killer"
+			],
+			"name": "Smoking Splinter",
+			"category_1": "Splinters",
+			"category_2": "None",
+			"description": "<td><b><span class=\"clr\" style=\"color: #d41c1c ;\">THIS OFFERING HAS BEEN RETIRED.</span></b>\n<p>Allows you to take on the role of The <span style=\"color: #4287f5\">Nightmare</span>  for the next Trial.\n</p>\n<ul><li>Your current <span style=\"color: #4287f5\">Perks</span>  and <span style=\"color: #4287f5\">Add-ons</span>  will not be used.</li></ul>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d1/FulliconFavors_smokingSplinter.png"
+		},
+		{
+			"id": 106,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Sacrificial Ward",
+			"category_1": "Wards",
+			"category_2": "None",
+			"description": "<td>Calls upon The <span style=\"color: #4287f5\">Entity</span>  to reject all <strong class=\"mw-selflink selflink\">Offerings</strong>  that alter the chance of being sent to a specific <span style=\"color: #4287f5\">Realm</span>.\n<p><i>Sacrificial Ward</i> is cancelled if <b><span class=\"clr\" style=\"color: #e8c252 ;\">4</span></b> identical Realm Selection Offerings are played.\n</p><p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"With blind eyes, we surrender our will and appeal to you for guidance.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/FulliconFavors_sacrificialWard.png"
+		},
+		{
+			"id": 107,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "Black Ward",
+			"category_1": "Wards",
+			"category_2": "None",
+			"description": "<td>Burning this offering grants you protection against the loss of your <span style=\"color: #4287f5\">Add-ons</span>  at the end of the Trial.\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Hear my voice, spare my ways, protect me from the void.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b8/FulliconFavors_blackWard.png"
+		},
+		{
+			"id": 108,
+			"player_type": [
+				"survivor",
+				"killer"
+			],
+			"name": "White Ward",
+			"category_1": "Wards",
+			"category_2": "None",
+			"description": "<td>Burning this Offering grants you protection against the loss of your <span style=\"color: #4287f5\">Item</span>  and its <span style=\"color: #4287f5\">Add-ons</span> .\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Keep me from evil, defend me, and pass away.\"</span></i>\n</p>\n</td>",
+			"imageURL": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/FulliconFavors_whiteWard.png"
 		}
 	]
 }

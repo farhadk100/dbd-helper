@@ -541,7 +541,7 @@
 			"character": "All",
 			"unlock_level": 0,
 			"description": "<td>\n<p>Unlocks potential in your Aura-reading ability.\n</p><p>Paranoia paired with your horror of failure helps prepare you from repeating the same mistakes.\n</p>\n<ul><li>The <span style=\"color: #4287f5\">Auras</span>  of <b><span class=\"clr\" style=\"color: #e8c252 ;\">3</span></b> <span style=\"color: #4287f5\">Generators</span>  in closest proximity to one another are revealed to you for <span class=\"clr\" style=\"color: #e8c252;\"><b>30</b></span>/<span class=\"clr\" style=\"color: #199b1e;\"><b>45</b></span>/<span class=\"clr\" style=\"color: #ac3ee3;\"><b>60</b></span>Â <b>seconds</b> at the start of the Trial, and each time a Generator is completed.</li>\n<li>If you are holding a <span style=\"color: #4287f5\">Map</span> , Generators revealed by <i>DÃ©jÃ  Vu</i> are automatically added to it.</li></ul>\n</td>",
-			"machine_name": "deja _vu",
+			"machine_name": "deja_vu",
 			"usage": [
 				"Strategy"
 			],

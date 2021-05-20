@@ -1,7 +1,7 @@
 import { Input, SecurityContext } from '@angular/core';
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import perks from '../../assets/json/data.json';
+import perks from '../../../assets/json/data.json';
 
 @Component({
   selector: 'app-perks',

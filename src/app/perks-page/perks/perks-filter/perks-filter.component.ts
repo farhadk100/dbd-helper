@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import basics from '../../../assets/json/Basics.json';
+import basics from '../../../../assets/json/basics.json';
 
 @Component({
   selector: 'app-perks-filter',
@@ -15,12 +15,13 @@ export class PerksFilterComponent implements OnInit {
   @Input() status: string[] = [];
   @Input() playerType = 'survivor';
   @Input() characterFilter = 'Show All';
-  @Output() characterFilterChanged = new EventEmitter<string>();
   @Input() usagesFilter = 'Show All';
-  @Output() usagesFilterChanged = new EventEmitter<string>();
   @Input() functionsFilter = 'Show All';
-  @Output() functionsFilterChanged = new EventEmitter<string>();
   @Input() statusFilter = 'Show All';
+
+  @Output() usagesFilterChanged = new EventEmitter<string>();
+  @Output() functionsFilterChanged = new EventEmitter<string>();
+  @Output() characterFilterChanged = new EventEmitter<string>();
   @Output() statusFilterChanged = new EventEmitter<string>();
 
   constructor() { }

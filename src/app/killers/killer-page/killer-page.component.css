@@ -1,0 +1,15 @@
+.idcard{
+  padding: 100px;
+}
+
+.idcard .card{
+  background: rgba(24, 21, 24, 0.7) !important;
+}
+
+.title{
+  background: rgba(17, 16, 16, 0.85);
+  margin-bottom: 5px;
+}
+.context{
+  margin-bottom: 5px;
+}

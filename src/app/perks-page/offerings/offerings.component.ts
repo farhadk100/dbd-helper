@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import offerings from '../../assets/json/data.json';
+import offerings from '../../../assets/json/data.json';
 
 @Component({
   selector: 'app-offerings',

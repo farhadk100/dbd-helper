@@ -1,26 +1,5 @@
-.cover{
-  position: relative;
-  text-align: center;
-}
-
-.cover-image{
-  filter: brightness(0.5);
-}
-
-.cover-title{
+.navbar{
+  background: transparent;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  color: white;
-  font-weight: bold;
-  font-size: 1.5rem;
+  z-index: 100;
 }
-
-.toolbar{
-  background-color: rgba(0, 0, 0, 0.747);
-  text-align: center;
-  position:sticky;
-  top:0;
-}
-

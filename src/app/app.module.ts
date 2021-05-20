@@ -1,9 +1,8 @@
-import { OfferingsFilterComponent } from './offerings/offerings-filter/offerings-filter.component';
+import { OfferingsFilterComponent } from './perks-page/offerings/offerings-filter/offerings-filter.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
-import { HomeComponent } from './home/home.component';
-import { PerksComponent } from './perks/perks.component';
+import { PerksComponent } from './perks-page/perks/perks.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
@@ -12,22 +11,36 @@ import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
 import { AngularFireModule } from '@angular/fire';
 import * as firebase from 'firebase';
 import { environment } from 'src/environments/environment.prod';
-import { OfferingsComponent } from './offerings/offerings.component';
-import { PerksFilterComponent } from './perks/perks-filter/perks-filter.component';
+import { OfferingsComponent } from './perks-page/offerings/offerings.component';
+import { PerksFilterComponent } from './perks-page/perks/perks-filter/perks-filter.component';
+import {RouterModule} from "@angular/router";
+import { KillerPageComponent } from './killers/killer-page/killer-page.component';
+import {PerksPageComponent} from "./perks-page/perks-page.component";
+import { HomeComponent } from './home/home.component';
+
+const routes = [
+  { path: '', component: PerksPageComponent},
+  { path: 'killers/:name', component: KillerPageComponent}
+]
+
+
 
 @NgModule({
   declarations: [
-    HomeComponent,
+    PerksPageComponent,
       PerksComponent,
       FooterComponent,
       OfferingsComponent,
       PerksFilterComponent,
-      OfferingsFilterComponent
+      OfferingsFilterComponent,
+      KillerPageComponent,
+      HomeComponent
    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    RouterModule.forRoot(routes),
     MatButtonToggleModule,
     MatSelectModule,
     AngularFireModule.initializeApp(environment.firebase),

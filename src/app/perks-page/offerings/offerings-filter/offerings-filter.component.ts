@@ -1,5 +1,6 @@
+import { KeyValue } from '@angular/common';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import basics from '../../../assets/json/Basics.json';
+import basics from '../../../../assets/json/basics.json';
 
 @Component({
   selector: 'app-offerings-filter',
@@ -32,6 +33,10 @@ export class OfferingsFilterComponent implements OnInit {
   subCategoryChanged(event: any){
     this.subCategoryFilter = event.value;
     this.subCategoryFilterChanged.emit(event.value);
+  }
+
+  originalOrder = (a: KeyValue<number,string>, b: KeyValue<number,string>): number => {
+    return 0;
   }
 
 }

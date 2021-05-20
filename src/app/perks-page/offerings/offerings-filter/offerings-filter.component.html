@@ -1,7 +1,7 @@
 <mat-form-field appearance="fill" class="col-3 text-light">
   <mat-label>Category:</mat-label>
   <mat-select id="category" (selectionChange)="categoryChanged($event)">
-    <mat-option *ngFor="let category of categories | keyvalue" value="{{ category.key }}">{{ category.key }}</mat-option>
+    <mat-option *ngFor="let category of categories | keyvalue: originalOrder" value="{{ category.key }}">{{ category.key }}</mat-option>
   </mat-select>
 </mat-form-field>
 <mat-form-field appearance="fill" class="col-3 text-light">

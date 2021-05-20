@@ -5,7 +5,7 @@
       <ng-container *ngIf="functionsFilter == 'Show All' || perk.functions.includes(functionsFilter)">
         <ng-container *ngIf="statusFilter == 'Show All' || perk.status_effects.includes(statusFilter)">
           <div class="perk row bg-dark m-2">
-            <img class="perk-image order-1 col-6 col-sm-2 col-lg-2 col-md-2" src="{{ perk.imageURL }}" />
+            <img class="perk-image order-1 col-6 col-sm-2 col-lg-2 col-md-2" src="{{ '../../assets/images/perks/' + perk.machine_name + '.png'  }}" />
             <p class="perk-name order-3 order-sm-2 col-4 col-sm-2 col-lg-1 col-md-2 text-light m-auto"><b>
                 {{ perk.name }}
               </b></p>

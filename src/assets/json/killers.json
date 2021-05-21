@@ -105,7 +105,7 @@
                 "category": "power"
             },
             "post_blink_attack_base_movement":{
-                "value": "movement_speed|value",
+                "value": "= Movement Speed",
                 "measurement": "meters per second",
                 "title": "Movement Speed after a successful post-blink attack for 60 seconds",
                 "category": "power"
@@ -213,319 +213,275 @@
                 "category": "power"
             }
         },
-        "addons":[
-            {
-                "wooden_horse": {
-                    "name": "Wooden Horse",
-                    "description": "<td>An unpainted toy carved out of cheap wood to resemble a horse. Once the symbol of a deep connection between a catatonic patient and his nurse.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Moderately decreases</span></b> additional post-<i>Blink</i> Fatigue duration applied by missed <i>Blink</i> Attacks.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"fatigue_1_missed_attack",
-                            "value":"-0.5"
-                        },
-                        {
-                            "applied_on":"fatigue_2_missed_attack",
-                            "value":"-0.5"
-                        },
-                        {
-                            "applied_on":"fatigue_3_missed_attack",
-                            "value":"-0.5"
-                        }
-                    ]
-                }
-            },
-            {
-                "white_nit_comb": {
-                    "name": "White Nit Comb",
-                    "description": "<td>A parasitic nit comb taken from the clinic. Once the symbol of a deep connection between an anxious patient and her nurse.\n<ul><li><b>Increases</b> Bloodpoints for <i>Blink Attack</i> Score Events by <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b>.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-~1.035 metres\">Moderately decreases</span></b> post-Blink Lunge range.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"lethal_blink|awarded_fixed_points",
-                            "value":"+100%"
-                        },
-                        {
-                            "applied_on":"surprise_blink|awarded_fixed_points",
-                            "value":"+100%"
-                        },
-                        {
-                            "applied_on":"post_blink_lunge_range",
-                            "value":"-1.035"
-                        }
-                    ]
-                }
-            },
-            {
-                "plaid_flannel": {
-                    "name": "Plaid Flannel",
-                    "description": "<td>A torn piece of red and black plaid flannel. The scrap of fabric imbues The Nurse with devastating focus.\n<ul><li>Allows The Nurse to see <i>Blink</i> Target Locations.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"blink_target_location",
-                            "value":"true"
-                        }
-                    ]
-                }
-            },
-            {
-                "metal_spoon": {
-                    "name": "Metal Spoon",
-                    "description": "<td>A dull, partially rusted and stained metallic spoon. Confiscated from Room 202's patient, the <i>\"Bad Man\"</i>.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+100 %\">Moderately increases</span></b> <i>Grunts of Pain</i> Volume after hitting the Survivor with a successful post-<i>Blink</i> Attack.</li>\n<li>This effects lasts for <b><span class=\"clr\" style=\"color: #e8c252 ;\">60 seconds</span></b>.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"post_blink_grunts_of_pain",
-                            "value":"+100%"
-                        }
-                    ]
-                }
-            },
-            {
-                "pocket_watch": {
-                    "name": "Pocket Watch",
-                    "description": "<td>A charred and broken pocket watch with rattling pieces. Taken from Nurse Moris' body.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+13 %\">Moderately increases</span></b> <i>Chain Blink Window</i> duration.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"chain_blink_window",
-                            "value":"+13%"
-                        }
-                    ]
-                }
-            },
-            {
-                "dull_bracelet": {
-                    "name": "Dull Bracelet",
-                    "description": "<td>A worthless piece of jewellery that might have an important significance to someone. Taken from the <i>\"Anxious Girl's\"</i> body.\n<ul><li><b>Increases</b> Bloodpoints for <i>Precise Blink</i> Score Events by <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b>.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-4 metres\">Moderately decreases</span></b> maximum <i>Blink</i> range.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"precise_blink|awarded_fixed_points",
-                            "value":"+100%"
-                        },
-                        {
-                            "applied_on":"maximum_blink_distance",
-                            "value":"-4"
-                        }
-                    ]
-                }
-            },
-            {
-                "dark_cincture": {
-                    "name": "Dark Cincture",
-                    "description": "<td>A black rope used as a belt in times of mourning. Taken from Father Campbell's body.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.4 seconds\">Moderately reduces</span></b> <i>Blink</i> Recharge time.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"blink_token_recharge_time",
-                            "value":"-0.4"
-                        }
-                    ]
-                }
-            },
-            {
-                "catatonic_boys_treasure": {
-                    "name": "Catatonic Boy's Treasure",
-                    "description": "<td>A pine-cone which unexpectedly calmed a patient's repetitive movement. Taken from the <i>\"Catatonic Boy's\"</i> body.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1 second\">Considerably decreases</span></b> additional post-<i>Blink</i> Fatigue duration applied by <i>Chain Blinks</i>.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"fatigue_2",
-                            "value":"-1"
-                        },
-                        {
-                            "applied_on":"fatigue_2_missed_attack",
-                            "value":"-1"
-                        },
-                        {
-                            "applied_on":"fatigue_3",
-                            "value":"-1"
-                        },
-                        {
-                            "applied_on":"fatigue_3_missed_attack",
-                            "value":"-1"
-                        }
-                    ]
-                }
-            },
-            {
-                "bad_man_keepsake": {
-                    "name": "Bad Man Keepsake",
-                    "description": "<td>A rotten molar ripped from the <i>\"Bad Man's\"</i> cold dead hand.\n<ul><li>The <span style=\"color: #4287f5\">Aura</span>  of a Survivor healing or being healed is revealed to The Nurse within <b><span class=\"clr\" style=\"color: #e8c252 ;\">28 metres</span></b> after hitting the Survivor with a successful post-<i>Blink</i> Attack.</li>\n<li>This effect lasts for <b><span class=\"clr\" style=\"color: #ff8800 ;\">60 seconds</span></b>.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"post_blink_attack_heal_aura",
-                            "value":"true"
-                        }
-                    ]
-                }
-            },
-            {
-                "spasmodic_breath": {
-                    "name": "Spasmodic Breath",
-                    "description": "<td>The twitchy and tremulous breath stolen from the <i>\"Bad Man\"</i>. Aggressively pulses and jumps at The Nurse's touch.\n<ul><li><b>Temporarily disables</b> <i>Spencer's Last Breath</i> and <b>increases</b> The Nurse's base Movement speed to <b><span class=\"clr\" style=\"color: #e8c252 ;\">4.6 m/s</span></b> after hitting a Survivor with a successful post-<i>Blink</i> Attack.</li>\n<li>This effect lasts for <b><span class=\"clr\" style=\"color: #ff8800 ;\">60 seconds</span></b>.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"post_blink_attack_spencer_available",
-                            "value":"false"
-                        },
-                        {
-                            "applied_on":"post_blink_attack_base_movement",
-                            "value":"=4.6"
-                        }
-                    ]
-                }
-            },
-            {
-                "heavy_panting": {
-                    "name": "Heavy Panting",
-                    "description": "<td>The slow and bulging breath stolen from the <i>\"Fat Orderly\"</i> Kavanagh. Dimly oscillates at The Nurse's touch.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+4 metres\">Considerably increases</span></b> maximum <i>Blink</i> range.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+20 %\">Considerably increases</span></b> <i>Blink</i> Charge time.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"maximum_blink_distance",
-                            "value":"+4"
-                        },
-                        {
-                            "applied_on":"full_blink_charge",
-                            "value":"+20%"
-                        }
-                    ]
-                }
-            },
-            {
-                "fragile_wheeze": {
-                    "name": "Fragile Wheeze",
-                    "description": "<td>The whistling and rattling breath stolen from Father Campbell. Silently curves and bends at The Nurse's touch.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.6 seconds\">Considerably reduces</span></b> <i>Blink</i> Recharge time.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"blink_token_recharge_time",
-                            "value":"-0.6"
-                        }
-                    ]
-                }
-            },
-            {
-                "ataxic_respiration": {
-                    "name": "Ataxic Respiration",
-                    "description": "<td>The irregular and deteriorating breath collected from the <i>\"Catatonic Boy\"</i>. Normally stable and calm, becomes incredibly agitated at The Nurse's touch.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.25 seconds\">Moderately decreases</span></b> post-<i>Blink</i> Fatigue duration.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"fatigue_1",
-                            "value":"-0.25"
-                        },
-                        {
-                            "applied_on":"fatigue_1_missed_attack",
-                            "value":"-0.25"
-                        },
-                        {
-                            "applied_on":"fatigue_2",
-                            "value":"-0.25"
-                        },
-                        {
-                            "applied_on":"fatigue_2_missed_attack",
-                            "value":"-0.25"
-                        },
-                        {
-                            "applied_on":"fatigue_3",
-                            "value":"-0.25"
-                        },
-                        {
-                            "applied_on":"fatigue_3_missed_attack",
-                            "value":"-0.25"
-                        }
-                    ]
-                }
-            },
-            {
-                "anxious_gasp": {
-                    "name": "Anxious Gasp",
-                    "description": "<td>The gasp of surprise collected from the <i>\"Anxious Girl\"</i>, which the Nurse was fond of. Twitches vigorously at The Nurse's touch.\n<ul><li><i>Blinking</i> past a Survivor causes them to scream and awards <b><span class=\"clr\" style=\"color: #e8c252 ;\">200 Bloodpoints</span></b> in the <i>Deviousness</i> Category.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"gasp|awarded_fixed_points",
-                            "value":"+200"
-                        }
-                    ]
-                }
-            },
-            {
-                "kavanaghs_last_breath": {
-                    "name": "Kavanagh's Last Breath",
-                    "description": "<td>A powerful last breath snatched from Crotus Prenn Asylum Orderly Harvey Kavanagh, the <i>\"Fat Orderly\"</i>. In the hands of The Nurse, it wobbles with intensity.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+6 metres\">Tremendously increases</span></b> maximum <i>Blink</i> range.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+30 %\">Tremendously increases</span></b> <i>Blink</i> Charge time.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"maximum_blink_distance",
-                            "value":"+6"
-                        },
-                        {
-                            "applied_on":"full_blink_charge",
-                            "value":"+30%"
-                        }
-                    ]
-                }
-            },
-            {
-                "jenners_last_breath": {
-                    "name": "Jenner's Last Breath",
-                    "description": "<td>A powerful last breath snatched from Crotus Prenn Asylum Patient Mary Jenner, the <i>\"Anxious Girl\"</i>. In the hands of The Nurse, it trembles with intensity.\n<ul><li>After <i>Blinking</i>, allows The Nurse to immediately <i>Blink</i> back to her original position by pressing the <i>Active Ability Button</i>.</li>\n<li>This effect must be triggered before The Nurse succumbs to post-<i>Blink</i> Fatigue.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"post_blink_teleport_back",
-                            "value":"true"
-                        }
-                    ]
-                }
-            },
-            {
-                "campbells_last_breath": {
-                    "name": "Campbell's Last Breath",
-                    "description": "<td>A powerful last breath snatched from Crotus Prenn Asylum Priest Father Campbell. In the hand of The Nurse, it crackles with intensity.\n<ul><li>After reappearing from a fully charged <i>Blink</i>, The Nurse immediately <i>Blinks</i> at half charge in the direction she is currently facing.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"post_full_blink_auto_blink",
-                            "value":"true"
-                        }
-                    ]
-                }
-            },
-            {
-                "bad_mans_last_breath": {
-                    "name": "\"Bad Man's\" Last Breath",
-                    "description": "<td>A powerful last breath snatched from Crotus Prenn Asylum Patient known as the <i>\"Bad Man\"</i>. In the hands of The Nurse, it jolts with intensity.\n<ul><li>Grants The Nurse the <i><b><span style=\"color: #4287f5\">Undetectable</span> </b></i> <b>Status Effect</b> after hitting a Survivor with a successful post-<i>Blink</i> Attack.</li>\n<li>This effect lasts for <b><span class=\"clr\" style=\"color: #e8c252 ;\">16 seconds</span></b> and may only be triggered once every <b><span class=\"clr\" style=\"color: #ff8800 ;\">60 seconds</span></b>.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"post_blink_attack_undetectable",
-                            "value":"true"
-                        }
-                    ]
-                }
-            },
-            {
-                "torn_bookmark": {
-                    "name": "Torn Bookmark",
-                    "description": "<td>A white and pristine piece of ribbon once attached to a sacred book. Serves as the symbol of a dispute.\n<ul><li>Adds <b><span class=\"clr\" style=\"color: #e8c252 ;\">1</span></b> <i>Chain Blink</i> Charge.</li>\n<li>The Nurse can no longer <i>Blink</i> through solid objects.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"chain_blink_charge_number",
-                            "value":"+1"
-                        },
-                        {
-                            "applied_on":"blink_through_objects",
-                            "value":"false"
-                        }
-                    ]
-                }
-            },
-            {
-                "matchbox": {
-                    "name": "Matchbox",
-                    "description": "<td>A matchbox containing an odd collection of mismatched buttons. Serves as a reminder of a horrible place.\n<ul><li><b>Increases</b> The Nurse's Movement speed to <b><span class=\"clr\" style=\"color: #e8c252 ;\">4.2 m/s</span></b>.</li>\n<li>Removes <b><span class=\"clr\" style=\"color: #ff8800 ;\">1</span></b> <i>Chain Blink</i> Charge.</li></ul>\n</td>",
-                    "modifications": [
-                        {
-                            "applied_on":"chain_blink_charge_number",
-                            "value":"-1"
-                        },
-                        {
-                            "applied_on":"movement_speed",
-                            "value":"=4.2"
-                        }
-                    ]
-                }
-            }
-        ]
+        "addons": {
+          "wooden_horse": {
+            "name": "Wooden Horse",
+            "description": "<td>An unpainted toy carved out of cheap wood to resemble a horse. Once the symbol of a deep connection between a catatonic patient and his nurse.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Moderately decreases</span></b> additional post-<i>Blink</i> Fatigue duration applied by missed <i>Blink</i> Attacks.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "fatigue_1_missed_attack",
+                "value": "-0.5"
+              },
+              {
+                "applied_on": "fatigue_2_missed_attack",
+                "value": "-0.5"
+              },
+              {
+                "applied_on": "fatigue_3_missed_attack",
+                "value": "-0.5"
+              }
+            ]
+          },
+          "white_nit_comb": {
+            "name": "White Nit Comb",
+            "description": "<td>A parasitic nit comb taken from the clinic. Once the symbol of a deep connection between an anxious patient and her nurse.\n<ul><li><b>Increases</b> Bloodpoints for <i>Blink Attack</i> Score Events by <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b>.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-~1.035 metres\">Moderately decreases</span></b> post-Blink Lunge range.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "lethal_blink|awarded_fixed_points",
+                "value": "+100%"
+              },
+              {
+                "applied_on": "post_blink_lunge_range",
+                "value": "-1.035"
+              }
+            ]
+          },
+          "plaid_flannel": {
+            "name": "Plaid Flannel",
+            "description": "<td>A torn piece of red and black plaid flannel. The scrap of fabric imbues The Nurse with devastating focus.\n<ul><li>Allows The Nurse to see <i>Blink</i> Target Locations.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "blink_target_location",
+                "value": "true"
+              }
+            ]
+          },
+          "metal_spoon": {
+            "name": "Metal Spoon",
+            "description": "<td>A dull, partially rusted and stained metallic spoon. Confiscated from Room 202's patient, the <i>\"Bad Man\"</i>.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+100 %\">Moderately increases</span></b> <i>Grunts of Pain</i> Volume after hitting the Survivor with a successful post-<i>Blink</i> Attack.</li>\n<li>This effects lasts for <b><span class=\"clr\" style=\"color: #e8c252 ;\">60 seconds</span></b>.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "post_blink_grunts_of_pain",
+                "value": "+100%"
+              }
+            ]
+          },
+          "pocket_watch": {
+            "name": "Pocket Watch",
+            "description": "<td>A charred and broken pocket watch with rattling pieces. Taken from Nurse Moris' body.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+13 %\">Moderately increases</span></b> <i>Chain Blink Window</i> duration.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "chain_blink_window",
+                "value": "+13%"
+              }
+            ]
+          },
+          "dull_bracelet": {
+            "name": "Dull Bracelet",
+            "description": "<td>A worthless piece of jewellery that might have an important significance to someone. Taken from the <i>\"Anxious Girl's\"</i> body.\n<ul><li><b>Increases</b> Bloodpoints for <i>Precise Blink</i> Score Events by <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b>.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-4 metres\">Moderately decreases</span></b> maximum <i>Blink</i> range.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "precise_blink|awarded_fixed_points",
+                "value": "+100%"
+              },
+              {
+                "applied_on": "maximum_blink_distance",
+                "value": "-4"
+              }
+            ]
+          },
+          "dark_cincture": {
+            "name": "Dark Cincture",
+            "description": "<td>A black rope used as a belt in times of mourning. Taken from Father Campbell's body.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.4 seconds\">Moderately reduces</span></b> <i>Blink</i> Recharge time.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "blink_token_recharge_time",
+                "value": "-0.4"
+              }
+            ]
+          },
+          "catatonic_boys_treasure": {
+            "name": "Catatonic Boy's Treasure",
+            "description": "<td>A pine-cone which unexpectedly calmed a patient's repetitive movement. Taken from the <i>\"Catatonic Boy's\"</i> body.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1 second\">Considerably decreases</span></b> additional post-<i>Blink</i> Fatigue duration applied by <i>Chain Blinks</i>.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "fatigue_2",
+                "value": "-1"
+              },
+              {
+                "applied_on": "fatigue_2_missed_attack",
+                "value": "-1"
+              },
+              {
+                "applied_on": "fatigue_3",
+                "value": "-1"
+              },
+              {
+                "applied_on": "fatigue_3_missed_attack",
+                "value": "-1"
+              }
+            ]
+          },
+          "bad_man_keepsake": {
+            "name": "Bad Man Keepsake",
+            "description": "<td>A rotten molar ripped from the <i>\"Bad Man's\"</i> cold dead hand.\n<ul><li>The <span style=\"color: #4287f5\">Aura</span>  of a Survivor healing or being healed is revealed to The Nurse within <b><span class=\"clr\" style=\"color: #e8c252 ;\">28 metres</span></b> after hitting the Survivor with a successful post-<i>Blink</i> Attack.</li>\n<li>This effect lasts for <b><span class=\"clr\" style=\"color: #ff8800 ;\">60 seconds</span></b>.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "post_blink_attack_heal_aura",
+                "value": "true"
+              }
+            ]
+          },
+          "spasmodic_breath": {
+            "name": "Spasmodic Breath",
+            "description": "<td>The twitchy and tremulous breath stolen from the <i>\"Bad Man\"</i>. Aggressively pulses and jumps at The Nurse's touch.\n<ul><li><b>Temporarily disables</b> <i>Spencer's Last Breath</i> and <b>increases</b> The Nurse's base Movement speed to <b><span class=\"clr\" style=\"color: #e8c252 ;\">4.6 m/s</span></b> after hitting a Survivor with a successful post-<i>Blink</i> Attack.</li>\n<li>This effect lasts for <b><span class=\"clr\" style=\"color: #ff8800 ;\">60 seconds</span></b>.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "post_blink_attack_spencer_available",
+                "value": "false"
+              },
+              {
+                "applied_on": "post_blink_attack_base_movement",
+                "value": "=4.6"
+              }
+            ]
+          },
+          "heavy_panting": {
+            "name": "Heavy Panting",
+            "description": "<td>The slow and bulging breath stolen from the <i>\"Fat Orderly\"</i> Kavanagh. Dimly oscillates at The Nurse's touch.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+4 metres\">Considerably increases</span></b> maximum <i>Blink</i> range.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+20 %\">Considerably increases</span></b> <i>Blink</i> Charge time.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "maximum_blink_distance",
+                "value": "+4"
+              },
+              {
+                "applied_on": "full_blink_charge",
+                "value": "+20%"
+              }
+            ]
+          },
+          "fragile_wheeze": {
+            "name": "Fragile Wheeze",
+            "description": "<td>The whistling and rattling breath stolen from Father Campbell. Silently curves and bends at The Nurse's touch.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.6 seconds\">Considerably reduces</span></b> <i>Blink</i> Recharge time.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "blink_token_recharge_time",
+                "value": "-0.6"
+              }
+            ]
+          },
+          "ataxic_respiration": {
+            "name": "Ataxic Respiration",
+            "description": "<td>The irregular and deteriorating breath collected from the <i>\"Catatonic Boy\"</i>. Normally stable and calm, becomes incredibly agitated at The Nurse's touch.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.25 seconds\">Moderately decreases</span></b> post-<i>Blink</i> Fatigue duration.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "fatigue_1",
+                "value": "-0.25"
+              },
+              {
+                "applied_on": "fatigue_1_missed_attack",
+                "value": "-0.25"
+              },
+              {
+                "applied_on": "fatigue_2",
+                "value": "-0.25"
+              },
+              {
+                "applied_on": "fatigue_2_missed_attack",
+                "value": "-0.25"
+              },
+              {
+                "applied_on": "fatigue_3",
+                "value": "-0.25"
+              },
+              {
+                "applied_on": "fatigue_3_missed_attack",
+                "value": "-0.25"
+              }
+            ]
+          },
+          "anxious_gasp": {
+            "name": "Anxious Gasp",
+            "description": "<td>The gasp of surprise collected from the <i>\"Anxious Girl\"</i>, which the Nurse was fond of. Twitches vigorously at The Nurse's touch.\n<ul><li><i>Blinking</i> past a Survivor causes them to scream and awards <b><span class=\"clr\" style=\"color: #e8c252 ;\">200 Bloodpoints</span></b> in the <i>Deviousness</i> Category.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "gasp|awarded_fixed_points",
+                "value": "+200"
+              }
+            ]
+          },
+          "kavanaghs_last_breath": {
+            "name": "Kavanagh's Last Breath",
+            "description": "<td>A powerful last breath snatched from Crotus Prenn Asylum Orderly Harvey Kavanagh, the <i>\"Fat Orderly\"</i>. In the hands of The Nurse, it wobbles with intensity.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+6 metres\">Tremendously increases</span></b> maximum <i>Blink</i> range.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+30 %\">Tremendously increases</span></b> <i>Blink</i> Charge time.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "maximum_blink_distance",
+                "value": "+6"
+              },
+              {
+                "applied_on": "full_blink_charge",
+                "value": "+30%"
+              }
+            ]
+          },
+          "jenners_last_breath": {
+            "name": "Jenner's Last Breath",
+            "description": "<td>A powerful last breath snatched from Crotus Prenn Asylum Patient Mary Jenner, the <i>\"Anxious Girl\"</i>. In the hands of The Nurse, it trembles with intensity.\n<ul><li>After <i>Blinking</i>, allows The Nurse to immediately <i>Blink</i> back to her original position by pressing the <i>Active Ability Button</i>.</li>\n<li>This effect must be triggered before The Nurse succumbs to post-<i>Blink</i> Fatigue.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "post_blink_teleport_back",
+                "value": "true"
+              }
+            ]
+          },
+          "campbells_last_breath": {
+            "name": "Campbell's Last Breath",
+            "description": "<td>A powerful last breath snatched from Crotus Prenn Asylum Priest Father Campbell. In the hand of The Nurse, it crackles with intensity.\n<ul><li>After reappearing from a fully charged <i>Blink</i>, The Nurse immediately <i>Blinks</i> at half charge in the direction she is currently facing.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "post_full_blink_auto_blink",
+                "value": "true"
+              }
+            ]
+          },
+          "bad_mans_last_breath": {
+            "name": "\"Bad Man's\" Last Breath",
+            "description": "<td>A powerful last breath snatched from Crotus Prenn Asylum Patient known as the <i>\"Bad Man\"</i>. In the hands of The Nurse, it jolts with intensity.\n<ul><li>Grants The Nurse the <i><b><span style=\"color: #4287f5\">Undetectable</span> </b></i> <b>Status Effect</b> after hitting a Survivor with a successful post-<i>Blink</i> Attack.</li>\n<li>This effect lasts for <b><span class=\"clr\" style=\"color: #e8c252 ;\">16 seconds</span></b> and may only be triggered once every <b><span class=\"clr\" style=\"color: #ff8800 ;\">60 seconds</span></b>.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "post_blink_attack_undetectable",
+                "value": "true"
+              }
+            ]
+          },
+          "torn_bookmark": {
+            "name": "Torn Bookmark",
+            "description": "<td>A white and pristine piece of ribbon once attached to a sacred book. Serves as the symbol of a dispute.\n<ul><li>Adds <b><span class=\"clr\" style=\"color: #e8c252 ;\">1</span></b> <i>Chain Blink</i> Charge.</li>\n<li>The Nurse can no longer <i>Blink</i> through solid objects.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "chain_blink_charge_number",
+                "value": "+1"
+              },
+              {
+                "applied_on": "blink_through_objects",
+                "value": "false"
+              }
+            ]
+          },
+          "matchbox": {
+            "name": "Matchbox",
+            "description": "<td>A matchbox containing an odd collection of mismatched buttons. Serves as a reminder of a horrible place.\n<ul><li><b>Increases</b> The Nurse's Movement speed to <b><span class=\"clr\" style=\"color: #e8c252 ;\">4.2 m/s</span></b>.</li>\n<li>Removes <b><span class=\"clr\" style=\"color: #ff8800 ;\">1</span></b> <i>Chain Blink</i> Charge.</li></ul>\n</td>",
+            "modifications": [
+              {
+                "applied_on": "chain_blink_charge_number",
+                "value": "-1"
+              },
+              {
+                "applied_on": "movement_speed",
+                "value": "=4.2"
+              }
+            ]
+          }
+        }
     }
 }

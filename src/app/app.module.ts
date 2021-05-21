@@ -17,6 +17,7 @@ import {RouterModule} from "@angular/router";
 import { KillerPageComponent } from './killers/killer-page/killer-page.component';
 import {PerksPageComponent} from "./perks-page/perks-page.component";
 import { HomeComponent } from './home/home.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const routes = [
   { path: '', component: PerksPageComponent},
@@ -45,6 +46,7 @@ const routes = [
     MatSelectModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAnalyticsModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [HomeComponent]

@@ -483,5 +483,203 @@
             ]
           }
         }
+    },
+    "the_spirit":{
+      "name": "Rin Yamaoka",
+      "nickname": "The Spirit",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_cannibal":{
+      "name": "Bubba Sawyer",
+      "nickname": "The Cannibal",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_huntress":{
+      "name": "Anna",
+      "nickname": "The Huntress",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_plague":{
+      "name": "Adiris",
+      "nickname": "The Plague",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_wraith":{
+      "name": "Philip Ojomo",
+      "nickname": "The Wraith",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_trapper":{
+      "name": "Evan MacMillan",
+      "nickname": "The Trapper",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_doctor":{
+      "name": "Herman Carter",
+      "nickname": "The Doctor",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_pig":{
+      "name": "Amanda Young",
+      "nickname": "The Pig",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_hillbilly":{
+      "name": "Max Thompson Jr.",
+      "nickname": "The Hillbilly",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_blight":{
+      "name": "Talbot Grimes",
+      "nickname": "The Blight",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_demogorgon":{
+      "name": "The Demogorgon",
+      "nickname": "The Demogorgon",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_oni":{
+      "name": "Kazan Yamaoka",
+      "nickname": "The Oni",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_legion":{
+      "name": "Frank, Julie, Susie, Joey",
+      "nickname": "The Legion",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_deathslinger":{
+      "name": "Caleb Quinn",
+      "nickname": "The Deathslinger",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_shape":{
+      "name": "Michael Myers",
+      "nickname": "The Shape",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_executioner":{
+      "name": "Pyramid Head",
+      "nickname": "The Executioner",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_nightmare":{
+      "name": "Frederick \"Freddy\" Krueger",
+      "nickname": "The Nightmare",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_trickster":{
+      "name": "Ji-Woon Hak",
+      "nickname": "The Trickster",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_ghost_face":{
+      "name": "Danny Johnson alias Jed Olsen",
+      "nickname": "The Ghost Face",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_clown":{
+      "name": "Kenneth Chase alias Jeffrey Hawk",
+      "nickname": "The Clown",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_twins":{
+      "name": "Victor & Charlotte Deshayes",
+      "nickname": "The Twins",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
+    },
+    "the_hag":{
+      "name": "Lisa Sherwood",
+      "nickname": "The Hag",
+      "back_story":"",
+      "weapon": {},
+      "power": {},
+      "attributes": {},
+      "addons": {}
     }
 }

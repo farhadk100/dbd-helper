@@ -487,110 +487,364 @@
 	"the_spirit": {
 		"name": "Rin Yamaoka",
 		"nickname": "The Spirit",
-		"back_story": "",
-		"weapon": {},
-		"power": {},
-		"attributes": {},
+		"back_story": "<p>Rin was the only child of the Yamaoka family. She was raised in the dusty halls of a traditional house in Kagawa. She studied Education at Takamatsu, a private university, which weighed heavily on her family's shaky finances. Her mother got ill that year and the bills started piling up. Rin worked part-time in a futile attempt to help lighten the load.</p><p>Her father faced a debt that grew without end. He started working double-shifts in hopes of obtaining a promotion. That's when he started losing sleep. A dark whisper would keep him awake all night, reminding him of his hopeless situation. Exhausted, he started to lose grasp of reality. Fighting to deny what the voice whispered at night, Rin's father made a desperate move. He met with his superior and explained his situation. He begged for a bonus, an advance, time-off---anything.</p><p>His request was denied. The company had launched a defective production line that was costing them dearly. Someone had to be held accountable and Rin's father fitted the bill perfectly. He was fired after twenty-two years of service.</p><p>That evening, Rin came home from work. She'd stayed late to entertain customers that lingered at the restaurant. As she parked her bike in the shed, she heard her mother's scream the house.</p><p>She rushed in, climbing up the stairs to her parents' room. There she found bits and pieces of her mother on the floor. Her limbs were clean-cut, tangled up in an unnatural position. Her breasts were sliced up, revealing her rib cage, which was cracked open. Rin gagged.</p><p>A sharp Katana came crashing down. Rin blocked the blade, which bit into her bare forearm. The shock of recognition interrupted her pain: her father was wielding the Katana with a stoic expression. She cried out to make him stop, but he slashed her arm again.</p><p>She rushed off and slid on the blood-smeared floor. Using the door frame as support, she raised herself up. The Katana ripped through the wall, cleaving her other arm. She screamed in pain as she limped into the hallway, only to be met by her father's blade.</p><p>She stepped back, trembling, as she held together the soft loose flesh of her abdomen. Images of her mother's tangled limbs flashed before her eyes.</p><p>Rin charged at her father, making him stumble back. He punched her torn abdomen and she recoiled in pain. As she struggled to get back up, he slashed her thigh, making her collapse on the floor.</p><p>As she crawled towards the stairs, he grabbed her hair and yanked her against a partition. The glass shattered on impact and she fell through, landing one floor down.</p><p>She heard footsteps somewhere above her. With effort, she moved, worming her way into a sea of broken glass. The shards gnawed at her, ripping her flesh. He had to be stopped. He would not get away with what he'd done to her--with what he'd done to her mother.</p><p>Coughing up blood, her chin grazed the glass, adding to the bleeding. A low-pitched heartbeat started to ring in her ears. Her body felt so heavy she could no longer move.</p><p>The ground shook with her father's footsteps. She knew she was not going to make it, but she no longer cared. She would make him pay, in this life or the next.</p><p>A dark Fog slowly veiled her eyes, but it could not subdue her rage. She would not rest--not yet. The darkness whispered, promising blood and revenge.</p><p>An oath was made and Rin closed her eyes.</p>",
+		"weapon": {
+			"name": "Shattered Katana",
+			"machine_name": "shattered_katana",
+			"description": "<p>A single-edged straight sword handed down from generation to generation. The blade shattered after spilling the blood of her kin.\n</p>"
+		},
+		"power": {
+			"name": "Yamaoka's Haunting",
+			"machine_name": "yamaokas_haunting",
+			"description": "<td><i>Yamaoka is the name she carries from her ancestors, who unleashed hell on the battlefield.<br/>The Spirit draws her power from their wrath, haunting the living as retribution for her suffering.<br/>The Spirit can use </i>Yamaoka's Haunting<i> to enter the <span style=\"color: #4287f5\">Ethereal Plane</span> and re-appear at a new location.</i>\n</td><p><br/>\n<b>YAMAOKA'S HAUNTING:</b><br/>\nPress and hold the <i>Power button</i> to charge <i>Yamaoka's Haunting</i> and initiate a <i>Phase Walk</i>.<br/><b>The Spirit</b> will depart her physical body and enter the <span style=\"color: #4287f5\">Ethereal Plane</span>, leaving behind a stationary <i>Husk</i>.\n</p><p>Using <i>Yamaoka's Haunting</i> depletes <b>The Spirit's</b> Power gauge (<b><span class=\"clr\" style=\"color: #e8c252 ;\">5 seconds</span></b>).<br/>It will automatically replenish over time (<b><span class=\"clr\" style=\"color: #ff8800 ;\">15 seconds</span></b>).<br/>The Power gauge must be fully replenished before <i>Yamaoka's Haunting</i> can be charged again.\n</p><p><br/>\n<b>Phase Walking:</b><br/>\n</p><ul><li><b>The Spirit</b> may traverse to a new location at increased Movement speed (<b><span class=\"clr\" style=\"color: #d41c1c ;\">7.04 m/s</span></b>).</li>\n<li><b>The Spirit</b> loses sight of all Survivors, but still sees the <span style=\"color: #4287f5\">Scratch Marks</span>  they leave throughout the Trial Grounds.</li>\n<li><b>The Spirit</b> emits an audible, non-directional cue while <i>Phase Walking</i></li>\n<li>When ending a <i>Phase Walk</i>, <b>The Spirit</b> retains her Movement Speed boost for a brief moment and her <i>Husk</i> fades away.</li></ul><p><br/>\n<b>Husk:</b><br/>\n</p><ul><li>The <i>Husk</i> emits <b>The Spirit'</b>s regular <span style=\"color: #4287f5\">Terror Radius</span> .</li>\n<li>The <i>Husk</i> suppresses <b>The Spirit'</b>s audible cue within its Terror Radius.</li>\n<li>Survivors may disperse the <i>Husk</i> by shining a <span style=\"color: #4287f5\">Flashlight</span>  on it.</li></ul><p><br/>\n<b>Passive Phasing:</b><br/>\n</p><ul><li>When not <i>Phase Walking</i> and only from the Survivor's Point of View, <b>The Spirit</b> constantly phases in and out of view at random intervals.</li></ul>"
+		},
+		"attributes": {
+			"grudge": {
+				"title": "Grudge",
+				"description": "<td>Awarded for hitting a Survivor shortly after exiting a <i>Phase Walk</i>.\n</td>",
+				"awarded_fixed_points": 600,
+				"awarded_ongoing_points": 0,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"haunting": {
+				"title": "Haunting",
+				"description": "<td>Awarded for <i>Phase Walking</i>.<br/>Has a buffer of <b><span class=\"clr\" style=\"color: #e8c252 ;\">1 second</span></b>.\n</td>",
+				"awarded_fixed_points": 0,
+				"awarded_ongoing_points": 50,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"possession": {
+				"title": "possession",
+				"description": "<td>Awarded for grabbing a Survivor shortly after exiting a <i>Phase Walk</i>.\n</td>",
+				"awarded_fixed_points": 850,
+				"awarded_ongoing_points": 0,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"movement_speed": {
+				"value": 4.4,
+				"measurement": "meters per second",
+				"title": "Movement Speed",
+				"category": "killer"
+			},
+			"terror_radius": {
+				"value": 24,
+				"measurement": "meter(s)",
+				"title": "Terror Radius",
+				"category": "killer"
+			},
+			"haunting_movement_speed": {
+				"value": 7.04,
+				"measurement": "meter(s)",
+				"title": "Phase Walk Movement speed",
+				"category": "power"
+			},
+			"haunting_duration": {
+				"value": 5,
+				"measurement": "second(s)",
+				"title": "Phase Walk duration",
+				"category": "power"
+			},
+			"power_recharge_rate": {
+				"value": 0.333,
+				"measurement": "Charges/second",
+				"title": "Power Recharges at a rate of",
+				"category": "power"
+			},
+			"power_activation_time": {
+				"value": 1.5,
+				"measurement": "second(s)",
+				"title": "Power Activation Time",
+				"category": "power"
+			},
+			"passive_phasing_cooldown": {
+				"value": 5,
+				"measurement": "second(s)",
+				"title": "Passive Phasing (glitching) at most every",
+				"category": "power"
+			},
+			"passive_phasing_duration": {
+				"value": 0.25,
+				"measurement": "second(s)",
+				"title": "Passive Phasing (glitching) duration",
+				"category": "power"
+			},
+			"haunting_reappearance_duration": {
+				"value": 0.5,
+				"measurement": "second(s)",
+				"title": "Post-Phase-Walk speed boost duration",
+				"category": "power"
+			},
+			"haunting_reappearance_movement_speed": {
+				"value": 7.04,
+				"measurement": "meters per second",
+				"title": "Post-Phase-Walk Movement Speed",
+				"category": "power"
+			},
+			"phasing_sound_outside_terror": {
+				"value": false,
+				"measurement": "",
+				"title": "Phasing sound emission heard by all Survivors outside of The Spirit's Terror Radius",
+				"category": "power"
+			},
+			"haunting_scratch_visibility": {
+				"value": true,
+				"measurement": "",
+				"title": "Able to see Scratch Marks when using Yamaoka's Haunting",
+				"category": "power"
+			},
+			"haunting_blood_visibility": {
+				"value": false,
+				"measurement": "",
+				"title": "Able to see Survivors' Blood Trails when using Yamaoka's Haunting",
+				"category": "power"
+			}
+		},
 		"addons": {
 			"zori": {
 				"name": "Zori",
 				"description": "<td>A comfortable pair of flat sandals that can easily be slipped on and off.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+5 %\">Slightly increases</span></b> <i>Yamaoka's Haunting</i> Movement speed.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "haunting_movement_speed",
+						"value": "+5%"
+					},
+					{
+						"applied_on": "haunting_reappearance_movement_speed",
+						"value": "+5%"
+					}
+				]
 			},
 			"shiawase_amulet": {
 				"name": "Shiawase Amulet",
 				"description": "<td>A Talisman that makes one happy and enthusiastic.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.5 seconds\">Slightly increases</span></b> <i>Yamaoka's Haunting</i> duration.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "haunting_duration",
+						"value": "+0.5"
+					}
+				]
 			},
 			"origami_crane": {
 				"name": "Origami Crane",
 				"description": "<td>One of the one thousand Orizuru for your wish to come true.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.03 c/s\">Slightly increases</span></b> <i>Yamaoka's Haunting</i> Recovery rate.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "power_recharge_rate",
+						"value": "+0.03"
+					}
+				]
 			},
 			"gifted_bamboo_comb": {
 				"name": "Gifted Bamboo Comb",
 				"description": "<td>A narrow tooth bamboo comb to gently untangle dishevelled hair.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+15 %\">Slightly increases</span></b> <i>Yamaoka's Haunting</i> Activation Charge rate.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "power_activation_time",
+						"value": "+15%"
+					}
+				]
 			},
 			"white_hair_ribbon": {
 				"name": "White Hair Ribbon",
 				"description": "<td>A silken bow to tame wild hair.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+20 %\">Moderately increases</span></b> <i>Yamaoka's Haunting</i> Activation Charge rate.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "power_activation_time",
+						"value": "+20%"
+					}
+				]
 			},
 			"rins_broken_watch": {
 				"name": "Rin's Broken Watch",
 				"description": "<td>A wristwatch with a shattered glass. The name <i>\"Rin\"</i> is scribbled on the wristband.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.05 c/s\">Moderately increases</span></b> <i>Yamaoka's Haunting</i> Recovery rate.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "power_recharge_rate",
+						"value": "+0.05"
+					}
+				]
 			},
 			"muddy_sports_day_cap": {
 				"name": "Muddy Sports Day Cap",
 				"description": "<td>A muddy sport cap with a High School logo. Identified with a sewn name tag to <i>\"Rin\"</i>.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+10 %\">Moderately increases</span></b> <i>Yamaoka's Haunting</i> Movement speed.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "haunting_movement_speed",
+						"value": "+10%"
+					},
+					{
+						"applied_on": "haunting_reappearance_movement_speed",
+						"value": "+10%"
+					}
+				]
 			},
 			"kaiun_talisman": {
 				"name": "Kaiun Talisman",
 				"description": "<td>A Talisman to get luck on your side.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+1 second\">Moderately increases</span></b> <i>Yamaoka's Haunting</i> duration.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "haunting_duration",
+						"value": "+1"
+					}
+				]
 			},
 			"juniper_bonsai": {
 				"name": "Juniper Bonsai",
 				"description": "<td>Dark blue-green foliage bonsai tree. Once the symbol of Yamaoka family tradition.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1 second\">Slightly decreases</span></b> <i>Passive Phasing</i> cool-down.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "passive_phasing_cooldown",
+						"value": "-1"
+					}
+				]
 			},
 			"rusty_flute": {
 				"name": "Rusty Flute",
 				"description": "<td>A rusty transverse flute with a haunting sound.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.083333 c/s\">Considerably increases</span></b> <i>Yamaoka's Haunting</i> Recovery rate.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "power_recharge_rate",
+						"value": "+0.083333"
+					}
+				]
 			},
 			"katsumori_talisman": {
 				"name": "Katsumori Talisman",
 				"description": "<td>A Talisman that brings swift success.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+1.5 seconds\">Considerably increases</span></b> <i>Yamaoka's Haunting</i> duration.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "haunting_duration",
+						"value": "+1.5"
+					}
+				]
 			},
 			"katana_tsuba": {
 				"name": "Katana Tsuba",
 				"description": "<td>The hand-guard of an ancestral blade. Crafted for the Yamaoka family.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.2 seconds\">Slightly increases</span></b> <i>Yamaoka's Haunting</i> Reappearance duration.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+5 %\">Slightly increases</span></b> <i>Yamaoka's Haunting</i> Reappearance Movement speed.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "haunting_reappearance_duration",
+						"value": "+0.2"
+					},
+					{
+						"applied_on": "haunting_reappearance_movement_speed",
+						"value": "+5%"
+					}
+				]
 			},
 			"dirty_uwabaki": {
 				"name": "Dirty Uwabaki",
 				"description": "<td>A handy pair of indoor shoes.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+15 %\">Considerably increases</span></b> <i>Yamaoka's Haunting</i> Movement speed.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "haunting_movement_speed",
+						"value": "+15%"
+					},
+					{
+						"applied_on": "haunting_reappearance_movement_speed",
+						"value": "+15%"
+					}
+				]
 			},
 			"bloody_hair_brooch": {
 				"name": "Bloody Hair Brooch",
 				"description": "<td>A hair brooch crusted with dried blood.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+30 %\">Considerably increases</span></b> <i>Yamaoka's Haunting</i> Activation Charge rate.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "power_activation_time",
+						"value": "+30%"
+					}
+				]
 			},
 			"yakuyoke_amulet": {
 				"name": "Yakuyoke Amulet",
 				"description": "<td>A powerful Talisman to protect your endeavours from being hindered by suspicious circumstances.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+3.5 seconds\">Tremendously increases</span></b> <i>Yamaoka's Haunting</i> duration.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-15 %\">Considerably decreases</span></b> <i>Yamaoka's Haunting</i> Movement speed.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "haunting_duration",
+						"value": "+3.5"
+					},
+					{
+						"applied_on": "haunting_movement_speed",
+						"value": "-15%"
+					},
+					{
+						"applied_on": "haunting_reappearance_movement_speed",
+						"value": "-15%"
+					}
+				]
 			},
 			"wakizashi_saya": {
 				"name": "Wakizashi Saya",
 				"description": "<td>The scabbard of an ancestral blade. Once crafted for the Yamaoka family.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.3 seconds\">Moderately increases</span></b> <i>Yamaoka's Haunting</i> Reappearance duration.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+10 %\">Moderately increases</span></b> <i>Yamaoka's Haunting</i> Reappearance Movement speed.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "haunting_reappearance_duration",
+						"value": "+0.3"
+					},
+					{
+						"applied_on": "haunting_reappearance_movement_speed",
+						"value": "+10%"
+					}
+				]
 			},
 			"prayer_beads_bracelet": {
 				"name": "Prayer Beads Bracelet",
 				"description": "<td>A powerful bracelet that reads a sacred mantra.\n<ul><li>The phasing sound emission is heard by all Survivors outside of The Spirit's <b><span style=\"color: #4287f5\">Terror Radius</span></b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "phasing_sound_outside_terror",
+						"value": "true"
+					}
+				]
 			},
 			"dried_cherry_blossom": {
 				"name": "Dried Cherry Blossom",
 				"description": "<td>A crumbling, dried cherry flower. Once the symbol of mortality.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1 second\">Slightly decreases</span></b> <i>Passive Phasing</i> cool-down.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.75 seconds\">Slightly increases</span></b> <i>Passive Phasing</i> duration.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "passive_phasing_cooldown",
+						"value": "-1"
+					},
+					{
+						"applied_on": "passive_phasing_duration",
+						"value": "+0.75"
+					}
+				]
 			},
 			"mother_daughter_ring": {
 				"name": "Mother-Daughter Ring",
 				"description": "<td>A silver ring engraved with <i>\"for my precious daughter\"</i>.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+40 %\">Tremendously increases</span></b> <i>Yamaoka's Haunting</i> Movement speed.</li>\n<li><span style=\"color: #4287f5\">Scratch Marks</span> are invisible while using <i>Yamaoka's Haunting</i>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "haunting_movement_speed",
+						"value": "+40%"
+					},
+					{
+						"applied_on": "haunting_reappearance_movement_speed",
+						"value": "+40%"
+					},
+					{
+						"applied_on": "haunting_scratch_visibility",
+						"value": "false"
+					}
+				]
 			},
 			"fathers_glasses": {
 				"name": "Father's Glasses",
 				"description": "<td>A pair of dad glasses that belonged to an overworked salary man.\n<ul><li>Survivors' Blood Trails are <b>visible</b> while using Yamaoka's Haunting.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "haunting_blood_visibility",
+						"value": "true"
+					}
+				]
 			}
 		}
 	},

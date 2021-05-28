@@ -552,7 +552,7 @@
 			},
 			"power_recharge_rate": {
 				"value": 0.333,
-				"measurement": "Charges/second",
+				"measurement": "charges/second",
 				"title": "Power Recharges at a rate of",
 				"category": "power"
 			},
@@ -851,110 +851,415 @@
 	"the_cannibal": {
 		"name": "Bubba Sawyer",
 		"nickname": "The Cannibal",
-		"back_story": "",
-		"weapon": {},
-		"power": {},
-		"attributes": {},
+		"back_story": "<p><i>Whether killers perform their heinous acts by the compulsions of their diseased minds, or if they are forced into them by external pressures, has long been a matter of debate. But for one killer, nature and nurture are inextricably linked.</i></p><p><i>Leatherface kills not from a desire to exert his will over others, to satisfy carnal urges, or even to quiet the voices in his head. He kills because he is scared. Scared that others will hurt him; scared that his family will be displeased with him, scared that their shared willingness to eat human flesh will be discovered.</i></p><p><i>He does as he is told. His family loves him and that is all that matters. Outsiders are a threat, and threats need to be dealt with.</i></p><p><i>Like those kids that came into the house, uninvited. Walked in like they owned the place. Looked around the house, trying to find out his family’s secrets, no doubt. But Leatherface deals with them, and protects his family just as he’s been taught.</i></p><p><i>He is not just protector, he has many roles, and each role has its own face. He serves dinner, cares for the family, and dresses well when they eat. His Grandpa and Ma used to care for them all, but Grandpa, he is old now and Ma has been still for a while, so Leatherface and his brothers had to take over. Family is everything to him. Family is security and safety.</i></p><p><i>But, even though he did his best, one of the kids got away. He tried to stop her, chasing after her as fast as he could, but she had help: another outsider, driving a truck. The evil trucker killed his brother, ran him over like he was a possum. In a fury, Leatherface leapt at him, the saw ready to avenge his family, but the trucker was too quick. He knocked Leatherface aside and turned his own saw against him.</i></p><p><i>As he watched the outsiders driving away, the rage, grief and pain combined with the worry about what would happen to his family now. They would surely return with the police, and the police would take his brothers, his Grandpa. Without them, what would he do? Without their commands, he would wither and die.</i></p><p><i>As his world collapsed, Leatherface spun in circles, swinging the saw all around, trying to fight off the myriad external threats that surrounded him.</i></p><p><i>Then another feeling overtook him. It came from outside his vision, crawling over his skin with cold dread. He realised that no matter what outsiders could do to him, there was something worse, something bigger that lived in the shadows. He was filled with a terror unlike any he had ever felt before. But it was almost comforting, like the fear he'd felt with his family. The fear of disappointing them.</i></p><p><i>He was brought to a place that was familiar but unknowable, and he instinctively knew what he had to do. He couldn't fail it, the way he had his family. Outsiders would come but he would use his skills to overcome any threats. There would be screaming, but he could make the world quiet again. Until the only sound remaining was the blessed howl of the saw.</i></p><p><i>Let the outsiders come.</i></p>",
+		"weapon": {
+			"name": "The Sledge",
+			"machine_name": "the_sledge",
+			"description": "<p>The Sledge is the Primary Weapon of The Cannibal. The Sledge might be old-fashioned but it is still the fastest and cleanest way to put down cattle.</p><ul><li>When he gets a successful hit to a <span style=\"color: #4287f5\">Survivors</span> , <b>The Cannibal</b> will shake the blood off of his Weapon.</li><li>When he's about to perform his <span style=\"color: #4287f5\">Memento Mori</span> , he first hits the Survivor in the head with his Weapon, then lowers it before revving up <b>Bubba's Chainsaw</b>.</li></ul>"
+		},
+		"power": {
+			"name": "Bubba's Chainsaw",
+			"machine_name": "bubbas_chainsaw",
+			"description": "<td><i>An incredibly powerful and heavy Chainsaw which sank its teeth into countless victims.<br>A suitable birthday gift for The Cannibal.</i></td><p><br><b>BUBBA'S CHAINSAW:</b><br>The Cannibal starts the Trial with <b><span class=\"clr\" style=\"color: #e8c252 ;\">3 Charges</span></b>.</p><p><br><b>SPECIAL ABILITY: Chainsaw Sweep</b><br>Press and hold the <i>Power button</i> to consume one Charge and perform a <i>Chainsaw Dash</i> for <b><span class=\"clr\" style=\"color: #ff8800 ;\">2 seconds</span></b> that can hit multiple targets.<br>Survivors hit during a <i>Chainsaw Dash</i> are put into the <span style=\"color: #4287f5\">Dying State</span> .</p><p><b>Additional Chainsaw Dashes</b><br>Press the <i>Power button</i> again during the <i>Chainsaw Dash</i> window to consume another Charge and extend the <i>Chainsaw Sweep</i> by another <i>Chainsaw Dash</i>.</p><ul><li>Resets the <i>Chainsaw Sweep</i> timer to <b><span class=\"clr\" style=\"color: #d41c1c ;\">2 seconds</span></b>.</li><li>Increases the <i>Chainsaw Sweep</i> cool-down by <b><span class=\"clr\" style=\"color: #ac3ee3 ;\">1 second</span></b> per charge.</li></ul><p>Charges replenish while <i>Bubba's Chainsaw</i> is not in use.</p><p><b>Tantrum</b><br>The <i>Tantrum</i> meter slowly fills when revving <i>Bubba's Chainsaw</i>.<br>Once the meter is full, or after hitting an obstacle during a <i>Chainsaw Sweep</i>, The Cannibal unleashes a <i>Tantrum</i>, wildly slashing out and damaging any Survivors in close proximity, putting them into the <span style=\"color: #4287f5\">Dying State</span> .</p><ul><li><i>Tantrum</i> duration increases by <b><span class=\"clr\" style=\"color: #199b1e ;\">1 second</span></b> for each Charge that was consumed.</li><li>Lose any remaining Charges.</li><li><b><span title=\"set to: 0.46 m/s; 11.5 %\" class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\">Tremendously decreased</span></b> Movement speed.</li></ul><p>The <i>Tantrum</i> meter decreases when <i>Bubba's Chainsaw</i> is not in use and completely depletes during a <i>Chainsaw Sweep</i>.</p>"
+		},
+		"attributes": {
+			"chainsaw_hit": {
+				"title": "Chainsaw Hit",
+				"description": "<td>Awarded for hitting a Survivor with <span style=\"color: #4287f5\">Bubba's Chainsaw</span> .</td>",
+				"awarded_fixed_points": 850,
+				"awarded_ongoing_points": 0,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"chainsaw_run": {
+				"title": "Chainsaw Run",
+				"description": "<td>Awarded for starting a Chase with a <i>Chainsaw Sweep</i>.<br>Initiating the first <b><span class=\"clr\" style=\"color: #e8c252 ;\">15 Chases</span></b> awards the full <b><span class=\"clr\" style=\"color: #ff8800 ;\">100 Bloodpoints</span></b>, after which the gain depreciates to <b><span class=\"clr\" style=\"color: #d41c1c ;\">50.27454 Bloodpoints</span></b> for all subsequent Chase initiations.</td>",
+				"awarded_fixed_points": 50.27,
+				"awarded_ongoing_points": 0,
+				"cap": 2250,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"movement_speed": {
+				"value": 4.6,
+				"measurement": "meters per second",
+				"title": "Movement Speed",
+				"category": "killer"
+			},
+			"terror_radius": {
+				"value": 32,
+				"measurement": "meter(s)",
+				"title": "Terror Radius",
+				"category": "killer"
+			},
+			"chainsaw_charges": {
+				"value": 3,
+				"measurement": "second(s)",
+				"title": "Available charges for chainsaw",
+				"category": "power"
+			},
+			"chainsaw_sweep_movement_speed": {
+				"value": 5.29,
+				"measurement": "meters per second",
+				"title": "Movement Speed in Chainsaw Sweep",
+				"category": "power"
+			},
+			"revving_movement_speed": {
+				"value": 3.45,
+				"measurement": "meters per second",
+				"title": "Movement Speed While Revving Chainsaw",
+				"category": "power"
+			},
+			"chainsaw_charge_time": {
+				"value": 2,
+				"measurement": "second(s)",
+				"title": "Time it takes to charge chainsaw",
+				"category": "power"
+			},
+			"chainsaw_dash_duration": {
+				"value": 2,
+				"measurement": "second(s)",
+				"title": "Chainsaw Dash duration",
+				"category": "power"
+			},
+			"chainsaw_dash_window": {
+				"value": 2,
+				"measurement": "second(s)",
+				"title": "Window in chase duration to consume another charge",
+				"category": "power"
+			},
+			"increased_chainsaw_cooldown": {
+				"value": 1,
+				"measurement": "second(s)",
+				"title": "Cool-down durations for each consumed Charge increased by",
+				"category": "power"
+			},
+			"chainsaw_recharge_rate": {
+				"value": 0.25,
+				"measurement": "charges/second",
+				"title": "Chainsaw Recharge rate",
+				"category": "power"
+			},
+			"missed_chainsaw_cooldown": {
+				"value": 1.5,
+				"measurement": "second(s)",
+				"title": "Chainsaw Sweep Missed Hit Cool-down",
+				"category": "power"
+			},
+			"successful_chainsaw_cooldown": {
+				"value": 1.5,
+				"measurement": "second(s)",
+				"title": "Chainsaw Sweep Successful Hit Cool-down",
+				"category": "power"
+			},
+			"chainsaw_rev_reveal_aura": {
+				"value": false,
+				"measurement": "",
+				"title": "Able to see survivors aura within 8 meters by revving the chainsaw",
+				"category": "power"
+			},
+			"chainsaw_dying_state_trigger": {
+				"value": true,
+				"measurement": "",
+				"title": "Hits with chainsaw automatically trigger the Dying State",
+				"category": "power"
+			},
+			"chainsaw_replenish_by_hitting": {
+				"value": false,
+				"measurement": "",
+				"title": "Hitting a survivor with chainsaw will replenish it's charges",
+				"category": "power"
+			},
+			"chainsaw_cause_drop_items": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors hit by chainsaw will drop their items",
+				"category": "power"
+			},
+			"chainsaw_cause_mangled": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors hit by chainsaw suffer from the Mangled status effect",
+				"category": "power"
+			},
+			"chainsaw_cause_broken": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors injured by chainsaw suffer from the Broken status effect for 90 seocnds",
+				"category": "power"
+			},
+			"cloak_survivor_aura_when_downed": {
+				"value": false,
+				"measurement": "",
+				"title": "Downing a survivor by chainsaw will result in cloaking that survivor's aura for 20 seconds from other survivors if they are not in terror radius",
+				"category": "power"
+			},
+			"auto_consume_charge_on_dash": {
+				"value": false,
+				"measurement": "",
+				"title": "Automatically consumes all Charges when triggering a Chainsaw Dash",
+				"category": "power"
+			},
+			"tantrum_default_duration": {
+				"value": 5,
+				"measurement": "second(s)",
+				"title": "Tantrum with first charge lasts for",
+				"category": "power"
+			},
+			"increased_tantrum_duration": {
+				"value": 1,
+				"measurement": "second(s)",
+				"title": "Tantrum duration for each consumed Chainsaw Sweep charge increased by",
+				"category": "power"
+			},
+			"tantrum_recharge_rate": {
+				"value": 1,
+				"measurement": "charges/second",
+				"title": "The Tantrum meter fills and empties at a rate of",
+				"category": "power"
+			},
+			"tantrum_initiate_by_charges": {
+				"value": 5,
+				"measurement": "charges",
+				"title": "Tantrum initiation when number of charges reached",
+				"category": "power"
+			}
+		},
 		"addons": {
 			"vegetable_oil": {
 				"name": "Vegetable Oil",
 				"description": "<td>A rancid oil used as a poor quality lubricant.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-28 %\">Slightly decreases</span></b> <i>Chainsaw Sweep</i> cool-down on successful hits.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "successful_chainsaw_cooldown",
+						"value": "-28%"
+					}
+				]
 			},
 			"spark_plug": {
-				"name": "Spark Plug",
+				"name": "Spark Plug <span class=\"clr\" style=\"color: #d41c1c ;\">(outdated)</span>",
 				"description": "<td>A clean spark plug fitted for a Chainsaw.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 Charges\">Slightly reduces</span></b> <i>Chainsaw Sweep</i> Recharge time.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{}
+				]
 			},
 			"speed_limiter": {
 				"name": "Speed Limiter",
 				"description": "<td>A mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n<ul><li>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> Bonus Bloodpoints for <i>Chainsaw Hit</i> <span style=\"color: #4287f5\">Score Events</span> in the <i>Deviousness</i> Category.</li>\n<li>Hits with either <i>Bubba's Chainsaw</i> or the <i>Chainsaw</i> do not automatically trigger the <span style=\"color: #4287f5\">Dying State</span> .</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "chainsaw_dying_state_trigger",
+						"value": "false"
+					},
+					{
+						"applied_on": "chainsaw_hit|awarded_fixed_points",
+						"value": "+100%"
+					}
+				]
 			},
 			"chainsaw_file": {
 				"name": "Chainsaw File",
 				"description": "<td>A file whose purpose is to hone Chainsaw chains.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Slightly reduces</span></b> <i>Tantrum</i> duration.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "tantrum_default_duration",
+						"value": "-0.5"
+					}
+				]
 			},
 			"long_guide_bar": {
 				"name": "Long Guide Bar",
 				"description": "<td>A sturdy iron replacement bar for long chains.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+1 Charge\">Slightly increases</span></b> <i>Bubba's Chainsaw</i> Revving threshold for triggering a <i>Tantrum</i>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "tantrum_initiate_by_charges",
+						"value": "+1"
+					}
+				]
 			},
 			"primer_bulb": {
-				"name": "Primer Bulb",
+				"name": "Primer Bulb <span class=\"clr\" style=\"color: #d41c1c ;\">(outdated)</span>",
 				"description": "<td>Pumps more gas in the ignition system to ensure a quick and powerful start.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1 Charge\">Moderately reduces</span></b> <i>Chainsaw Sweep</i> Recharge time.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{}
+				]
 			},
 			"knife_scratches": {
 				"name": "Knife Scratches",
 				"description": "<td>Scratches cover the Chainsaw's body, caused by a searing blade. Memories of reprimands fill its holder with the fear of failure.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+2 %\">Slightly increases</span></b> <i>Chainsaw Sweep</i> Movement speed.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+12 %\">Slightly increases</span></b> <i>Chainsaw Sweep</i> Charge time.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "chainsaw_sweep_movement_speed",
+						"value": "+2%"
+					},
+					{
+						"applied_on": "chainsaw_charge_time",
+						"value": "+12%"
+					}
+				]
 			},
 			"homemade_muffler": {
 				"name": "Homemade Muffler",
 				"description": "<td>A makeshift exhaust system made of black gas pipes.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1 second\">Moderately reduces</span></b> <i>Tantrum</i> duration.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "tantrum_default_duration",
+						"value": "-1"
+					}
+				]
 			},
 			"chilli": {
 				"name": "Chilli",
 				"description": "<td>A big bowl of steaming Chilli to keep you fresh and strong.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.25 seconds\">Slightly increases</span></b> <i>Chainsaw Dash</i> duration when a Charge is consumed.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.25 seconds\">Slightly increases</span></b> <i>Chainsaw Dash Window</i>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"I got some good barbecue here!\" — Drayton Sawyer</span></i>\n</p>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "chainsaw_dash_duration",
+						"value": "+0.25"
+					},
+					{
+						"applied_on": "chainsaw_dash_window",
+						"value": "+0.25"
+					}
+				]
 			},
 			"the_grease": {
 				"name": "The Grease",
 				"description": "<td>A thick yellowish ooze, concocted by the Sawyers. Used for all-purpose lubrication around their house.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+2 Charges\">Moderately increases</span></b> <i>Bubba's Chainsaw</i> Revving threshold for triggering a <i>Tantrum</i>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "tantrum_initiate_by_charges",
+						"value": "+2"
+					}
+				]
 			},
 			"the_beasts_marks": {
 				"name": "The Beast's Marks",
 				"description": "<td>Jagged marks cover the Chainsaw's body, punishment from the dark beast that lives in The Fog. Memories of violent reprimands fill its holder with the fear of failure.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+3 %\">Moderately increases</span></b> <i>Chainsaw Sweep</i> Movement speed.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+12 %\">Slightly increases</span></b> <i>Chainsaw Sweep</i> Charge time.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "chainsaw_sweep_movement_speed",
+						"value": "+3%"
+					},
+					{
+						"applied_on": "chainsaw_charge_time",
+						"value": "+12%"
+					}
+				]
 			},
 			"shop_lubricant": {
 				"name": "Shop Lubricant",
 				"description": "<td>An oil specifically formulated for Chainsaws. A special additive prevents oil throw off.\n<ul><li>Downing a Survivor with <i>Bubba's Chainsaw</i> while no other Survivors are in the <span style=\"color: #4287f5\">Terror Radius</span>  will cloak that Survivor's <span style=\"color: #4287f5\">Aura</span>  from other Survivors for <b><span class=\"clr\" style=\"color: #e8c252 ;\">20 seconds</span></b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "cloak_survivor_aura_when_downed",
+						"value": "true"
+					}
+				]
 			},
 			"grisly_chains": {
 				"name": "Grisly Chains",
 				"description": "<td>A chain with unusually hefty cutter teeth that leaves victims crippled even after being healed.\n<ul><li>Survivors hit with <i>Bubba's Chainsaw</i> suffer from the <i><b><span style=\"color: #4287f5\">Mangled</span> </b></i> <b>Status Effect</b> until healed.</li></ul>\n<p><i>Grisly Chains</i> does not stack with other instances of the <i><b>Mangled</b></i> <b>Status Effect</b>.\n</p>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "chainsaw_cause_mangled",
+						"value": "true"
+					}
+				]
 			},
 			"begrimed_chains": {
 				"name": "Begrimed Chains",
 				"description": "<td>This chain is stained with a foul substance that debilitates anyone it touches.\n<ul><li>Hits with <i>Bubba's Chainsaw</i> cause Survivors to drop their <span style=\"color: #4287f5\">Items</span> .</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "chainsaw_cause_drop_items",
+						"value": "true"
+					}
+				]
 			},
 			"rusted_chains": {
 				"name": "Rusted Chains",
 				"description": "<td>This chain is covered with crusty and volatile rust spots that make injuries particularly difficult to heal.\n<ul><li>Survivors injured with <i>Bubba's Chainsaw</i> suffer from the <i><b><span style=\"color: #4287f5\">Broken</span> </b></i> <b>Status Effect</b> for <b><span class=\"clr\" style=\"color: #e8c252 ;\">90 seconds</span></b>.</li></ul>\n<p><i>Rusted Chains</i> does not stack with other instances of the <i><b>Broken</b></i> <b>Status Effect</b>.\n</p>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "chainsaw_cause_broken",
+						"value": "true"
+					}
+				]
 			},
 			"light_chassis": {
 				"name": "Light Chassis",
 				"description": "<td>A light and durable Chainsaw chassis with a shorter guide bar. Makes the Chainsaw easier to handle.\n<ul><li>While revving, see the <span style=\"color: #4287f5\">Auras</span>  of Survivors within <b><span class=\"clr\" style=\"color: #e8c252 ;\">8 metres</span></b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "chainsaw_rev_reveal_aura",
+						"value": "true"
+					}
+				]
 			},
 			"depth_gauge_rake": {
 				"name": "Depth Gauge Rake",
 				"description": "<td>Tool that increases the angle of the depth gauge, making the chain eat more \"wood\".\n<ul><li>Increases the number of Charges by <b><span class=\"clr\" style=\"color: #e8c252 ;\">1</span></b>.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-18 %\">Moderately decreases</span></b> <i>Chainsaw Sweep</i> Charge speed.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-4.35 %\">Slightly decreases</span></b> <i>Chainsaw Sweep</i> maximum Movement speed.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "chainsaw_charges",
+						"value": "+1"
+					},
+					{
+						"applied_on": "chainsaw_charge_time",
+						"value": "-18%"
+					},
+					{
+						"applied_on": "chainsaw_sweep_movement_speed",
+						"value": "-4.35%"
+					}
+				]
 			},
 			"award_winning_chilli": {
 				"name": "Award-winning Chilli",
 				"description": "<td>A big bowl of spicy Chilli made famous thanks to prime meat.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.5 seconds\">Moderately increases</span></b> <i>Chainsaw Dash</i> duration when a Charge is consumed.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.5 seconds\">Moderately increases</span></b> <i>Chainsaw Dash Window</i>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"The secret's in the meat\" — Drayton Sawyer</span></i>\n</p>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "chainsaw_dash_duration",
+						"value": "+0.5"
+					},
+					{
+						"applied_on": "chainsaw_dash_window",
+						"value": "+0.5"
+					}
+				]
 			},
 			"iridescent_flesh": {
 				"name": "Iridescent Flesh",
 				"description": "<td>A thin slice of smooth, young flesh. The veins shimmer with luminescent glow, as if life still flows within.\n<ul><li>Hitting a Survivor with <i>Bubba's Chainsaw</i> replenishes its Charges.</li>\n<li>Limits the maximum <i>Tantrum</i> duration to <b><span class=\"clr\" style=\"color: #e8c252 ;\">8 seconds</span></b>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"There are moments when we cannot believe that what is happening is really true. Pinch yourself and you may find out that it is.\" — Pam Jones</span></i>\n</p>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "chainsaw_replenish_by_hitting",
+						"value": "true"
+					}
+				]
 			},
 			"carburettor_tuning_guide": {
 				"name": "Carburettor Tuning Guide",
 				"description": "<td>A crudely drawn guide to properly adjust and tune a Chainsaw carburettor.\n<ul><li>Automatically consumes all Charges when triggering a <i>Chainsaw Dash</i>.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.5 seconds\">Slightly increases</span></b> <i>Chainsaw Dash</i> duration.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-2.78 %\">Slightly reduces</span></b> <i>Chainsaw Sweep</i> Recharge rate.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-4.35 %\">Slightly decreases</span></b> <i>Chainsaw Sweep</i> maximum Movement speed.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "auto_consume_charge_on_dash",
+						"value": "true"
+					},
+					{
+						"applied_on": "chainsaw_dash_duration",
+						"value": "+0.5"
+					},
+					{
+						"applied_on": "chainsaw_recharge_rate",
+						"value": "-2.78%"
+					},
+					{
+						"applied_on": "chainsaw_sweep_movement_speed",
+						"value": "-4.35%"
+					}
+				]
 			}
 		}
 	},
@@ -964,7 +1269,9 @@
 		"back_story": "",
 		"weapon": {},
 		"power": {},
-		"attributes": {},
+		"attributes": {
+
+		},
 		"addons": {
 			"yellowed_cloth": {
 				"name": "Yellowed Cloth",

@@ -1041,7 +1041,10 @@
 				"name": "Spark Plug <span class=\"clr\" style=\"color: #d41c1c ;\">(outdated)</span>",
 				"description": "<td>A clean spark plug fitted for a Chainsaw.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 Charges\">Slightly reduces</span></b> <i>Chainsaw Sweep</i> Recharge time.</li></ul>\n</td>",
 				"modifications": [
-					{}
+					{
+						"applied_on": "nothing!!!!!",
+						"value": "0"
+					}
 				]
 			},
 			"speed_limiter": {
@@ -1082,7 +1085,10 @@
 				"name": "Primer Bulb <span class=\"clr\" style=\"color: #d41c1c ;\">(outdated)</span>",
 				"description": "<td>Pumps more gas in the ignition system to ensure a quick and powerful start.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1 Charge\">Moderately reduces</span></b> <i>Chainsaw Sweep</i> Recharge time.</li></ul>\n</td>",
 				"modifications": [
-					{}
+					{
+						"applied_on": "nothing!!!!!",
+						"value": "0"
+					}
 				]
 			},
 			"knife_scratches": {

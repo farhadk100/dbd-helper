@@ -1,0 +1,39 @@
+.addon-image{
+  width: 120px;
+}
+
+.selected-addons{
+  min-height: 115px;
+}
+
+.selected-addons-title{
+  padding-top: 48px;
+  padding-right: 10px;
+}
+
+.reset-button{
+  margin-top: 35px;
+}
+
+.img-border{
+  border: 10px solid #0a0b0b;
+  background: #1e2327;
+  height: 112px;
+  width: 112px;
+}
+
+.filtered-keywords{
+  width: max-content;
+  height: max-content;
+}
+
+.selectable-icon{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 525px){
+  .img-border{
+    height: 100px;
+    width: 100px;
+  }
+}

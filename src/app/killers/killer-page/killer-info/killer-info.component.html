@@ -1,0 +1,38 @@
+<div class="row">
+  <div class="col-md-2 text-center">
+    <img class="img-fluid" src="{{ 'assets/images/killers/' + killer + '.png' }}">
+  </div>
+  <div class="col-md-10 text-light">
+    <div>
+      <p class="title w-100 text-center fw-bold p-2">Name</p>
+      <p class="context w-100 text-center">{{ killerData.name }}</p>
+    </div>
+    <div>
+      <p class="title w-100 text-center fw-bold p-2">Nickname</p>
+      <p class="context w-100 text-center">{{ killerData.nickname }}</p>
+    </div>
+    <div>
+      <p class="title w-100 text-center fw-bold p-2">Backstory</p>
+      <p class="context w-100 text-start" [innerHTML]="sanitizeText(killerData.back_story)"></p>
+    </div>
+    <div><p class="title w-100 text-center fw-bold p-2">Power</p>
+      <div class="row">
+        <div class="col-md-2 text-center">
+          <img class="img-fluid" src="{{ 'assets/images/powers/' + killerData.power.machine_name + '.png'}}">
+        </div>
+        <div class="col-md-10 text-light" [innerHTML]="sanitizeText(killerData.power.description)">
+        </div>
+      </div>
+    </div>
+    <div>
+      <p class="title w-100 text-center fw-bold p-2">Weapon</p>
+      <div class="row">
+        <div class="col-md-2 text-center">
+          <img class="img-fluid" src="{{ 'assets/images/weapons/' + killerData.weapon.machine_name + '.png'}}">
+        </div>
+        <div class="col-md-10 text-light" [innerHTML]="sanitizeText(killerData.weapon.description)">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

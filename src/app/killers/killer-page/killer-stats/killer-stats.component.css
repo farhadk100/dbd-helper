@@ -1,0 +1,11 @@
+.title{
+  background: rgba(17, 16, 16, 0.85);
+  margin-bottom: 5px;
+}
+.context{
+  margin-bottom: 5px;
+}
+
+.filter-addons{
+  cursor: pointer;
+}

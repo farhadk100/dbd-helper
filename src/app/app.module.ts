@@ -18,9 +18,16 @@ import { KillerPageComponent } from './killers/killer-page/killer-page.component
 import {PerksPageComponent} from "./perks-page/perks-page.component";
 import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { KillerInfoComponent } from './killers/killer-page/killer-info/killer-info.component';
+import { KillerStatsComponent } from './killers/killer-page/killer-stats/killer-stats.component';
+import { KillerAddonsComponent } from './killers/killer-page/killer-addons/killer-addons.component';
+import {FormsModule} from "@angular/forms";
+import {MatIconModule} from "@angular/material/icon";
+import { KillerListComponent } from './killers/killer-list/killer-list.component';
 
 const routes = [
   { path: '', component: PerksPageComponent},
+  { path: 'killers', component: KillerListComponent},
   { path: 'killers/:name', component: KillerPageComponent}
 ]
 
@@ -35,7 +42,11 @@ const routes = [
       PerksFilterComponent,
       OfferingsFilterComponent,
       KillerPageComponent,
-      HomeComponent
+      HomeComponent,
+      KillerInfoComponent,
+      KillerStatsComponent,
+      KillerAddonsComponent,
+      KillerListComponent
    ],
   imports: [
     BrowserModule,
@@ -47,6 +58,8 @@ const routes = [
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAnalyticsModule,
     NgbModule,
+    FormsModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [HomeComponent]

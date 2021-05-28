@@ -1,162 +1,29 @@
 <div
-  [ngStyle]="{backgroundImage: 'url(../../../assets/images/wallpapers/' + killer + '.png)', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', backgroundSize: '100%'}">
+  [ngStyle]="{backgroundImage: 'url(../../../assets/images/wallpapers/' + killer + '.jpg)', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', backgroundSize: '100%'}">
   <div class="idcard">
     <div class="card p-4 bg-transparent">
-      <div class="row">
-        <div class="col-md-2 text-center">
-          <img class="img-fluid" src="{{ 'assets/images/killers/' + killer + '.png' }}">
-        </div>
-        <div class="col-md-10 text-light">
-          <div>
-            <p class="title w-100 text-center fw-bold p-2">Name</p>
-            <p class="context w-100 text-center">{{ killerData.name }}</p>
-          </div>
-          <div>
-            <p class="title w-100 text-center fw-bold p-2">Nickname</p>
-            <p class="context w-100 text-center">{{ killerData.nickname }}</p>
-          </div>
-          <div>
-            <p class="title w-100 text-center fw-bold p-2">Backstory</p>
-            <p class="context w-100 text-center">{{ killerData.back_story }}</p>
-          </div>
-          <div><p class="title w-100 text-center fw-bold p-2">Power</p>
-            <div class="row">
-              <div class="col-md-2">
-                <img class="img-fluid" src="{{ 'assets/images/powers/' + killerData.power.machine_name + '.png'}}">
-              </div>
-              <div class="col-md-10 text-light" [innerHTML]="sanitizeText(killerData.power.description)">
-              </div>
-            </div>
-          </div>
-          <div>
-            <p class="title w-100 text-center fw-bold p-2">Weapon</p>
-            <div class="row">
-              <div class="col-md-2">
-                <img class="img-fluid" src="{{ 'assets/images/weapons/' + killerData.weapon.machine_name + '.png'}}">
-              </div>
-              <div class="col-md-10 text-light" [innerHTML]="sanitizeText(killerData.weapon.description)">
-              </div>
-            </div>
-          </div>
-        </div>
+      <div>
+        <app-killer-info [killer]="killer" [killerData]="killerData"></app-killer-info>
         <div class="row text-light">
           <div class="col">
             <hr>
           </div>
-          <div class="col-auto">Stats</div>
+          <div class="col-auto h4 ">Stats</div>
           <div class="col">
             <hr>
           </div>
         </div>
-        <div class="text-light">
-          <p class="title w-100 text-center fw-bold p-2">Killer stats</p>
-          <table class="table table-striped table-dark table-bordered">
-            <thead>
-            <tr>
-              <th>Title</th>
-              <th>Value</th>
-            </tr>
-            </thead>
-            <tbody>
-            <ng-container *ngFor="let attribute of killerData.attributes | keyvalue: sortByTitle">
-              <tr *ngIf="asAny(attribute.value).category == 'killer'" [id]="attribute.key">
-                <th scope="col">{{ asAny(attribute.value).title}}</th>
-                <td scope="row">{{ calculator(attribute.key) }} <small class="small text-secondary">{{ asAny(attribute.value).measurement}}</small></td>
-              </tr>
-            </ng-container>
-            </tbody>
-          </table>
-          <p class="title w-100 text-center fw-bold p-2">Power stats</p>
-          <table class="table table-striped table-dark table-bordered">
-            <thead>
-            <tr>
-              <th>Title</th>
-              <th>Value</th>
-            </tr>
-            </thead>
-            <tbody>
-            <ng-container *ngFor="let attribute of killerData.attributes | keyvalue: sortByTitle">
-              <tr *ngIf="asAny(attribute.value).category == 'power'" [id]="attribute.key">
-                <th scope="col">{{ asAny(attribute.value).title}}</th>
-                <td scope="row">{{ calculator(attribute.key) }} <small class="small text-secondary">{{ asAny(attribute.value).measurement}}</small></td>
-              </tr>
-            </ng-container>
-            </tbody>
-          </table>
-          <p class="title w-100 text-center fw-bold p-2">Score event stats</p>
-          <table class="table table-striped table-dark table-bordered">
-            <thead>
-            <tr>
-              <th>Title</th>
-              <th>Awarded Fixed Ponts</th>
-              <th>Awarded Ongoing Ponts</th>
-              <th>Cap</th>
-            </tr>
-            </thead>
-            <tbody>
-            <ng-container *ngFor="let attribute of killerData.attributes | keyvalue: sortByTitle">
-              <tr *ngIf="asAny(attribute.value).category == 'score_events'" [id]="attribute.key">
-                <th scope="col">{{ asAny(attribute.value).title }}</th>
-                <td scope="row">{{ calculator(attribute.key, 'awarded_fixed_points') }} <small class="small text-secondary">bp</small></td>
-                <td scope="row">{{ calculator(attribute.key, 'awarded_ongoing_points') }} <small class="small text-secondary">bp</small></td>
-                <td scope="row">{{ calculator(attribute.key, 'cap') }} <small class="small text-secondary">bp</small></td>
-              </tr>
-            </ng-container>
-            </tbody>
-          </table>
-        </div>
+        <app-killer-stats [relatedAddonFilter]="relatedAddonFilter" (relatedAddonFilterUpdated)="relatedAddonFilterUpdated($event)" [killer]="killer" [killerData]="killerData" [selectedAddons]="selectedAddons" [selectedModifiers]="selectedModifiers"></app-killer-stats>
         <div class="row text-light">
           <div class="col">
             <hr>
           </div>
-          <div class="col-auto">Addons</div>
+          <div class="col-auto h4 ">Addons</div>
           <div class="col">
             <hr>
           </div>
         </div>
-        <div>
-          <div class="row">
-            <p>
-              Selected Addons:
-            </p>
-          </div>
-          <table class="table table-dark table-striped">
-            <thead>
-              <tr>
-                <th>
-                  Icon
-                </th>
-                <th>
-                  Name
-                </th>
-                <th>
-                  Description
-                </th>
-                <th>
-                  Select
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <ng-container *ngFor="let addon of killerData.addons | keyvalue">
-                <tr>
-                  <th>
-                    <img [title]="addon.key" class="addon-image img-fluid" src="assets/images/addons/{{ killer }}/{{ asAny(addon.key) }}.png" (click)="applyAddon($event)">
-                  </th>
-                  <td class="align-middle">
-                    <b><p>{{ asAny(addon.value).name }}</p></b>
-                  </td>
-                  <td class="align-middle">
-                    <p [innerHTML]="sanitizeText(asAny(addon.value).description)"></p>
-                  </td>
-                  <td class="align-middle text-center">
-                    <button [title]="addon.key" [disabled]="selectedAddons.length == 2 || selectedAddons.includes(addon.key + '')" class="btn" [ngClass]="selectedAddons.includes(addon.key + '') ? 'btn-danger' : 'btn-success'" (click)="applyAddon($event)">Select</button>
-                  </td>
-                </tr>
-              </ng-container>
-            </tbody>
-          </table>
-        </div>
+        <app-killer-addons id="killer-addons" [relatedAddonFilter]="relatedAddonFilter" [killer]="killer" [killerData]="killerData" [selectedModifiers]="selectedModifiers" [selectedAddons]="selectedAddons"></app-killer-addons>
       </div>
     </div>
   </div>

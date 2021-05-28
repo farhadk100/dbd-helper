@@ -1,10 +1,10 @@
-<mat-form-field appearance="fill" class="col-3 text-light">
+<mat-form-field appearance="fill" class="col-6 col-md-3 text-light">
   <mat-label>Category:</mat-label>
   <mat-select id="category" (selectionChange)="categoryChanged($event)">
     <mat-option *ngFor="let category of categories | keyvalue: originalOrder" value="{{ category.key }}">{{ category.key }}</mat-option>
   </mat-select>
 </mat-form-field>
-<mat-form-field appearance="fill" class="col-3 text-light">
+<mat-form-field appearance="fill" class="col-6 col-md-3 text-light">
   <mat-label>Sub category:</mat-label>
   <mat-select id="subCategory" (selectionChange)="subCategoryChanged($event)">
     <mat-option *ngFor="let subCategory of subCategories" value="{{ subCategory }}">{{ subCategory }}</mat-option>

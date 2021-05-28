@@ -1,0 +1,19 @@
+<div class="killer-list-bg">
+  <h1 class="killer-list text-center text-light">SELECT YOUR KILLER</h1>
+  <div class="container m-auto">
+    <div class="row pb-4">
+      <div class="col-12 col-lg-6" *ngFor="let killer of killerList | keyvalue: originalOrder">
+        <div class="m-2 row bg-dark clickable" (click)="goToKiller(killer.key)">
+          <img class="m-auto col-2 img-fluid" [src]="'assets/images/characters/' + killer.key + '.png'">
+          <p class="m-auto col-6 text-light">{{ asAny(killer.value).name }} AKA <span class="h4 text-warning">{{ asAny(killer.value).nickname }}</span></p>
+          <ng-container *ngIf="asAny(killer.value).back_story != ''">
+            <button class="m-auto btn btn-primary col-3">VIEW</button>
+          </ng-container>
+          <ng-container *ngIf="asAny(killer.value).back_story == ''">
+            <button disabled="disabled" class="m-auto btn btn-danger col-3 text-center" (click)="goToKiller(killer.key)">COMING SOON</button>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -3,7 +3,7 @@
     <ng-container *ngIf="offering.category_1 == categoryFilter || categoryFilter == 'Show All'">
     <ng-container *ngIf="offering.category_2 == subCategoryFilter || subCategoryFilter == 'None' || subCategoryFilter == 'Show All'">
       <div class="perk row bg-dark m-2">
-        <img class="perk-image order-1 col-6 col-sm-2 col-lg-2 col-md-2" src="{{ offering.imageURL }}" />
+        <img class="m-auto order-1 col-4 col-sm-2 col-lg-2 col-md-2" src="{{ offering.imageURL }}" />
         <p class="perk-name order-3 order-sm-2 col-4 col-sm-2 col-lg-1 col-md-2 text-light m-auto"><b>
             {{ offering.name }}
           </b></p>

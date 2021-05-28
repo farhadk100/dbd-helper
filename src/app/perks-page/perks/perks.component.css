@@ -9,7 +9,6 @@ p{
 
 .perk-image{
   height: 180px;
-  width: auto;
   margin: auto;
 }
 
@@ -23,5 +22,5 @@ p{
 }
 
 .perk-character{
-
+  height: 180px;
 }

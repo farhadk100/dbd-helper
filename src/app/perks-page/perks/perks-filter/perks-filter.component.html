@@ -1,22 +1,22 @@
-<mat-form-field appearance="fill" class="col-3 text-light">
+<mat-form-field appearance="fill" class="col-6 col-md-3 text-light">
   <mat-label>Character:</mat-label>
   <mat-select id="character" (selectionChange)="selectChanged($event)">
     <mat-option *ngFor="let character of characters" value="{{ character }}">{{ character }}</mat-option>
   </mat-select>
 </mat-form-field>
-<mat-form-field appearance="fill" class="col-3 text-light">
+<mat-form-field appearance="fill" class="col-6 col-md-3 text-light">
   <mat-label>Related to:</mat-label>
   <mat-select id="usage" (selectionChange)="selectChanged($event)">
     <mat-option *ngFor="let usage of usages" value="{{ usage }}">{{ usage }}</mat-option>
   </mat-select>
 </mat-form-field>
-<mat-form-field appearance="fill" class="col-3 text-light">
+<mat-form-field appearance="fill" class="col-6 col-md-3 text-light">
   <mat-label>Function:</mat-label>
   <mat-select id="function" (selectionChange)="selectChanged($event)">
     <mat-option *ngFor="let function of functions" value="{{ function }}">{{ function }}</mat-option>
   </mat-select>
 </mat-form-field>
-<mat-form-field appearance="fill" class="col-3 text-light">
+<mat-form-field appearance="fill" class="col-6 col-md-3 text-light">
   <mat-label>Status:</mat-label>
   <mat-select id="status" (selectionChange)="selectChanged($event)">
     <mat-option *ngFor="let stat of status" value="{{ stat }}">{{ stat }}</mat-option>

@@ -1,0 +1,96 @@
+<div>
+  <div class="card bg-dark my-4">
+    <div class="selected-addons m-2">
+      <p class="selected-addons-title text-light my-auto d-inline-block float-start">
+        Selected Addons:
+      </p>
+      <div class="">
+        <div class="img-border d-inline-block float-start mx-2">
+          <ng-container *ngIf="selectedAddons.length > 0">
+            <img class="img-fluid" src="assets/images/addons/{{killer}}/{{selectedAddons[0]}}.png">
+          </ng-container>
+        </div>
+      </div>
+      <div class="">
+        <div class="img-border float-start mx-2">
+          <ng-container *ngIf="selectedAddons.length > 1">
+            <img class="img-fluid" src="assets/images/addons/{{killer}}/{{selectedAddons[1]}}.png">
+          </ng-container>
+        </div>
+      </div>
+      <div class="reset-button d-block float-start">
+        <button class="align-middle text-center" [disabled]="selectedAddons.length == 0" class="btn btn-danger"
+                (click)="clearAddons()">Reset
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="text-light bg-dark p-4">
+    <div class="form-group">
+      <label for="addonNameFilterInput">Keyphrase</label>
+      <input [(ngModel)]="addonNameFilter" type="text" class="form-control bg-dark btn-outline-secondary text-light"
+             id="addonNameFilterInput" aria-describedby="searchHelp" placeholder="e.g. bloodpoints">
+      <small id="searchHelp" class="form-text text-secondary">The name or description will be searched for key
+        phrase.</small>
+    </div>
+    <ng-container *ngIf="addonNameFilter.length > 0">
+      <div class="filtered-keywords rounded-3 bg-secondary text-light px-2 py-1 my-1">
+        <div class="d-inline-flex"><p class="m-auto px-1">{{addonNameFilter}}</p>
+          <mat-icon class="selectable-icon" (click)="removeNameFilter()">cancel</mat-icon>
+        </div>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="relatedAddonFilter.length > 0">
+      <div class="filtered-keywords rounded-3 bg-secondary text-light px-2 py-1 my-1">
+        <div class="d-inline-flex"><p class="m-auto px-1">{{relatedAddonFilter}}</p>
+          <mat-icon class="selectable-icon" (click)="removeRelatedFilter()">cancel</mat-icon>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+  <table class="table table-dark table-striped">
+    <thead>
+    <tr>
+      <th>
+        Icon
+      </th>
+      <th>
+        Name
+      </th>
+      <th>
+        Description
+      </th>
+      <th>
+        Select
+      </th>
+    </tr>
+    </thead>
+    <tbody>
+    <ng-container *ngFor="let addon of killerData.addons | keyvalue">
+      <tr
+        *ngIf="(htmlStripped(asAny(addon.value).name).toLowerCase().includes(addonNameFilter.toLowerCase()) || htmlStripped(asAny(addon.value).description).toLowerCase().includes(addonNameFilter.toLowerCase())) && (affectsAttribute(addon.key + ''))">
+        <th class="align-middle">
+          <img [title]="addon.key" class="addon-image img-fluid"
+               src="assets/images/addons/{{ killer }}/{{ asAny(addon.key) }}.png" (click)="applyAddon($event)">
+        </th>
+        <td class="align-middle">
+          <b><p [innerHTML]="sanitizeText(asAny(addon.value).name)"></p></b>
+        </td>
+        <td class="align-middle">
+          <p [innerHTML]="sanitizeText(asAny(addon.value).description)"></p>
+        </td>
+        <td class="align-middle text-center col-md-1">
+          <ng-container *ngIf="!selectedAddons.includes(addon.key + '')">
+            <button [title]="addon.key" [disabled]="selectedAddons.length == 2" class="btn btn-success"
+                    (click)="applyAddon($event)">Select
+            </button>
+          </ng-container>
+          <ng-container *ngIf="selectedAddons.includes(addon.key + '')">
+            <button [title]="addon.key" class="btn btn-danger" (click)="applyAddon($event)">Remove</button>
+          </ng-container>
+        </td>
+      </tr>
+    </ng-container>
+    </tbody>
+  </table>
+</div>

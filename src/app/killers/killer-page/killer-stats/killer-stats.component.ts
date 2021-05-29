@@ -39,15 +39,15 @@ export class KillerStatsComponent implements OnInit {
 
   calculator(attributeKey: string, valueKey = 'value') {
     let evaluatedKeys: Array<string> = [];
-    if (attributeKey == 'full_blink_charge') {
-      let test = 'ok';
-      test = 'ok';
-    }
     let value = this.killerData.attributes[attributeKey][valueKey];
     let exists;
     let tempModKey = '';
     let tempModValue = '';
     this.selectedModifiers.forEach((modifier, index) => {
+      if (attributeKey == 'available_hunting_hatchets'){
+        let a;
+        a = '';
+      }
       tempModKey = modifier.key;
       tempModValue = modifier.value;
       if (tempModKey.includes('|')) {
@@ -64,6 +64,37 @@ export class KillerStatsComponent implements OnInit {
         else {
           return this.getAttributeValue(value);
         }
+      }
+      if (tempModValue.includes('~')) {
+        value = tempModValue.replace('~', '');
+        let element = document.getElementById(attributeKey);
+        if (value >= this.killerData.attributes[attributeKey][valueKey] || value == 'true'){
+          // @ts-ignore
+          element.classList.add('text-info');
+        } else {
+          // @ts-ignore
+          element.classList.add('text-danger');
+        }
+        evaluatedKeys.push(tempModKey);
+        return;
+      }
+      this.selectedModifiers.forEach((mod, i) => {
+        if (mod.key == tempModKey && mod.value.includes('~')) {
+          value = mod.value;
+          let element = document.getElementById(attributeKey);
+          if (value >= this.killerData.attributes[attributeKey][valueKey] || value == 'true'){
+            // @ts-ignore
+            element.classList.add('text-info');
+          } else {
+            // @ts-ignore
+            element.classList.add('text-danger');
+          }
+          evaluatedKeys.push(tempModKey);
+        }
+      });
+      if (typeof value == 'string' && value.includes('~')) {
+        value = this.asString(value).replace('~','');
+        return;
       }
       if (tempModValue.includes('=') || (tempModValue === 'false' || tempModValue === 'true')) {
         value = tempModValue.replace('=', '');
@@ -112,6 +143,10 @@ export class KillerStatsComponent implements OnInit {
       return eval (numbers[0] + numbers[1]);
     }
     return numbers[0];
+  }
+
+  asString(value: any): string{
+    return value;
   }
 
 

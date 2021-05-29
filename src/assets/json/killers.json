@@ -895,7 +895,7 @@
 			},
 			"chainsaw_charges": {
 				"value": 3,
-				"measurement": "second(s)",
+				"measurement": "charge(s)",
 				"title": "Available charges for chainsaw",
 				"category": "power"
 			},
@@ -1272,112 +1272,385 @@
 	"the_huntress": {
 		"name": "Anna",
 		"nickname": "The Huntress",
-		"back_story": "",
-		"weapon": {},
-		"power": {},
+		"back_story": "<p><i>As soon as Anna was able to walk, her mother started teaching her how to survive a harsh, solitary life in the northern woods. Living in such an extremely remote and dangerous area required skill and resilience. When sunlight became too dim for productive activities, they would take refuge in their house, a sturdy old cabin constructed to resist the toughest winters. Close to the hearth’s warmth, Anna would rest in her mother's arms, surrounded by the few wooden toys and masks she had crafted for her. Drifting off to sleep with stories and lullabies, she dreamt happy dreams, ignorant of the events that would soon change everything.</i></p><p><i>Anna and her mother were stalking a great elk through the woods. They knew it was dangerous prey, but it had been a particularly difficult winter and they were almost out of food. The spectre of starvation frightened them more than any forest creature. Without warning, the elk reared, bellowed and charged at Anna. She was paralysed with fear as the whole world seemed to shake under the immense beast’s pounding hooves. The elk was close enough for Anna to see the murderous fury in its eyes when her mother threw herself in its path, axe in hand. A blood-curdling scream escaped from her lips as the elk impaled her upon its antlers and hoisted her into the air. With all her strength, she brought her axe down on its head again and again while it tried to shake her loose. With a sickening crack, the antlers snapped and Anna’s mother was free. The beast collapsed.</i></p><p><i>Anna was too small to move her mother’s broken body, so she sat with her in the clearing where she had fallen. To distract her from the dying elk’s cries, Anna’s mother held her and hummed her favourite lullaby. They stayed like that, the huntress and the elk getting quieter and colder, until Anna was alone in the silent forest. Eventually she stood up and started the long walk back home.</i></p><p><i>Still a child, she knew just enough about life in the frozen forest to survive. She followed her instincts and became one with the wild. She got older and stronger and practised her hunt. As she grew into a dangerous predator, her humanity became a half-remembered dream.</i></p><p><i>She widened her territory and lived off her hunts. She worked her way up through squirrels and hares and mink and foxes. Eventually she grew tired of them and hunted more dangerous animals like wolves and bears. When unsuspecting travellers came through her woods, she discovered her new favourite prey: humans. Unlucky souls who strayed into her territory were slaughtered like any other animal. She liked to collect their tools and colourful garments and especially toys when there were little ones. But she could never bring herself to kill the little girls.</i></p><p><i>Girls she would take back to her house, deep in the woods. They were precious, and looking at them woke up something deep in her heart. She craved the closeness of a loved one, a child of her own. Among the pillaged wooden toys, dolls and story books she couldn't read, the girls would be tied by the neck with a rough and chafing rope fastened firmly to the wall. She couldn't let them wander off, or they would surely die outside.</i></p><p><i>Every time, the girls would waste away and die of cold or starvation or sickness. Every time, it plunged Anna deeper into pain and sorrow and madness. She was compelled to try again, and started raiding the nearest villages to slaughter families and kidnap their daughters. She wore one of the animal masks her mother crafted for her so many years earlier to try to calm the frightened children. Villagers spread the legend of a half-beast lurking in Red Forest: The Huntress, who killed men and ate little girls.</i></p><p><i>War eventually came to the forest. German soldiers began to pass through, on the march to attack the collapsing Russian Empire.  During these dark times, there were no more travellers. The villagers had abandoned their homes, and no more little ones to be found; only soldiers. Many of them were found with violent axe wounds. Whole groups disappeared mysteriously. Once the war was over, the rumours of The Huntress disappeared with it, engulfed by the Red Forest.</i></p>",
+		"weapon": {
+			"name": "Broad Axe",
+			"machine_name": "broad_axe",
+			"description": "<p>The Broad Axe is a Primary weapon for the Huntress. A traditional Axe with a large and heavy head, suitable for squaring logs and planks.</p>"
+		},
+		"power": {
+			"name": "Hunting Hatchets",
+			"machine_name": "hunting_hatchets",
+			"description": "<td><i>A skill taught by her mother and mastered in the wild. The Huntress can throw Hatchets with deadly precision.</i></td><p><br><b>HUNTING HATCHETS:</b><br>Press and hold the <i>Power button</i> to wind up a <i>Hunting Hatchet</i>.<br>Release the <i>Power button</i> to initiate a <b>Hatchet Throw</b>.</p><ul><li>Start the Trial with <b><span class=\"clr\" style=\"color: #e8c252 ;\">5</span></b> <i>Hunting Hatchets</i>.</li><li>The <b>Hatchet Throw</b> can be charged for maximum Throwing speed (<b><span class=\"clr\" style=\"color: #ff8800 ;\">40 m/s</span></b>).</li><li>The <b>Hatchet Throw</b> can be cancelled mid-charge.</li><li><i>Hunting Hatchets</i> are consumed on use and can be refilled at <span style=\"color: #4287f5\">Lockers</span> .</li></ul>"
+		},
 		"attributes": {
-
+			"charged_shot": {
+				"title": "Charged Shot",
+				"description": "<td>Awarded for hitting a Survivor with fully charged <span style=\"color: #4287f5\">Hunting Hatchets</span> .<br>Awards the full <b><span class=\"clr\" style=\"color: #e8c252 ;\">300 Bloodpoints</span></b> for the first <b><span class=\"clr\" style=\"color: #ff8800 ;\">8 Hits</span></b>, after which the gain depreciates to <b><span class=\"clr\" style=\"color: #d41c1c ;\">150 Bloodpoints</span></b> for <b><span class=\"clr\" style=\"color: #ac3ee3 ;\">Hits 9-13</span></b>.<br>Will stop awarding any Bloodpoints after <b><span class=\"clr\" style=\"color: #199b1e ;\">Hits 14+</span></b>.</td>",
+				"awarded_fixed_points": 150,
+				"awarded_ongoing_points": 0,
+				"cap": 2700,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"precise_shot": {
+				"title": "Precise Shot",
+				"description": "<td>Awarded for hitting a Survivor with <span style=\"color: #4287f5\">Hunting Hatchets</span> .<br>Awards the full <b><span class=\"clr\" style=\"color: #e8c252 ;\">500 Bloodpoints</span></b> for the first <b><span class=\"clr\" style=\"color: #ff8800 ;\">8 Hits</span></b>, after which the gain depreciates to <b><span class=\"clr\" style=\"color: #d41c1c ;\">250 Bloodpoints</span></b> for <b><span class=\"clr\" style=\"color: #ac3ee3 ;\">Hits 9-13</span></b>.<br>Will stop awarding any Bloodpoints after <b><span class=\"clr\" style=\"color: #199b1e ;\">Hits 14+</span></b>.</td>",
+				"awarded_fixed_points": 250,
+				"awarded_ongoing_points": 0,
+				"cap": 5250,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"movement_speed": {
+				"value": 4.4,
+				"measurement": "meters per second",
+				"title": "Movement Speed",
+				"category": "killer"
+			},
+			"terror_radius": {
+				"value": 20,
+				"measurement": "meter(s)",
+				"title": "Terror Radius",
+				"category": "killer"
+			},
+			"available_hunting_hatchets": {
+				"value": 5,
+				"measurement": "number",
+				"title": "Maximum number of hatchets The Huntress can carry",
+				"category": "power"
+			},
+			"charging_hatchet_movement_speed": {
+				"value": 3.08,
+				"measurement": "meters per second",
+				"title": "Movement Speed of The Huntress while charging a hatchet",
+				"category": "power"
+			},
+			"no_hatchet_movement_speed": {
+				"value": "= Movement Speed",
+				"measurement": "meters per second",
+				"title": "Movement Speed of The Huntress when she is out of hatchets",
+				"category": "power"
+			},
+			"maximum_hatchet_speed": {
+				"value": 40,
+				"measurement": "meters per second",
+				"title": "Speed of a hatchet with highest charge",
+				"category": "power"
+			},
+			"minimum_hatchet_speed": {
+				"value": 25,
+				"measurement": "meters per second",
+				"title": "Speed of a hatchet with lowest charge",
+				"category": "power"
+			},
+			"minimum_hatchet_charge_duration": {
+				"value": 1.25,
+				"measurement": "second(s)",
+				"title": "Duration of charging and throwing a hatchet with lowest charge",
+				"category": "power"
+			},
+			"maximum_hatchet_charge_duration": {
+				"value": 3,
+				"measurement": "second(s)",
+				"title": "Duration of charging and throwing a hatchet with highest charge",
+				"category": "power"
+			},
+			"post_cooldown_hatchet_throws": {
+				"value": 2,
+				"measurement": "second(s)",
+				"title": "Cool-down after a hatchet throw",
+				"category": "power"
+			},
+			"reload_hatchet_duration": {
+				"value": 4,
+				"measurement": "second(s)",
+				"title": "Time it takes to reload hatchets from a locker",
+				"category": "power"
+			},
+			"reload_hatchet_cause_undetectable": {
+				"value": false,
+				"measurement": "",
+				"title": "Reloading hatchets from lockers grants The Huntress the Undetectable Status Effect for 15 seconds",
+				"category": "power"
+			},
+			"hatchet_reveal_aura": {
+				"value": false,
+				"measurement": "",
+				"title": "Aura of survivors hit by hatchets is revealed to killer for 5 seconds",
+				"category": "power"
+			},
+			"hatchet_increase_grunts": {
+				"value": false,
+				"measurement": "",
+				"title": "Grunts of pain of survivors hit by hatchets are increased by 50%",
+				"category": "power"
+			},
+			"hatchet_cause_blindness": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors hit by hunting hatchets will suffer from Blindness Status Effect for 60 seconds",
+				"category": "power"
+			},
+			"hatchet_cause_incapacitated": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors hit by hunting hatchets will suffer from Incapacitated Status Effect for 10 seconds",
+				"category": "power"
+			},
+			"hatchet_cause_exhausted": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors hit by hunting hatchets will suffer from Exhausted Status Effect for 5 seconds",
+				"category": "power"
+			},
+			"hatchet_cause_mangled": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors hit by hunting hatchets will suffer from Mangled Status Effect",
+				"category": "power"
+			},
+			"hatchet_cause_haemorrhage": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors hit by hunting hatchets will suffer from Haemorrhage Status Effect",
+				"category": "power"
+			},
+			"hatchet_cause_dying": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors hit by hunting hatchets will be put into Dying State",
+				"category": "power"
+			}
 		},
 		"addons": {
 			"yellowed_cloth": {
 				"name": "Yellowed Cloth",
 				"description": "<td>A simple scrap of material to tend to blisters and wipe the puss away.\n<ul><li>Increases <b>Hatchet</b> Flight speed by <b><span class=\"clr\" style=\"color: #e8c252 ;\">10 %</span></b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "maximum_hatchet_speed",
+						"value": "+10%"
+					},
+					{
+						"applied_on": "minimum_hatchet_speed",
+						"value": "+10%"
+					}
+				]
 			},
 			"coarse_stone": {
 				"name": "Coarse Stone",
 				"description": "<td>This stone is too coarse to do any good.<br/>A blade damaged by it inflicts awful open wounds.\n<ul><li><i>Grunts of Pain</i> of Survivors hit with <i>Hunting Hatchets</i> are increased by <b><span class=\"clr\" style=\"color: #e8c252 ;\">50 %</span></b> until fully healed.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "hatchet_increase_grunts",
+						"value": "true"
+					}
+				]
 			},
 			"bandaged_haft": {
 				"name": "Bandaged Haft",
 				"description": "<td>First-aid bandages securely rolled and attached to the <b>Hatchet's</b> haft.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-10 %\">Slightly reduces</span></b> Cool-down time in-between <b>Hatchet</b> throws.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "post_cooldown_hatchet_throws",
+						"value": "-10%"
+					}
+				]
 			},
 			"amanita_toxin": {
 				"name": "Amanita Toxin",
 				"description": "<td>A toxin from the Amanita mushroom, applied to the <b>Hatchet's</b> blade.<br/>It numbs the mind.\n<ul><li>Survivors hit with <i>Hunting Hatchets</i> suffer from the <i><b><span style=\"color: #4287f5\">Blindness</span> </b></i> <b>Status Effect</b> for <b><span class=\"clr\" style=\"color: #e8c252 ;\">60 seconds</span></b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "hatchet_cause_blindness",
+						"value": "true"
+					}
+				]
 			},
 			"weighted_head": {
 				"name": "Weighted Head",
 				"description": "<td>An oddly weighted <b>Hatchet</b> head, crafted to deliver a hard blow to its target.<br/>It requires a wielder with a strong arm.\n<ul><li>Survivors hit with <i>Hunting Hatchets</i> suffer from the <i><b><span style=\"color: #4287f5\">Incapacitated</span> </b></i> <b>Status Effect</b> for <b><span class=\"clr\" style=\"color: #e8c252 ;\">10 seconds</span></b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "hatchet_cause_incapacitated",
+						"value": "true"
+					}
+				]
 			},
 			"shiny_pin": {
 				"name": "Shiny Pin",
 				"description": "<td>A copper pin defaced beyond recognition yet polished to a high sheen.<br/>Pillaged from a particularly difficult prey.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+5 %\">Slightly increases</span></b> <i>Hunting Hatchets</i> Wind-up Movement speed.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "minimum_hatchet_charge_duration",
+						"value": "-5%"
+					},
+					{
+						"applied_on": "maximum_hatchet_charge_duration",
+						"value": "-5%"
+					}
+				]
 			},
 			"oak_haft": {
 				"name": "Oak Haft",
 				"description": "<td>A polished haft which allows for a quick and sly manipulation of the deadly tool.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-20 %\">Moderately reduces</span></b> Cool-down time in-between <b>Hatchet</b> throws.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "post_cooldown_hatchet_throws",
+						"value": "-20%"
+					}
+				]
 			},
 			"manna_grass_braid": {
 				"name": "Manna Grass Braid",
 				"description": "<td>A circular decorative braid made from manna grass.<br/>This memory of a lost little one fills The Huntress with rage and focus.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-8 %\">Moderately reduces</span></b> <i>Hunting Hatchets</i> Wind-up time.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "minimum_hatchet_charge_duration",
+						"value": "-8%"
+					},
+					{
+						"applied_on": "maximum_hatchet_charge_duration",
+						"value": "-8%"
+					}
+				]
 			},
 			"leather_loop": {
 				"name": "Leather Loop",
 				"description": "<td>This leather strip tied into a loop can be attached to a belt to allow easy transportation of tools.\n<ul><li>Start with <b><span class=\"clr\" style=\"color: #e8c252 ;\">1 additional Hatchet</span></b>.</li>\n<li>Increases <b>Hatchet</b> Carrying capacity by <b><span class=\"clr\" style=\"color: #ff8800 ;\">1 Hatchet</span></b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "available_hunting_hatchets",
+						"value": "+1"
+					}
+				]
 			},
 			"venomous_concoction": {
 				"name": "Venomous Concoction",
 				"description": "<td>A toxic concoction, applied to the <b>Hatchet's</b> blade.<br/>The murky concoction is mainly composed of Berus Snake venom, which gives it fatiguing capabilities.\n<ul><li>Survivors hit with <i>Hunting Hatchets</i> suffer from the <i><b><span style=\"color: #4287f5\">Exhausted</span> </b></i> <b>Status Effect</b> for <b><span class=\"clr\" style=\"color: #e8c252 ;\">5 seconds</span></b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "hatchet_cause_exhausted",
+						"value": "true"
+					}
+				]
 			},
 			"rusty_head": {
 				"name": "Rusty Head",
 				"description": "<td>This <b>Hatchet</b> head is covered with crusty and volatile rust spots that make injuries particularly difficult to heal from.\n<ul><li>Survivors hit with <i>Hunting Hatchets</i> suffer from the <i><b><span style=\"color: #4287f5\">Mangled</span> </b></i> <b>Status Effect</b> until healed.</li></ul>\n<p><i>Rusty Head</i> does not stack with other Head Add-ons.\n</p>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "hatchet_cause_mangled",
+						"value": "true"
+					}
+				]
 			},
 			"rose_root": {
 				"name": "Rose Root",
 				"description": "<td>Dried petals that relieve symptoms of fatigue and overexertion when brewed in a tea.\n<ul><li>Increases <b>Hatchet</b> Flight speed by <b><span class=\"clr\" style=\"color: #e8c252 ;\">20 %</span></b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "maximum_hatchet_speed",
+						"value": "+20%"
+					},
+					{
+						"applied_on": "minimum_hatchet_speed",
+						"value": "+20%"
+					}
+				]
 			},
 			"flower_babushka": {
 				"name": "Flower Babushka",
 				"description": "<td>A clean and colourful handkerchief adorned with a flower pattern.<br/>This memory of a lost little one fills The Huntress with rage and focus.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-12 %\">Considerably reduces</span></b> <i>Hunting Hatchets</i> Wind-up time.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "minimum_hatchet_charge_duration",
+						"value": "-12%"
+					},
+					{
+						"applied_on": "maximum_hatchet_charge_duration",
+						"value": "-12%"
+					}
+				]
 			},
 			"deerskin_gloves": {
 				"name": "Deerskin Gloves",
 				"description": "<td>Cured leather gloves that protect the hands and give a sure grip.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-20 %\">Moderately reduces</span></b> Reload time at <span style=\"color: #4287f5\">Lockers</span> .</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "reload_hatchet_duration",
+						"value": "-20%"
+					}
+				]
 			},
 			"wooden_fox": {
 				"name": "Wooden Fox",
 				"description": "<td>Roughly carved, this fox statuette is no more than a few inches.<br/>A reminder that stealth and cunning is as effective as raw power.\n<ul><li>Grants the <i><b><span style=\"color: #4287f5\">Undetectable</span> </b></i> <b>Status Effect</b> for <b><span class=\"clr\" style=\"color: #e8c252 ;\">15 seconds</span></b> when reloading.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "reload_hatchet_cause_undetectable",
+						"value": "true"
+					}
+				]
 			},
 			"infantry_belt": {
 				"name": "Infantry Belt",
 				"description": "<td>A sturdy utility belt pillaged from a soldier.<br/>Its multiple leather loops and holsters are useful to transport tools.\n<ul><li>Start with <b><span class=\"clr\" style=\"color: #e8c252 ;\">2 additional Hatchets</span></b>.</li>\n<li>Increases <b>Hatchet</b> Carrying capacity by <b><span class=\"clr\" style=\"color: #ff8800 ;\">2 Hatchets</span></b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "available_hunting_hatchets",
+						"value": "+2"
+					}
+				]
 			},
 			"glowing_concoction": {
 				"name": "Glowing Concoction",
 				"description": "<td>An otherworldly concoction that faintly glows a foreboding light.\n<ul><li>Survivors hit with <i>Hunting Hatchets</i> have their <span style=\"color: #4287f5\">Aura</span>  revealed to you for <b><span class=\"clr\" style=\"color: #e8c252 ;\">5 seconds</span></b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "hatchet_reveal_aura",
+						"value": "true"
+					}
+				]
 			},
 			"begrimed_head": {
 				"name": "Begrimed Head",
 				"description": "<td>This <b>Hatchet</b> head is stained with a foul substance that afflicts anyone who it touches with debilities.\n<ul><li>Survivors hit with <i>Hunting Hatchets</i> suffer from the <i><b><span style=\"color: #4287f5\">Mangled</span> </b></i> and <i><b><span style=\"color: #4287f5\">Haemorrhage</span> </b></i> <b>Status Effects</b> until healed.</li></ul>\n<p><i>Begrimed Head</i> does not stack with other Head Add-ons.\n</p>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "hatchet_cause_mangled",
+						"value": "true"
+					},
+					{
+						"applied_on": "hatchet_cause_haemorrhage",
+						"value": "true"
+					}
+				]
 			},
 			"soldiers_puttee": {
 				"name": "Soldier's Puttee",
 				"description": "<td>A wrap taken from a dead soldier.<br/>It provides protection and support to the ankle and lower leg.\n<ul><li><b>The Huntress</b> moves at <b><span class=\"clr\" style=\"color: #e8c252 ;\">4.6 m/s</span></b> whenever she is out of <b>Hatchets</b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "no_hatchet_movement_speed",
+						"value": "4.6"
+					}
+				]
 			},
 			"iridescent_head": {
 				"name": "Iridescent Head",
 				"description": "<td>A glass-like <b>Hatchet</b> head moulded from The Fog itself.<br/>The blade is warm and reverberating with The Entity's power.\n<ul><li>Survivors hit with <i>Hunting Hatchets</i> are put into the <span style=\"color: #4287f5\">Dying State</span> .</li>\n<li>Caps <b>Hatchet</b> Carrying capacity at <b><span class=\"clr\" style=\"color: #e8c252 ;\">1 Hatchet</span></b>.</li></ul>\n<p><i>Iridescent Head</i> does not stack with Add-ons increasing the <b>Hatchet</b> Carrying capacity.\n</p><p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"The iridescent glass cuts through flesh and soul.\"</span></i>\n</p>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "hatchet_cause_dying",
+						"value": "true"
+					},
+					{
+						"applied_on": "available_hunting_hatchets",
+						"value": "~1"
+					}
+				]
 			}
 		}
 	},

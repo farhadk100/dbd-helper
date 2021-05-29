@@ -1634,7 +1634,7 @@
 				"modifications": [
 					{
 						"applied_on": "no_hatchet_movement_speed",
-						"value": "4.6"
+						"value": "=4.6"
 					}
 				]
 			},

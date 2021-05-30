@@ -13,7 +13,7 @@
               [innerHTML]="sanitizeText(perk.description)">
             </p>
             <div class="m-auto order-3 order-md-4 col-3 col-md-2 text-center">
-              <img *ngIf="perk.character != 'All'" class="m-auto img-fluid" [src]="'../../assets/images/characters/' + perk.character + '.png'" />
+              <img *ngIf="perk.character != 'All'" class="m-auto img-fluid" [src]="'../../assets/images/characters/' + perk.character_machine_name + '.png'" />
               <p class="text-center text-light">{{ perk.character }}</p>
             </div>
           </div>

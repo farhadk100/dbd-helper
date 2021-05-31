@@ -1,0 +1,61 @@
+.home-bg{
+  background-image: url("../../assets/images/cover.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: color;
+  min-height: 100vh;
+}
+
+.home{
+  min-height: 100vh;
+}
+
+.home-cards{
+  padding: 100px;
+}
+
+.perks{
+  background-image: url("../../assets/images/perks-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-blend-mode: color;
+  width: 49.5%;
+  height: 100vh;
+}
+
+.perks:hover{
+  transition: background-color 300ms;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.killers{
+  background-image: url("../../assets/images/killers.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-blend-mode: color;
+  width: 49.5%;
+  height: 100vh;
+}
+
+.killers:hover{
+  transition: background-color 300ms;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.seperator{
+  height: 100vh;
+  width: 1%;
+  background: #212121;
+}
+
+.section-content{
+  margin: auto;
+  margin-top: 45% !important;
+
+}

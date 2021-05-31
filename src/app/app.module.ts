@@ -24,9 +24,11 @@ import { KillerAddonsComponent } from './killers/killer-page/killer-addons/kille
 import {FormsModule} from "@angular/forms";
 import {MatIconModule} from "@angular/material/icon";
 import { KillerListComponent } from './killers/killer-list/killer-list.component';
+import { FirstPageComponent } from './first-page/first-page.component';
 
 const routes = [
-  { path: '', component: PerksPageComponent},
+  { path: '', component: FirstPageComponent},
+  { path: 'perks', component: PerksPageComponent},
   { path: 'killers', component: KillerListComponent},
   { path: 'killers/:name', component: KillerPageComponent}
 ]
@@ -46,7 +48,8 @@ const routes = [
       KillerInfoComponent,
       KillerStatsComponent,
       KillerAddonsComponent,
-      KillerListComponent
+      KillerListComponent,
+      FirstPageComponent
    ],
   imports: [
     BrowserModule,

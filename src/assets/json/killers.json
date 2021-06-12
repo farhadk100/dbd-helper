@@ -1654,116 +1654,6 @@
 			}
 		}
 	},
-	"the_plague": {
-		"name": "Adiris",
-		"nickname": "The Plague",
-		"back_story": "",
-		"weapon": {},
-		"power": {},
-		"attributes": {},
-		"addons": {
-			"prayer_tablet_fragment": {
-				"name": "Prayer Tablet Fragment",
-				"description": "<td>A fragmented stone tablet with a corrupted incantation originally used to purge illnesses and feelings of general malaise.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+33 %\">Slightly increases</span></b> the Activation speed of <span style=\"color: #4287f5\">Pools of Devotion</span> .</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"x0.979 (+~0.022; applied to current base Movement speed)\">Slightly increases</span></b> Movement speed while holding <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"olibanum_incense": {
-				"name": "Olibanum Incense",
-				"description": "<td>Precious resin extracted from Boswellia trees, used during ceremonies for their sweet citrusy fragrance.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"x0.848 (+~0.065; applied to current base Movement speed)\">Slightly increases</span></b> Movement speed while charging <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"limestone_seal": {
-				"name": "Limestone Seal",
-				"description": "<td>A cylindrical seal made from porous stone that displays a ritualistic scene with winged deities.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+5 seconds\">Slightly increases</span></b> Infection duration on objects.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"healing_salve": {
-				"name": "Healing Salve",
-				"description": "<td>A bitterly pungent paste of crushed roots, which were marinated in fish brine for three days and in wine for two. Applied on skin rashes.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.25 seconds\">Slightly decreases</span></b> cool-down of <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"prophylactic_amulet": {
-				"name": "Prophylactic Amulet",
-				"description": "<td>A soapstone amulet crudely engraved with a winged deity that wards off sickness. Fills the wearer with devotion.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+4 seconds\">Slightly increases</span></b> <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i> duration.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"potent_tincture": {
-				"name": "Potent Tincture",
-				"description": "<td>A frothing, murky liquid that permeates the air with an acute aroma of herbs and alcohol. Applied directly on blisters.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.4 seconds\">Moderately decreases</span></b> the cool-down of <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"haematite_seal": {
-				"name": "Haematite Seal",
-				"description": "<td>A cylindrical seal forged from a metallic hard-stone, engraved with bird-headed beings that stood next to strange machines. Used as a container for sanctified ashes.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+10 seconds\">Moderately increases</span></b> Infection duration on objects.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"emetic_potion": {
-				"name": "Emetic Potion",
-				"description": "<td>A mustard-water based syrup that induces vomiting when consumed. Used to purge evil from the body.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+25 %\">Slightly increases</span></b> Effectiveness of <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"blessed_apple": {
-				"name": "Blessed Apple",
-				"description": "<td>A perfectly ripe fruit to break fast during the purification ceremony. Delicious.\n<ul><li>Start the Trial with <b><span class=\"clr\" style=\"color: #e8c252 ;\">1</span></b> <span style=\"color: #4287f5\">Pool of Devotion</span>  already corrupted.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"rubbing_oil": {
-				"name": "Rubbing Oil",
-				"description": "<td>A beaker of rubbing oil with expectorant quality. Exudes the evergreen scent of laurel and rosemary.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+100 %\">Moderately increases</span></b> <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i> Charge rate.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"infected_emetic": {
-				"name": "Infected Emetic",
-				"description": "<td>A disgusting syrup of unknown origin. The thick yellow liquid is consumed to induce vomiting. Used to purge evil from the body.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+50 %\">Moderately increases</span></b> Effectiveness of <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"incensed_ointment": {
-				"name": "Incensed Ointment",
-				"description": "<td>A dark waxy paste, laced with cedar sap that diffuses a sweet and earthy aroma. Applied directly on infected skin.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"x0.848 (+~0.065; applied to current base Movement speed)\">Slightly increases</span></b> Movement speed while charging <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.4 seconds\">Moderately decreases</span></b> cool-down of <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"exorcism_amulet": {
-				"name": "Exorcism Amulet",
-				"description": "<td>An obsidian amulet to ward off sickness during exorcism rituals. Inscribed with a prayer to the God of Mayhem and Pestilence. Fills the wearer with fierce devotion.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+6 seconds\">Moderately increases</span></b> <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i> duration.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"ashen_apple": {
-				"name": "Ashen Apple",
-				"description": "<td>A peeled apple rolled into sanctified ashes. Eating such a fruit warded off the malignantly envious spirits of the deceased.\n<ul><li>Start the Trial with <b><span class=\"clr\" style=\"color: #e8c252 ;\">1</span></b> <span style=\"color: #4287f5\">Pool of Devotion</span>  already corrupted.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+5 seconds\">Slightly increases</span></b> Infection duration on objects.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"worship_tablet": {
-				"name": "Worship Tablet",
-				"description": "<td>A stone tablet adorned with gold, showing the drawings and writings of a corrupted incantation used originally to worship forgotten deities.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+100 %\">Moderately increases</span></b> the Activation speed of <span style=\"color: #4287f5\">Pools of Devotion</span> .</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"x1.022 (+~0.065; applied to current base Movement speed)\">Moderately increases</span></b> Movement speed while holding <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"vile_emetic": {
-				"name": "Vile Emetic",
-				"description": "<td>A foul-smelling and half-congealed potion of unidentifiable ingredients. Consumed to rapidly induce vomiting. Used to purge evil from the body.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+75 %\">Considerably increases</span></b> Effectiveness of <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"severed_toe": {
-				"name": "Severed Toe",
-				"description": "<td>The decaying severed toe of Adiris, weaved on a thread and worn as an amulet around the neck. Radiates with vile power.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+50 %\">Considerably increases</span></b> Infection rate of Survivors from interactions.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"devotees_amulet": {
-				"name": "Devotee's Amulet",
-				"description": "<td>A blood stone amulet carved intricately with the effigy of the Babylonian God of Mayhem and Pestilence. Fills the wearer with boundless devotion.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+8 seconds\">Considerably increases</span></b> <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i> duration.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"iridescent_seal": {
-				"name": "Iridescent Seal",
-				"description": "<td>A translucent cylindrical seal moulded from The Fog itself with the effigy of The Plague. Its surface is warm and pulsates with The Entity's power.\n<ul><li><i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i> becomes <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i> every time a <span style=\"color: #4287f5\">Generator</span>  is completed.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-20 seconds\">Tremendously reduces</span></b> <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i> duration.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"x0.891 (-~0.065; applied to current base Movement speed)\">Moderately decreases</span></b> Movement speed while holding <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"black_incense": {
-				"name": "Black Incense",
-				"description": "<td>A dark paste made of sharp osseous shavings. The inhaling of its foul fumes sharpens the mind's eye.\n<ul><li>Survivors' <span style=\"color: #4287f5\">Auras</span>  are revealed to you for <b><span class=\"clr\" style=\"color: #e8c252 ;\">5 seconds</span></b> when they vomit.</li></ul>\n</td>",
-				"modifications": []
-			}
-		}
-	},
 	"the_wraith": {
 		"name": "Philip Ojomo",
 		"nickname": "The Wraith",
@@ -2473,10 +2363,6 @@
 					{
 						"applied_on": "orb_fail_skill_check_drop_number",
 						"value": "+1"
-					},
-					{
-						"applied_on": "orb_hooked_drop_number",
-						"value": "+1"
 					}
 				]
 			},
@@ -2534,10 +2420,6 @@
 					},
 					{
 						"applied_on": "orb_fail_skill_check_drop_number",
-						"value": "+1"
-					},
-					{
-						"applied_on": "orb_hooked_drop_number",
 						"value": "+1"
 					}
 				]
@@ -2799,6 +2681,116 @@
 			"red_moss": {
 				"name": "Red Moss",
 				"description": "<td>A psychedelic moss that grows on tree barks in the Upside Down.\n<ul><li><b>The Demogorgon</b> emerges from <b>Portals</b> silently, but more slowly.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+8 seconds\">Tremendously increases</span></b> <i><b><span style=\"color: #4287f5\">Undetectable</span> </b></i> <b>Status Effect</b> duration after emerging from <b>Portals</b>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Consuming its leaf enhances athletic performance and causes euphoria.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
+				"modifications": []
+			}
+		}
+	},
+	"the_plague": {
+		"name": "Adiris",
+		"nickname": "The Plague",
+		"back_story": "",
+		"weapon": {},
+		"power": {},
+		"attributes": {},
+		"addons": {
+			"prayer_tablet_fragment": {
+				"name": "Prayer Tablet Fragment",
+				"description": "<td>A fragmented stone tablet with a corrupted incantation originally used to purge illnesses and feelings of general malaise.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+33 %\">Slightly increases</span></b> the Activation speed of <span style=\"color: #4287f5\">Pools of Devotion</span> .</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"x0.979 (+~0.022; applied to current base Movement speed)\">Slightly increases</span></b> Movement speed while holding <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"olibanum_incense": {
+				"name": "Olibanum Incense",
+				"description": "<td>Precious resin extracted from Boswellia trees, used during ceremonies for their sweet citrusy fragrance.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"x0.848 (+~0.065; applied to current base Movement speed)\">Slightly increases</span></b> Movement speed while charging <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"limestone_seal": {
+				"name": "Limestone Seal",
+				"description": "<td>A cylindrical seal made from porous stone that displays a ritualistic scene with winged deities.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+5 seconds\">Slightly increases</span></b> Infection duration on objects.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"healing_salve": {
+				"name": "Healing Salve",
+				"description": "<td>A bitterly pungent paste of crushed roots, which were marinated in fish brine for three days and in wine for two. Applied on skin rashes.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.25 seconds\">Slightly decreases</span></b> cool-down of <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"prophylactic_amulet": {
+				"name": "Prophylactic Amulet",
+				"description": "<td>A soapstone amulet crudely engraved with a winged deity that wards off sickness. Fills the wearer with devotion.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+4 seconds\">Slightly increases</span></b> <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i> duration.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"potent_tincture": {
+				"name": "Potent Tincture",
+				"description": "<td>A frothing, murky liquid that permeates the air with an acute aroma of herbs and alcohol. Applied directly on blisters.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.4 seconds\">Moderately decreases</span></b> the cool-down of <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"haematite_seal": {
+				"name": "Haematite Seal",
+				"description": "<td>A cylindrical seal forged from a metallic hard-stone, engraved with bird-headed beings that stood next to strange machines. Used as a container for sanctified ashes.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+10 seconds\">Moderately increases</span></b> Infection duration on objects.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"emetic_potion": {
+				"name": "Emetic Potion",
+				"description": "<td>A mustard-water based syrup that induces vomiting when consumed. Used to purge evil from the body.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+25 %\">Slightly increases</span></b> Effectiveness of <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"blessed_apple": {
+				"name": "Blessed Apple",
+				"description": "<td>A perfectly ripe fruit to break fast during the purification ceremony. Delicious.\n<ul><li>Start the Trial with <b><span class=\"clr\" style=\"color: #e8c252 ;\">1</span></b> <span style=\"color: #4287f5\">Pool of Devotion</span>  already corrupted.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"rubbing_oil": {
+				"name": "Rubbing Oil",
+				"description": "<td>A beaker of rubbing oil with expectorant quality. Exudes the evergreen scent of laurel and rosemary.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+100 %\">Moderately increases</span></b> <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i> Charge rate.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"infected_emetic": {
+				"name": "Infected Emetic",
+				"description": "<td>A disgusting syrup of unknown origin. The thick yellow liquid is consumed to induce vomiting. Used to purge evil from the body.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+50 %\">Moderately increases</span></b> Effectiveness of <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"incensed_ointment": {
+				"name": "Incensed Ointment",
+				"description": "<td>A dark waxy paste, laced with cedar sap that diffuses a sweet and earthy aroma. Applied directly on infected skin.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"x0.848 (+~0.065; applied to current base Movement speed)\">Slightly increases</span></b> Movement speed while charging <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.4 seconds\">Moderately decreases</span></b> cool-down of <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"exorcism_amulet": {
+				"name": "Exorcism Amulet",
+				"description": "<td>An obsidian amulet to ward off sickness during exorcism rituals. Inscribed with a prayer to the God of Mayhem and Pestilence. Fills the wearer with fierce devotion.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+6 seconds\">Moderately increases</span></b> <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i> duration.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"ashen_apple": {
+				"name": "Ashen Apple",
+				"description": "<td>A peeled apple rolled into sanctified ashes. Eating such a fruit warded off the malignantly envious spirits of the deceased.\n<ul><li>Start the Trial with <b><span class=\"clr\" style=\"color: #e8c252 ;\">1</span></b> <span style=\"color: #4287f5\">Pool of Devotion</span>  already corrupted.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+5 seconds\">Slightly increases</span></b> Infection duration on objects.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"worship_tablet": {
+				"name": "Worship Tablet",
+				"description": "<td>A stone tablet adorned with gold, showing the drawings and writings of a corrupted incantation used originally to worship forgotten deities.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+100 %\">Moderately increases</span></b> the Activation speed of <span style=\"color: #4287f5\">Pools of Devotion</span> .</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"x1.022 (+~0.065; applied to current base Movement speed)\">Moderately increases</span></b> Movement speed while holding <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"vile_emetic": {
+				"name": "Vile Emetic",
+				"description": "<td>A foul-smelling and half-congealed potion of unidentifiable ingredients. Consumed to rapidly induce vomiting. Used to purge evil from the body.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+75 %\">Considerably increases</span></b> Effectiveness of <i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"severed_toe": {
+				"name": "Severed Toe",
+				"description": "<td>The decaying severed toe of Adiris, weaved on a thread and worn as an amulet around the neck. Radiates with vile power.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+50 %\">Considerably increases</span></b> Infection rate of Survivors from interactions.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"devotees_amulet": {
+				"name": "Devotee's Amulet",
+				"description": "<td>A blood stone amulet carved intricately with the effigy of the Babylonian God of Mayhem and Pestilence. Fills the wearer with boundless devotion.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+8 seconds\">Considerably increases</span></b> <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i> duration.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"iridescent_seal": {
+				"name": "Iridescent Seal",
+				"description": "<td>A translucent cylindrical seal moulded from The Fog itself with the effigy of The Plague. Its surface is warm and pulsates with The Entity's power.\n<ul><li><i><b><span class=\"clr\" style=\"color: #8ad672 ;\">Vile Purge</span></b></i> becomes <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i> every time a <span style=\"color: #4287f5\">Generator</span>  is completed.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-20 seconds\">Tremendously reduces</span></b> <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i> duration.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"x0.891 (-~0.065; applied to current base Movement speed)\">Moderately decreases</span></b> Movement speed while holding <i><b><span class=\"clr\" style=\"color: #900a0a ;\">Corrupt Purge</span></b></i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"black_incense": {
+				"name": "Black Incense",
+				"description": "<td>A dark paste made of sharp osseous shavings. The inhaling of its foul fumes sharpens the mind's eye.\n<ul><li>Survivors' <span style=\"color: #4287f5\">Auras</span>  are revealed to you for <b><span class=\"clr\" style=\"color: #e8c252 ;\">5 seconds</span></b> when they vomit.</li></ul>\n</td>",
 				"modifications": []
 			}
 		}

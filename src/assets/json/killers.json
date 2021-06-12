@@ -1872,6 +1872,10 @@
 						"value": "false"
 					},
 					{
+						"applied_on": "terror_radius_cloaked",
+						"value": "+32"
+					},
+					{
 						"applied_on": "surprise_attack|awarded_fixed_points",
 						"value": "+100%"
 					},

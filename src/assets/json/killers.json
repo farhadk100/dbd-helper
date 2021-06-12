@@ -1767,110 +1767,397 @@
 	"the_wraith": {
 		"name": "Philip Ojomo",
 		"nickname": "The Wraith",
-		"back_story": "",
-		"weapon": {},
-		"power": {},
-		"attributes": {},
+		"back_story": "<p><i>Philip Ojomo came to this country without anything than hope for a new beginning. He was happy as he got offered a job at Autohaven Wreckers. A small scrap yard where bribed cops turned a blind eye for the somewhat shady business that took place.</i></p><p><i>Ojomo didn't care. He had seen criminal activity up close in his homeland and as long as he didn't get involved, he let things be. He just fixed cars and handled the crusher. Something he did really well. A car went in and a small, metallic cube came out.</i></p><p><i>It was not until one gloomy day that he, just by accident, saw some blood coming from one of the un-crushed cars. As he opened the trunk he found a young man, gagged and with tied hands with panic filled eyes. Ojomo freed the man who managed to run ten feet before Ojomo's boss stopped him and slit his throat. As Ojomo demanded answers he got explained to him that he'd been nothing more than a simple executioner as more or less every car had a soul in them as this was a \"service\" the scrap yard provided to certain \"clients\".</i></p><p><i>Ojomo snapped and went ballistic. He threw his boss in the crusher and let it slowly compress, as the head stuck out, Ojomo grabbed it and pulled head and spine out of the body. Then he left and was never seen again.</i></p>",
+		"weapon": {
+			"name": "Azarov's Skull",
+			"machine_name": "azarovs_skull",
+			"description": "<p>Azarov's Skull is the primary weapon of the Wraith. The teeth of death lie on Azarov's skull and spine.</p><ul><li>If he hits a <span style=\"color: #4287f5\">survivor</span>, the Wraith will wipe off the blood on the blades with his fingers.<ul><li>He used to wipe the blood off his arm like The <span style=\"color: #4287f5\">Trapper</span>  with the same animation.</li></ul></li><li>During his cloaking/uncloaking animation, the Wraith will ring his <b>Wailing Bell</b> with Azarov's skull.<div style=\"clear:both\"></div></li></ul>"
+		},
+		"power": {
+			"name": "Wailing Bell",
+			"machine_name": "wailing_bell",
+			"description": "<td><i>A heavy cast iron bell imbued with ancient powers. Allows the user to enter and walk the <span style=\"color: #4287f5\">Spirit World</span> when rung.</i></td><p><br><b>WAILING BELL:</b><br>Press and hold the <i>Power button</i> to <b>cloak</b>.<br>Press and hold it again to <b>uncloak</b>, granting a speed burst lasting <b><span class=\"clr\" style=\"color: #e8c252 ;\">1.25 seconds</span></b> upon re-appearing.<br>The <i>Wailing Bell</i> can be heard up to <b><span class=\"clr\" style=\"color: #ff8800 ;\">24 metres</span></b> away, and the accompanying *Wooosh* noise up to <b><span class=\"clr\" style=\"color: #d41c1c ;\">40 metres</span></b> away.</p><p><br><b>Cloak: </b></p><ul><li>Grants near total invisibility when moving.<ul><li>Total invisibility when standing still.</li></ul></li><li>Grants increased Movement speed (<b><span class=\"clr\" style=\"color: #ac3ee3 ;\">6.0 m/s</span></b>).</li><li>Grants the <i><b><span style=\"color: #4287f5\">Undetectable</span> </b></i> <b>Status Effect</b>.</li><li>Cannot attack when cloaked, but can interact with environmental objects.</li><li>Exposure to bright light forces <b>The Wraith</b> to automatically uncloak.</li></ul>"
+		},
+		"attributes": {
+			"flashlight_evasion": {
+				"title": "Flashlight Evasion",
+				"description": "<td>Awarded for evading a <span style=\"color: #4287f5\">Lightburn</span> attempt.</td>",
+				"awarded_fixed_points": 125,
+				"awarded_ongoing_points": 0,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"stalker": {
+				"title": "Stalker",
+				"description": "<td>Awarded for stalking a Survivor while cloaked.</td>",
+				"awarded_fixed_points": 0,
+				"awarded_ongoing_points": 12,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"surprise": {
+				"title": "Surprise",
+				"description": "<td>Awarded for uncloaking in view of a Survivor.</td>",
+				"awarded_fixed_points": 150,
+				"awarded_ongoing_points": 0,
+				"cap": 750,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"surprise_attack": {
+				"title": "Surprise Attack",
+				"description": "<td>Awarded for attacking a Survivor shortly after uncloaking.</td>",
+				"awarded_fixed_points": 550,
+				"awarded_ongoing_points": 0,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"movement_speed": {
+				"value": 4.6,
+				"measurement": "meters per second",
+				"title": "Movement Speed",
+				"category": "killer"
+			},
+			"terror_radius": {
+				"value": 32,
+				"measurement": "meter(s)",
+				"title": "Terror Radius",
+				"category": "killer"
+			},
+			"movement_speed_cloaked": {
+				"value": 6,
+				"measurement": "meters per second",
+				"title": "Movement Speed while cloaked",
+				"category": "power"
+			},
+			"terror_radius_cloaked": {
+				"value": 0,
+				"measurement": "meter(s)",
+				"title": "Terror Radius while cloaked",
+				"category": "power"
+			},
+			"cloaking_time": {
+				"value": 1.5,
+				"measurement": "second(s)",
+				"title": "Time it takes to cloak",
+				"category": "power"
+			},
+			"uncloaking_time": {
+				"value": 3,
+				"measurement": "second(s)",
+				"title": "Time it takes to uncloak",
+				"category": "power"
+			},
+			"lightburn_time": {
+				"value": 2,
+				"measurement": "second(s)",
+				"title": "Time it takes for The Wraith to be lightburned by a flashlight and uncloak automatically",
+				"category": "power"
+			},
+			"lightburn_stun_time": {
+				"value": 4,
+				"measurement": "second(s)",
+				"title": "Uncloaking by a lightburn will result in a stun which lasts for",
+				"category": "power"
+			},
+			"completely_invisible_distance": {
+				"value": 20,
+				"measurement": "meter(s)",
+				"title": "Wraith is completely invisble to survivors farther than",
+				"category": "power"
+			},
+			"unclock_after_breaking": {
+				"value": false,
+				"measurement": "",
+				"title": "Wraith uncloaks completely after breaking pallets, breakable walls, or damaging generators",
+				"category": "power"
+			},
+			"blood_decal_brighter": {
+				"value": false,
+				"measurement": "",
+				"title": "Blood marks are brighter",
+				"category": "power"
+			},
+			"undetectable_after_unclock": {
+				"value": false,
+				"measurement": "",
+				"title": "Wraith's Terror Radius and Red Stain will remain suppressed for 6 seconds after uncloaking",
+				"category": "power"
+			},
+			"terror_radius_cloaked_suppressed": {
+				"value": true,
+				"measurement": "",
+				"title": "Wraith's Terror Radius is suppressed when cloaked",
+				"category": "power"
+			},
+			"bell_discern_distance_direction": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors can not discern the Wailing Bell's distance or direction",
+				"category": "power"
+			},
+			"bell_silent": {
+				"value": false,
+				"measurement": "",
+				"title": "Wailing Bell is completely silent",
+				"category": "power"
+			},
+			"surprise_cause_blindness": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors hit by surprise attacks are afflicted by the Blindness Status Effect",
+				"category": "power"
+			},
+			"surprise_cause_mangled": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors hit by surprise attacks are afflicted by the Mangled Status Effect",
+				"category": "power"
+			},
+			"surprise_cause_haemorrhage": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivors hit by surprise attacks are afflicted by the Haemorrhage Status Effect",
+				"category": "power"
+			},
+			"wallhack": {
+				"value": false,
+				"measurement": "",
+				"title": "Survivor's auras within 12 meters are revealed when cloaked",
+				"category": "power"
+			},
+			"actions_speeds": {
+				"value": 100,
+				"measurement": "%",
+				"title": "Vaulting, Breaking, Damaging and Opening Action speeds when cloaked",
+				"category": "power"
+			},
+			"determine_repair_progression": {
+				"value": false,
+				"measurement": "",
+				"title": "Determine the repair progression of by intensity of the auras of Generators when cloaked",
+				"category": "power"
+			}
+		},
 		"addons": {
 			"the_serpent___soot": {
 				"name": "\"The Serpent\" - Soot",
 				"description": "<td>The Laokeye symbol, representing cunning, is finger-drawn out of soot on the body of the Bell.\n<ul><li>The Wraith will <b>uncloak completely</b> after breaking <span style=\"color: #4287f5\">Pallets</span>  or damaging <span style=\"color: #4287f5\">Generators</span>  when cloaked.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "unclock_after_breaking",
+						"value": "true"
+					}
+				]
 			},
 			"the_hound___soot": {
 				"name": "\"The Hound\" - Soot",
 				"description": "<td>The Wonnug symbol, representing a peerless tracker, is finger-drawn out of soot on the body of the Bell.\n<ul><li>Fresh Blood Marks are <b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"increases the brightness of the Blood decal\">considerably more</span></b> discernible than normal.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "blood_decal_brighter",
+						"value": "true"
+					}
+				]
 			},
 			"the_ghost___soot": {
 				"name": "\"The Ghost\" - Soot",
 				"description": "<td>The Khugwemuu symbol, representing the spirit world, is finger-drawn out of soot on the body of the Bell.\n<ul><li>After uncloaking, The Wraith's <span style=\"color: #4287f5\">Terror Radius</span>  and <b>Red Stain</b> will remain suppressed for <b><span class=\"clr\" style=\"color: #e8c252 ;\">6 seconds</span></b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "undetectable_after_unclock",
+						"value": "true"
+					}
+				]
 			},
 			"the_beast___soot": {
 				"name": "\"The Beast\" - Soot",
 				"description": "<td>The Kunwulju symbol, representing the Realm of Fear, is finger-drawn out of soot on the body of the Bell.\n<ul><li>The Wraith's <b><span style=\"color: #4287f5\">Terror Radius</span></b> is <b>no longer suppressed</b> when cloaked.</li>\n<li>Grants <b><span class=\"clr\" style=\"color: #e8c252 ;\">100 %</span></b> Bonus Bloodpoints for <i>Stalking</i> and <i>Surprise Attack</i> Score Events.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "terror_radius_cloaked_suppressed",
+						"value": "false"
+					},
+					{
+						"applied_on": "surprise_attack|awarded_fixed_points",
+						"value": "+100%"
+					},
+					{
+						"applied_on": "stalker|awarded_ongoing_points",
+						"value": "+100%"
+					}
+				]
 			},
 			"bone_clapper": {
 				"name": "Bone Clapper",
 				"description": "<td>A Bell clapper made from a highly polished piece of bone. Causes the sounds of the Wailing Bell to echo and warp chaotically.\n<ul><li>Survivors can no longer discern the <i>Wailing Bell's</i> <b>distance</b> or <b>direction</b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "bell_discern_distance_direction",
+						"value": "true"
+					}
+				]
 			},
 			"blink___mud": {
 				"name": "\"Blink\" - Mud",
 				"description": "<td>The Kratin symbol, representing quick passing, is finger-drawn in mud on the body of the Bell.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-40 %\">Considerably reduces</span></b> The Wraith's Disappearance time.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "cloaking_time",
+						"value": "-40%"
+					}
+				]
 			},
 			"windstorm___mud": {
 				"name": "\"Windstorm\" - Mud",
 				"description": "<td>The Ohuwe-Onmnea symbol, representing a howling storm, is finger-drawn in mud on the body of the Bell.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.05 (multiplier)\">Moderately increases</span></b> The Wraith's Movement speed when cloaked.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "movement_speed_cloaked",
+						"value": "+0.05%"
+					}
+				]
 			},
 			"swift_hunt___mud": {
 				"name": "\"Swift Hunt\" - Mud",
 				"description": "<td>The Kuntin-Takkho symbol, representing a rapid descent on a prey, is finger-drawn in mud on the body of the Bell.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-8 %\">Moderately reduces</span></b> The Wraith's Reappearance time.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "uncloaking_time",
+						"value": "-8%"
+					}
+				]
 			},
 			"blind_warrior___mud": {
 				"name": "\"Blind Warrior\" - Mud",
 				"description": "<td>The Baikra-Kaeug symbol, representing ferocity, is finger-drawn in mud on the body of the Bell.\n<ul><li><b>Surprise Attacks</b> afflict Survivors with the <i><b><span style=\"color: #4287f5\">Blindness</span> </b></i> <b>Status Effect</b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "surprise_cause_blindness",
+						"value": "true"
+					}
+				]
 			},
 			"windstorm___white": {
 				"name": "\"Windstorm\" - White",
 				"description": "<td>The Ohuwe-Onmnea symbol, representing a howling storm, is stamped in white ink on the body of the Bell.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.0667 (multiplier)\">Considerably increases</span></b> The Wraith's Movement speed when cloaked.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "movement_speed_cloaked",
+						"value": "+0.0667%"
+					}
+				]
 			},
 			"swift_hunt___white": {
 				"name": "\"Swift Hunt\" - White",
 				"description": "<td>The Kuntin-Takkho symbol, representing a rapid descent on a prey, is stamped in white ink on the body of the Bell.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-10 %\">Considerably reduces</span></b> The Wraith's Reappearance time.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "uncloaking_time",
+						"value": "-10%"
+					}
+				]
 			},
 			"shadow_dance___white": {
 				"name": "\"Shadow Dance\" - White",
 				"description": "<td>The Yiwarick symbol, representing dark synergy, is stamped in white ink on the body of the Bell.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+40 %\">Considerably increases</span></b> Breaking, Damaging, Opening, and Vaulting Action speeds when cloaked.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "actions_speeds",
+						"value": "+40"
+					}
+				]
 			},
 			"blink___white": {
 				"name": "\"Blink\" - White",
 				"description": "<td>The Kratin symbol, representing quick passing, is stamped in white ink on the body of the Bell.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-60 %\">Tremendously reduces</span></b> The Wraith's Disappearance time.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "cloaking_time",
+						"value": "-60%"
+					}
+				]
 			},
 			"blind_warrior___white": {
 				"name": "\"Blind Warrior\" - White",
 				"description": "<td>The Baikra-Kaeug symbol, representing ferocity, is stamped in white ink on the body of the Bell.\n<ul><li><i>Surprise Attacks</i> afflict Survivors with the <i><b><span style=\"color: #4287f5\">Mangled</span> </b></i> and <i><b><span style=\"color: #4287f5\">Haemorrhage</span> </b></i> <b>Status Effects</b> until fully healed.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "surprise_cause_mangled",
+						"value": "true"
+					},
+					{
+						"applied_on": "surprise_cause_haemorrhage",
+						"value": "true"
+					}
+				]
 			},
 			"windstorm___blood": {
 				"name": "\"Windstorm\" - Blood",
 				"description": "<td>The Ohuwe-Onmnea symbol, representing a howling storm, is stamped in blood on the body of the Bell.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.0833 (multiplier)\">Tremendously increases</span></b> The Wraith's Movement speed when cloaked.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "movement_speed_cloaked",
+						"value": "+0.0833%"
+					}
+				]
 			},
 			"swift_hunt___blood": {
 				"name": "\"Swift Hunt\" - Blood",
 				"description": "<td>The Kuntin-Takkho symbol, representing a rapid descent on a prey, is stamped in blood on the body of the Bell.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-12 %\">Tremendously reduces</span></b> The Wraith's Reappearance time.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "uncloaking_time",
+						"value": "-12%"
+					}
+				]
 			},
 			"shadow_dance___blood": {
 				"name": "\"Shadow Dance\" - Blood",
 				"description": "<td>The Yiwarick symbol, representing dark synergy, is stamped in blood on the body of the Bell.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+60 %\">Tremendously increases</span></b> Breaking, Damaging, Opening, and Vaulting Action speeds when cloaked.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "actions_speeds",
+						"value": "+60"
+					}
+				]
 			},
 			"all_seeing___blood": {
 				"name": "\"All Seeing\" - Blood",
 				"description": "<td>The Kra-Frabai symbol, representing the Entity watching over us, is stamped in blood on the head of the Bell.\n<p>Unlocks hidden potential in The Wraith's Aura-reading ability.\n</p>\n<ul><li>When cloaked, Survivors' <span style=\"color: #4287f5\">Auras</span>  within <b><span class=\"clr\" style=\"color: #e8c252 ;\">12 metres</span></b> are revealed to you.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "wallhack",
+						"value": "true"
+					}
+				]
 			},
 			"coxcombed_clapper": {
 				"name": "Coxcombed Clapper",
 				"description": "<td>A simple coxcomb knotted rope wrapped around the Bell Clapper to muffle its sound. A malevolent Aura emanates from it.\n<ul><li>Renders the <i>Wailing Bell</i> <b>completely silent</b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "bell_silent",
+						"value": "true"
+					},
+					{
+						"applied_on": "bell_discern_distance_direction",
+						"value": "true"
+					}
+				]
 			},
 			"all_seeing___spirit": {
 				"name": "\"All Seeing\" - Spirit",
 				"description": "<td>The Kra-Frabai symbol, representing the Entity watching over us, ominously glows on the head of the Bell.\n<p>Unlocks awesome potential in The Wraith's Aura-reading ability.\n</p>\n<ul><li>When cloaked, the <b>Repair Progression of Generators</b> can be determined by the <b>intensity of their Auras</b>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "determine_repair_progression",
+						"value": "true"
+					}
+				]
 			}
 		}
 	},

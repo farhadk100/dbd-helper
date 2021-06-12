@@ -2592,8 +2592,16 @@
 		"name": "The Demogorgon",
 		"nickname": "The Demogorgon",
 		"back_story": "",
-		"weapon": {},
-		"power": {},
+		"weapon": {
+			"name": "Barbarous Claw",
+			"machine_name": "barbarous_claw",
+			"description": "<p>A gargantuan hand of immense strength. Its long fingers can brutalise prey.</p>"
+		},
+		"power": {
+			"name": "Of the Abyss",
+			"machine_name": "of_the_abyss",
+			"description": "<td><i>An unknown and otherworldly power surged through its body.<br>Suddenly the ground ripped open, swallowing The Demogorgon whole.</i></td><p><br><b>OF THE ABYSS:</b><br>Press and hold the <i>Power button</i> to fully charge and activate <i>Of the Abyss</i>.</p><ul><li>All Survivors within a close proximity to any <b><span class=\"clr\" style=\"color: #e8c252 ;\">activated Portals</span></b> will be indicated by <i><span style=\"color: #4287f5\">Killer Instinct</span></i>.</li></ul><p><br><b>SPECIAL ATTACK: Shred</b> <br>Press the <i>Attack button</i> while charging or holding <i>Of the Abyss</i> to dive forwards and unleash a vicious slash.<br></p><ul><li><i>Shredding</i> into <span style=\"color: #4287f5\">Breakable Walls</span>  or <span style=\"color: #4287f5\">Pallets</span>  will destroy them.</li></ul><p><br><b>SPECIAL ABILITY: Portals</b><br>Press the <i>Active Ability button</i> to place an <b><span class=\"clr\" style=\"color: #ffffff ;\">inactive Portal</span></b> on the ground in front of you.</p><ul><li><b><span class=\"clr\" style=\"color: #ffffff ;\">Inactive Portals</span> are invisible to Survivors and cannot be sealed by them.</b></li></ul><p><br><b>Traversing the Upside Down</b> <br>When standing on a placed <b>Portal</b> while viewing a <b><span class=\"clr\" style=\"color: #ff0000 ;\">highlighted Portal</span></b>, press the <i>Active Ability button</i> to travel through the <span style=\"color: #4287f5\">Upside Down</span>, emerging from the <b><span class=\"clr\" style=\"color: #ff0000 ;\">highlighted Portal</span></b>.</p><ul><li>After emerging from a <b>Portal</b>, <b>The Demogorgon</b> is cloaked by the <i><b><span style=\"color: #4287f5\">Undetectable</span> </b></i> <b>Status Effect</b> for <b><span class=\"clr\" style=\"color: #e8c252 ;\">3 seconds</span></b>.</li></ul><p><br><b>Activated Portals</b><br><b>Portals</b> become <b><span class=\"clr\" style=\"color: #e8c252 ;\">activated</span></b> when they are first traversed to or from</p><ul><li>Only <b><span class=\"clr\" style=\"color: #e8c252 ;\">activated Portals</span></b> may be sealed by Survivors.</li></ul>"
+		},
 		"attributes": {
 			"interdimensional_travel": {
 				"title": "Interdimensional Travel",
@@ -2643,33 +2651,76 @@
 				"title": "Terror Radius",
 				"category": "killer"
 			},
-			"movement_speed_cloaked": {
-				"value": 6,
+			"movement_speed_charging": {
+				"value": 3.86,
 				"measurement": "meters per second",
-				"title": "Movement Speed while cloaked",
+				"title": "Movement Speed while charging Of the Abyss",
 				"category": "power"
-			}
+			},
+			"destroy_portal_on_travel": {
+				"value": true,
+				"measurement": "",
+				"title": "Entering portal will not destroy them",
+				"category": "power"
+			},
+			"shred_recovery_speed_successful": {
+				"value": 0,
+				"measurement": "charges per second",
+				"title": "Shred Recovery speed after successful Shred attacks <span class=\"clr\" style=\"color: #d41c1c ;\">(Unknown Initiatl Value)</span>",
+				"category": "power"
+			},
+			"portal_opening_speed": {
+				"value": 100,
+				"measurement": "%",
+				"title": "Portal Opening speed",
+				"category": "power"
+			},
+			
 		},
 		"addons": {
 			"rotten_pumpkin": {
 				"name": "Rotten Pumpkin",
 				"description": "<td>Pumpkin flesh infected by the rotten soil in Hawkins.\n<ul><li>Traversing the <span style=\"color: #4287f5\">Upside Down</span> will destroy the <b>Portal</b> you entered.</li></ul>\n<p><i>Rotten Pumpkin</i> grants an additional <b><span class=\"clr\" style=\"color: #e8c252 ;\">200 Bloodpoints</span></b> for traversing the Upside Down.\n</p>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "destroy_portal_on_travel",
+						"value": "false"
+					},
+					{
+						"applied_on": "interdimensional_travel|awarded_fixed_points",
+						"value": "+200"
+					}
+				]
 			},
 			"black_heart": {
 				"name": "Black Heart",
 				"description": "<td>A black fermented heart ripped from the chest of a tentacled creature in the Upside Down.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"0.8 c/s (sets new value)\">Slightly increases</span></b> <i>Shred</i> Recovery speed after successful <i>Shred</i> attacks.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "shred_recovery_speed_successful",
+						"value": "0.8"
+					}
+				]
 			},
 			"rat_liver": {
 				"name": "Rat Liver",
 				"description": "<td>A soggy pile of salty, soft liver.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+3.5 %\">Slightly increases</span></b> The Demogorgon's Movement speed while charging <i>Of the Abyss</i>.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "movement_speed_charging",
+						"value": "+3.5%"
+					}
+				]
 			},
 			"rat_tail": {
 				"name": "Rat Tail",
 				"description": "<td>A chewy rat tail for The Demogorgon to consume.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+25 %\">Slightly increases</span></b> <b>Portal</b> Opening speed.</li></ul>\n</td>",
-				"modifications": []
+				"modifications": [
+					{
+						"applied_on": "portal_opening_speed",
+						"value": "+25%"
+					}
+				]
 			},
 			"sticky_lining": {
 				"name": "Sticky Lining",

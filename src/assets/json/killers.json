@@ -2161,6 +2161,598 @@
 			}
 		}
 	},
+	"the_oni": {
+		"name": "Kazan Yamaoka",
+		"nickname": "The Oni",
+		"back_story": "<p><i>Honouring his family name was never enough for Kazan Yamaoka. He wanted to surpass his father's reputation and end what he saw as the thinning of samurai culture with farmers often posing as samurai.  His father tried to turn Kazan's attention to more noble pursuits, but Kazan refused to heed his advice, and borrowing his father's Katana, he embarked on a dark pilgrimage to prove his worth and rid Japan of impostors. Ignoring the code that had been taught to him, Kazan killed impostors in the hills and the valleys, on the beaches and in the woodland. The killings were brutal, cruel and morbid. He humiliated farmers and warriors alike, yanking off their topknots and stripping them of their armour. His rage, bloodlust and perverse sense of honour knew no bounds. Monks believed he was possessed by something dark and otherworldly and cursed him while a noble lord began to call him 'Oni-Yamaoka,' the rageful Samurai, an insult both to Kazan and his family.</i></p><p><i>Determined to redeem his family's name, Kazan now butchered anyone who dared call him Oni-Yamaoka. The insult confused him. He had defeated the best and he had purified the samurai class by ridding the land of impostors. How could anyone refer to him as an ogre? Had it been because he had marched onto a battlefield to cut down the fiercest warriors. Had it been because he had taken a Kanabo and dashed hundreds of skulls with it?  Or had it been because of his need to secure a 'trophy' from his victims. It didn't matter. Being called an ogre was more than he could bear and an ominous voice in his head urged him to strike down the lord who had desecrated his name.</i></p><p><i>As Kazan made for the lord's town, he suddenly found himself face to face with a samurai standing on a dirt road, blocking his way. Kazan readied his Kanabo. Without a word, the samurai attacked and quickly secured the upper hand. But he hesitated. With a devastating blow, Kazan crushed the samurai's head and cracked his helmet. As Kazan approached the fallen samurai, he saw his father's face and staggered back to his haunches. His father stared at Kazan with mingled shame and regret as he issued his last breath. Kazan closed his eyes and screamed in agony until he could scream no more. When he opened his eyes again... his father was gone. Not only had he killed his father, but he had allowed thieves to steal his body for armour.</i></p><p><i>Bitter, lost and disillusioned, Kazan roamed the land aimlessly with his father's voice rattling in his head, taunting him, reminding him of his failures, sending him into fits of uncontrollable black rage. One day, walking in the woods, Kazan happened upon an Oni statue. He stopped and stood motionless for a long moment. The weathered and overgrown statue seemed to be ridiculing him, accusing him of being the impostor samurai he had so desperately sought to destroy. Kazan shook the laughing voice out of his head and half remembered the lord who had ridiculed him as 'Oni-Yamaoka.</i></p><p><i>With renewed anger, Kazan journeyed to a town high up in the snowy mountains where the lord resided. A dozen samurai met Kazan at the gates of the town. A dozen samurai fell to his Kanabo. His speed and strength were unmatched. His rage was incomprehensible. Covered in blood and gore, Kazan battled through the town and soon found the lord hiding in a villa. He dragged him out of a cabinet, sliced his tendons to immobilise him and watched him beg and squirm like a dog. Without hesitation, he thrust his fist into the lord’s mouth and yanked out the wicked tongue that had desecrated his name.</i></p><p><i>Satisfied, Kazan exited the villa to find himself surrounded by dozens of farmers wielding rusted scythes, sharp pitchforks, and heavy clubs. He survived the first few assaults, but there were too many attackers coming from every direction. Within moments Kazan was on the ground staring at a cold, indifferent, darkening sky as farmers took turns stabbing and torturing the 'Oni' who had butchered their beloved lord. The frenzied mob dragged Kazan into a small stone mill to continue the torture and finally left him to die a slow, agonising death. When they returned, the mill was filled with a strange black fog and Kazan’s body and the Kanabo were nowhere to be found. It was the beginning of a dark legend about a rageful Oni haunting the town.</i></p>",
+		"weapon": {
+			"name": "Yamaoka Blade",
+			"machine_name": "yamaoka_blade",
+			"description": "<p>A long blade that was passed down from one generation to the next. </p>"
+		},
+		"power": {
+			"name": "Yamaoka's Wrath",
+			"machine_name": "yamaokas_wrath",
+			"description": "<td><i>The desire to destroy weaker bloodlines shaped into a literal force.</i></td><p><br><b>YAMAOKA'S WRATH:</b><br><b>Absorption Mode:</b> <br>Absorb <b>Blood Orbs</b> left by your injured foes.</p><p>Press and hold the <i>Power button</i> to absorb <b>Blood Orbs</b> in the environment and fill your Power gauge.<br>When your Power gauge is full, press and hold the <i>Active Ability button</i> to initiate <i>Blood Fury</i>.</p><p><br><b>Blood Fury:</b> <br>While <i>Blood Fury</i> is active, The Oni becomes lethal and gains access to additional abilities: <b>Demon Dash</b> and <b>Demon Strike</b>.</p><p><br><b>SPECIAL ABILITY: Demon Dash</b> <br>Press and hold the <i>Power button</i> while <i>Blood Fury</i> is active, to perform a <b>Demon Dash</b>. This ability allows The Oni to cover large distances rapidly.</p><p><br><b>SPECIAL ATTACK: Demon Strike</b> <br>Press and hold the <i>Attack button</i> while <i>Blood Fury</i> is active, to perform a <b>Demon Strike</b> in the direction you are facing. <b>Demon Strike</b> has an extended <span style=\"color: #4287f5\">Lunge</span> range and successful hits immediately put healthy Survivors into the <span style=\"color: #4287f5\">Dying State</span> .</p>"
+		},
+		"attributes": {
+			"blood_orb": {
+				"title": "Blood Orb",
+				"description": "<td>Awarded for absorbing <i>Blood Orbs</i>.<br>Has a buffer of <b><span class=\"clr\" style=\"color: #e8c252 ;\">1 second</span></b>.</td>",
+				"awarded_fixed_points": 0,
+				"awarded_ongoing_points": 25,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"demon_dash": {
+				"title": "Demon Dash",
+				"description": "<td>Awarded for dashing during <i>Blood Fury</i>.<br>Has a buffer of <b><span class=\"clr\" style=\"color: #e8c252 ;\">1 second</span></b>.</td>",
+				"awarded_fixed_points": 0,
+				"awarded_ongoing_points": 15,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"wrath": {
+				"title": "Wrath",
+				"description": "<td>Awarded for activating <i>Blood Fury</i>.</td>",
+				"awarded_fixed_points": 250,
+				"awarded_ongoing_points": 0,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"demon_strike": {
+				"title": "Demon Strike",
+				"description": "<td>Awarded for attacking a Survivor shortly after uncloaking.</td>",
+				"awarded_fixed_points": 500,
+				"awarded_ongoing_points": 0,
+				"cap": 0,
+				"bp_category": "Brutality",
+				"category": "score_events"
+			},
+			"movement_speed": {
+				"value": 4.6,
+				"measurement": "meters per second",
+				"title": "Movement Speed",
+				"category": "killer"
+			},
+			"terror_radius": {
+				"value": 32,
+				"measurement": "meter(s)",
+				"title": "Terror Radius",
+				"category": "killer"
+			},
+			"movement_speed_absorbing": {
+				"value": 3.45,
+				"measurement": "meters per second",
+				"title": "Movement Speed while absorbing orbs",
+				"category": "power"
+			},
+			"movement_speed_demon_dash": {
+				"value": 7.82,
+				"measurement": "meters per second",
+				"title": "Movement Speed in Demon Dash",
+				"category": "power"
+			},
+			"absorption_orb_speed": {
+				"value": 10,
+				"measurement": "meters per second",
+				"title": "Movement Speed of orbs moving towards oni while being absorbed in range of 6 meters",
+				"category": "power"
+			},
+			"orb_aura_reveal": {
+				"value": 8,
+				"measurement": "meter(s)",
+				"title": "Auras of orbs revealed in range of",
+				"category": "power"
+			},
+			"blood_fury_activation_time": {
+				"value": 3,
+				"measurement": "second(s)",
+				"title": "Activation time of Blood Fury",
+				"category": "power"
+			},
+			"blood_fury_deactivation_time": {
+				"value": 3,
+				"measurement": "second(s)",
+				"title": "Cooldown (deactivation) time of Blood Fury",
+				"category": "power"
+			},
+			"power_passive_recharge_rate": {
+				"value": 0.2,
+				"measurement": "charges per second",
+				"title": "Passive power charge gain",
+				"category": "power"
+			},
+			"blood_fury_downing_penalty": {
+				"value": -7,
+				"measurement": "second(s)",
+				"title": "Blood Fury Time penalty when downing a Survivor",
+				"category": "power"
+			},
+			"blood_fury_duration": {
+				"value": 45.45,
+				"measurement": "second(s)",
+				"title": "Blood Fury Maximum Duration",
+				"category": "power"
+			},
+			"orb_passive_drop_rate": {
+				"value": 4,
+				"measurement": "second(s)",
+				"title": "Drop rate of orbs passively every",
+				"category": "power"
+			},
+			"orb_passive_drop_number": {
+				"value": 2,
+				"measurement": "number",
+				"title": "Number of orbs dropped from survivor passively",
+				"category": "power"
+			},
+			"orb_inetract_drop_number": {
+				"value": 2,
+				"measurement": "number",
+				"title": "Number of orbs dropped from survivor when interacting with interactions",
+				"category": "power"
+			},
+			"orb_fail_skill_check_drop_number": {
+				"value": 2,
+				"measurement": "number",
+				"title": "Number of orbs dropped from survivor when failing a skill check",
+				"category": "power"
+			},
+			"orb_hooked_drop_number": {
+				"value": 2,
+				"measurement": "number",
+				"title": "Number of orbs dropped from survivor when hooked",
+				"category": "power"
+			},
+			"orb_crouch_drop_number": {
+				"value": 1,
+				"measurement": "number",
+				"title": "Number of orbs dropped from survivor when crouching",
+				"category": "power"
+			},
+			"demon_dash_activation_time": {
+				"value": 2,
+				"measurement": "second(s)",
+				"title": "Demon Dash Charge Time",
+				"category": "power"
+			},
+			"demon_dash_cooldown_time": {
+				"value": 1,
+				"measurement": "second(s)",
+				"title": "Demon Dash Cooldown Time",
+				"category": "power"
+			},
+			"survivors_can_see_orbs": {
+				"value": true,
+				"measurement": "second(s)",
+				"title": "Survivors are not able to see orbs",
+				"category": "power"
+			},
+			"orb_reveals_aura_survivors": {
+				"value": false,
+				"measurement": "second(s)",
+				"title": "Survivors coming into contact with each orb will reveal their aura for another 2 seconds",
+				"category": "power"
+			},
+			"misdemon_reveals_survivors": {
+				"value": false,
+				"measurement": "second(s)",
+				"title": "Missing a Demon Strike will cause all Survivors within 12 metres to scream and reveal their current location",
+				"category": "power"
+			}
+		},
+		"addons": {
+			"yakuyoke_talisman": {
+				"name": "Yakuyoke Talisman",
+				"description": "<td>Considering his goals pure and just, Kazan carried a trinket to ward off evil that might lead him astray.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+4 m/s\">Slightly increases</span></b> Blood Orb Absorption speed.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "absorption_orb_speed",
+						"value": "+4"
+					}
+				]
+			},
+			"rotting_rope": {
+				"name": "Rotting Rope",
+				"description": "<td>Had the rope been stronger it would have likely held Kazan. As it was, he escaped and butchered his captors.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+2 metres\">Slightly increases</span></b> Blood Orb Aura Detection range.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Though Death is focused, he has been known to blink.\" — Renjiro's Doctrine 14:5</span></i>\n</p>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "orb_aura_reveal",
+						"value": "+2"
+					}
+				]
+			},
+			"cracked_sakazuki": {
+				"name": "Cracked Sakazuki",
+				"description": "<td>A cup from Kazan's wedding ceremony. It never made it through the night before being damaged.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Slightly reduces</span></b> <i>Blood Fury</i> Activation time.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Slightly reduces</span></b> <i>Blood Fury</i> Deactivation time.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "blood_fury_activation_time",
+						"value": "-0.5"
+					},
+					{
+						"applied_on": "blood_fury_deactivation_time",
+						"value": "-0.5"
+					}
+				]
+			},
+			"blackened_toenail": {
+				"name": "Blackened Toenail",
+				"description": "<td>Fell off during one of Kazan's hundred winter treks to the temple. Despite his pilgrimage, Akito's leg would never heal.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.3 m/s\">Slightly increases</span></b> Absorption Movement speed.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"If a father sacrifices not for his children, then who does he father?\" — Renjiro's Doctrine 11:12</span></i>\n</p>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "movement_speed_absorbing",
+						"value": "+0.3"
+					}
+				]
+			},
+			"polished_maedate": {
+				"name": "Polished Maedate",
+				"description": "<td>A horned crest Kazan tore from his helmet after being compared to a demon.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.1 c/s\">Slightly increases</span></b> <i>Yamaoka's Wrath</i> Passive Charge rate.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "power_passive_recharge_rate",
+						"value": "+0.1"
+					}
+				]
+			},
+			"ink_lion": {
+				"name": "Ink Lion",
+				"description": "<td>An ink painting that once hung in the <span style=\"color: #4287f5\">Yamaoka Estate</span>. Depicts the story of a lion eaten by mice.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Slightly reduces</span></b> <i>Blood Fury</i> Activation time.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Slightly reduces</span></b> <i>Blood Fury</i> Deactivation time.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-2 seconds\">Moderately reduces</span></b> <i>Blood Fury</i> Duration penalty when downing a Survivor.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "blood_fury_activation_time",
+						"value": "-0.5"
+					},
+					{
+						"applied_on": "blood_fury_deactivation_time",
+						"value": "-0.5"
+					},
+					{
+						"applied_on": "blood_fury_downing_penalty",
+						"value": "+2"
+					}
+				]
+			},
+			"chipped_saihai": {
+				"name": "Chipped Saihai",
+				"description": "<td>A baton that belonged to Renjiro. It was stolen by Kazan upon his departure.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+6 seconds\">Slightly increases</span></b> <i>Blood Fury</i> duration.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "blood_fury_duration",
+						"value": "+6"
+					}
+				]
+			},
+			"childs_wooden_sword": {
+				"name": "Child's Wooden Sword",
+				"description": "<td>Akito's practice sword. The child had little use for it after his injury.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+3 metres\">Moderately increases</span></b> Blood Orb Aura Detection range.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "orb_aura_reveal",
+						"value": "+3"
+					}
+				]
+			},
+			"bloody_sash": {
+				"name": "Bloody Sash",
+				"description": "<td>Blood from a boy who called Kazan <i>\"The Noble Impostor\"</i>. Kazan hid evidence of the fight from his father, often revelling at the sash in secret.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.6 m/s\">Moderately increases</span></b> Absorption Movement speed.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "movement_speed_absorbing",
+						"value": "+0.6"
+					}
+				]
+			},
+			"yamaoka_sashimono": {
+				"name": "Yamaoka Sashimono",
+				"description": "<td>The banner of the Yamaoka family, Kazan felt an overwhelming pride from it.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+8 seconds\">Moderately increases</span></b> <i>Blood Fury</i> duration.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "blood_fury_duration",
+						"value": "+8"
+					}
+				]
+			},
+			"wooden_oni_mask": {
+				"name": "Wooden Oni Mask",
+				"description": "<td>A mask that a young Kazan bought to celebrate Setsubun, its repulsively fanged mouth began haunting his nightmares.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Slightly reduces</span></b> the Passive Blood Orb Drop Rate cool-down.</li>\n<li>Survivors drop <b>1</b> extra Blood Orb on Game Events.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"It is no coincidence that man is so familiar with demons.\" — Renjiro's Doctrine 3:8</span></i>\n</p>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "orb_passive_drop_rate",
+						"value": "-0.5"
+					},
+					{
+						"applied_on": "orb_inetract_drop_number",
+						"value": "+1"
+					},
+					{
+						"applied_on": "orb_fail_skill_check_drop_number",
+						"value": "+1"
+					},
+					{
+						"applied_on": "orb_hooked_drop_number",
+						"value": "+1"
+					}
+				]
+			},
+			"shattered_wakizashi": {
+				"name": "Shattered Wakizashi",
+				"description": "<td>The fragments of an ancestral blade, destroyed by Kazan in a fit of rage.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.2 c/s\">Moderately increases</span></b> <i>Yamaoka's Wrath</i> Passive Charge rate.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "power_passive_recharge_rate",
+						"value": "+0.2"
+					}
+				]
+			},
+			"scalped_topknot": {
+				"name": "Scalped Topknot",
+				"description": "<td>The topknot of a samurai who questioned Kazan's honour. The roots cling to a thin strip of bloody skin.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1 second\">Considerably reduces</span></b> <i>Demon Dash</i> Activation time while <i>Blood Fury</i> is active.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "demon_dash_activation_time",
+						"value": "-1"
+					}
+				]
+			},
+			"kanai_anzen_talisman": {
+				"name": "Kanai-Anzen Talisman",
+				"description": "<td>A trinket given to Kazan at birth, its powers are meant to protect his family from harm.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.64 m/s\">Moderately increases</span></b> <i>Demon Dash</i> Movement speed while <i>Blood Fury</i> is active.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "movement_speed_demon_dash",
+						"value": "+0.64"
+					}
+				]
+			},
+			"tear_soaked_tenugui": {
+				"name": "Tear Soaked Tenugui",
+				"description": "<td>The cloth that Kazan's mother cried into when he left on his pilgrimage to cleanse the samurai.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-4 seconds\">Considerably reduces</span></b> <i>Blood Fury</i> Duration penalty when downing a Survivor.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "blood_fury_downing_penalty",
+						"value": "+4"
+					}
+				]
+			},
+			"splintered_hull": {
+				"name": "Splintered Hull",
+				"description": "<td>Fragments of a ship that carried <span style=\"color: #4287f5\">Renjiro Yamaoka</span>. Against all odds, the legendary samurai seemed to survive.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1 seconds\">Moderately reduces</span></b> the Passive Blood Orb Drop Rate cool-down.</li>\n<li>Survivors drop <b>1</b> extra Blood Orb on Game Events.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"To plan subterfuge, begin with a counsel of none.\" — Renjiro's Doctrine 7:9</span></i>\n</p>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "orb_passive_drop_rate",
+						"value": "-1"
+					},
+					{
+						"applied_on": "orb_inetract_drop_number",
+						"value": "+1"
+					},
+					{
+						"applied_on": "orb_fail_skill_check_drop_number",
+						"value": "+1"
+					},
+					{
+						"applied_on": "orb_hooked_drop_number",
+						"value": "+1"
+					}
+				]
+			},
+			"lion_fang": {
+				"name": "Lion Fang",
+				"description": "<td>A tooth sold from an exotic vendor, it symbolises power and nobility.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+10 seconds\">Considerably increases</span></b> <i>Blood Fury</i> duration.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "blood_fury_duration",
+						"value": "+10"
+					}
+				]
+			},
+			"akitos_crutch": {
+				"name": "Akito's Crutch",
+				"description": "<td>The crutch used by Kazan's son after falling from a tree. Akito's playmate and her family were punished for the boy's injury.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+1.0 m/s\">Considerably increases</span></b> <i>Demon Dash</i> Movement speed while <i>Blood Fury</i> is active.</li></ul>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "movement_speed_demon_dash",
+						"value": "+1"
+					}
+				]
+			},
+			"renjiros_bloody_glove": {
+				"name": "Renjiro's Bloody Glove",
+				"description": "<td>The glove Renjiro held to his sternum following the strike dealt by his son Kazan.\n<ul><li>All Survivors can see Blood Orbs.</li>\n<li>A Survivor's Aura is revealed for <b><span class=\"clr\" style=\"color: #e8c252 ;\">2 seconds</span></b> whenever they come into contact with a Blood Orb, absorbing it in the process.</li>\n<li>This effect stacks for each Blood Orb absorbed.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"When all else spills out, cling only to your honour.\" — Renjiro's Doctrine 14:12</span></i>\n</p>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "survivors_can_see_orbs",
+						"value": "true"
+					},
+					{
+						"applied_on": "orb_reveals_aura_survivors",
+						"value": "false"
+					}
+				]
+			},
+			"iridescent_family_crest": {
+				"name": "Iridescent Family Crest",
+				"description": "<td>A crest that denotes its owner as being a part of the Yamaoka family.\n<ul><li>While <i>Blood Fury</i> is active, missing a <i>Demon Strike</i> will cause all Survivors within <b><span class=\"clr\" style=\"color: #e8c252 ;\">12 metres</span></b> to scream and reveal their current location to you.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Know who you are so you may shield your heart.\" — Renjiro's Doctrine 11:2</span></i>\n</p>\n</td>",
+				"modifications": [
+					{
+						"applied_on": "orb_reveals_aura_survivors",
+						"value": "true"
+					}
+				]
+			}
+		}
+	},
+	"the_demogorgon": {
+		"name": "The Demogorgon",
+		"nickname": "The Demogorgon",
+		"back_story": "",
+		"weapon": {},
+		"power": {},
+		"attributes": {
+			"interdimensional_travel": {
+				"title": "Interdimensional Travel",
+				"description": "<td>Awarded for travelling through a Portal.</td>",
+				"awarded_fixed_points": 50,
+				"awarded_ongoing_points": 0,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"open_portal": {
+				"title": "Open Portal",
+				"description": "<td>Awarded for creating a Portal.</td>",
+				"awarded_fixed_points": 200,
+				"awarded_ongoing_points": 0,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"shredded": {
+				"title": "Shredded",
+				"description": "<td>Awarded for hitting a Survivor with a <i>Shred</i> attack.</td>",
+				"awarded_fixed_points": 800,
+				"awarded_ongoing_points": 0,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"surprise_arrival": {
+				"title": "Surprise Arrival",
+				"description": "<td>Awarded for hitting a Survivor shortly after exiting a Portal.</td>",
+				"awarded_fixed_points": 200,
+				"awarded_ongoing_points": 0,
+				"cap": 0,
+				"bp_category": "Deviousness",
+				"category": "score_events"
+			},
+			"movement_speed": {
+				"value": 4.6,
+				"measurement": "meters per second",
+				"title": "Movement Speed",
+				"category": "killer"
+			},
+			"terror_radius": {
+				"value": 32,
+				"measurement": "meter(s)",
+				"title": "Terror Radius",
+				"category": "killer"
+			},
+			"movement_speed_cloaked": {
+				"value": 6,
+				"measurement": "meters per second",
+				"title": "Movement Speed while cloaked",
+				"category": "power"
+			}
+		},
+		"addons": {
+			"rotten_pumpkin": {
+				"name": "Rotten Pumpkin",
+				"description": "<td>Pumpkin flesh infected by the rotten soil in Hawkins.\n<ul><li>Traversing the <span style=\"color: #4287f5\">Upside Down</span> will destroy the <b>Portal</b> you entered.</li></ul>\n<p><i>Rotten Pumpkin</i> grants an additional <b><span class=\"clr\" style=\"color: #e8c252 ;\">200 Bloodpoints</span></b> for traversing the Upside Down.\n</p>\n</td>",
+				"modifications": []
+			},
+			"black_heart": {
+				"name": "Black Heart",
+				"description": "<td>A black fermented heart ripped from the chest of a tentacled creature in the Upside Down.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"0.8 c/s (sets new value)\">Slightly increases</span></b> <i>Shred</i> Recovery speed after successful <i>Shred</i> attacks.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"rat_liver": {
+				"name": "Rat Liver",
+				"description": "<td>A soggy pile of salty, soft liver.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+3.5 %\">Slightly increases</span></b> The Demogorgon's Movement speed while charging <i>Of the Abyss</i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"rat_tail": {
+				"name": "Rat Tail",
+				"description": "<td>A chewy rat tail for The Demogorgon to consume.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+25 %\">Slightly increases</span></b> <b>Portal</b> Opening speed.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"sticky_lining": {
+				"name": "Sticky Lining",
+				"description": "<td>A fetid, viscous layer that covers and expands the inter-dimensional tunnels.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+2.5 metres\">Slightly increases</span></b> <i><span style=\"color: #4287f5\">Killer Instinct</span></i> Detection range when charging <i>Of the Abyss</i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"viscous_webbing": {
+				"name": "Viscous Webbing",
+				"description": "<td>Wet, elastic webs that broaden the inter-dimensional tunnels.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+14 %\">Slightly increases</span></b> <b>Portal</b> Sealing time for Survivors.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"rotten_green_tripe": {
+				"name": "Rotten Green Tripe",
+				"description": "<td>Rotten tripe that fuels The Demogorgon.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+15 %\">Slightly increases</span></b> The Demogorgon's Movement speed while traversing the <span style=\"color: #4287f5\">Upside Down</span>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"mews_guts": {
+				"name": "Mew's Guts",
+				"description": "<td>The tasty guts of an unfortunate victim.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.25 seconds\">Slightly reduces</span></b> Cool-down for missed <i>Shred</i> attacks.</li>\n<li>Increases the number of available <b>Portals</b> by <b><span class=\"clr\" style=\"color: #e8c252 ;\">1</span></b>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"barbs_glasses": {
+				"name": "Barb's Glasses",
+				"description": "<td>A broken pair of glasses that travelled to the Upside Down.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"0.8 c/s (sets new value)\">Slightly increases</span></b> <i>Shred</i> Recovery speed after using it to break a <span style=\"color: #4287f5\">Breakable Wall</span>  or <span style=\"color: #4287f5\">Pallet</span> .</li></ul>\n</td>",
+				"modifications": []
+			},
+			"elevens_soda": {
+				"name": "Eleven's Soda",
+				"description": "<td>A soda can charged with psychic energy.\n<ul><li>Reveals the <span style=\"color: #4287f5\">Auras</span>  of <span style=\"color: #4287f5\">Generators</span>  being repaired in <b><span class=\"clr\" style=\"color: #e8c252 ;\">yellow</span></b> while traversing the <span style=\"color: #4287f5\">Upside Down</span>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"thorny_vines": {
+				"name": "Thorny Vines",
+				"description": "<td>Thick, thorny vines that stretch and reinforce the inter-dimensional tunnels.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+10 %\">Slightly increases</span></b> <b>Portal</b> Sealing time for Survivors.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+1 metre\">Slightly increases</span></b> <i><span style=\"color: #4287f5\">Killer Instinct</span></i> Detection range when charging <i>Of the Abyss</i>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"brass_case_lighter": {
+				"name": "Brass Case Lighter",
+				"description": "<td>A lighter used to ignite trouble.\n<ul><li>Survivors under the effect of an <b><span class=\"clr\" style=\"color: #e8c252 ;\">activated Portal</span></b> suffer from the <i><b><span style=\"color: #4287f5\">Blindness</span> </b></i> <b>Status Effect</b>.<br/>Once out of contact with the <b>Portal</b>, this effect persists for <b><span class=\"clr\" style=\"color: #e8c252 ;\">60 seconds</span></b>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Emits a strong electromagnetic field: it must have come into contact with the Upside Down.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
+				"modifications": []
+			},
+			"violet_waxcap": {
+				"name": "Violet Waxcap",
+				"description": "<td>A dark fleshed mushroom from the <span style=\"color: #4287f5\">Upside Down</span> that allows The Demogorgon to telepathically distort the senses in its prey.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.5 seconds\">Slightly increases</span></b> <i><b><span style=\"color: #4287f5\">Undetectable</span> </b></i> <b>Status Effect</b> duration after emerging from <b>Portals</b>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"deer_lung": {
+				"name": "Deer Lung",
+				"description": "<td>A raw, rubbery lung that reinvigorates The Demogorgon.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+30 %\">Considerably increases</span></b> <b>The Demogorgon's</b> Movement speed while traversing the <span style=\"color: #4287f5\">Upside Down</span>.</li>\n<li>Reduces the number of available <b>Portals</b> by <b><span class=\"clr\" style=\"color: #e8c252 ;\">2</span></b>.</li></ul>\n</td>",
+				"modifications": []
+			},
+			"lifeguard_whistle": {
+				"name": "Lifeguard Whistle",
+				"description": "<td>A rusty, metal whistle that once ruled the Hawkins public pool.\n<ul><li>Survivors near <b><span class=\"clr\" style=\"color: #e8c252 ;\">activated Portals</span></b> are indicated by <i><span style=\"color: #4287f5\">Killer Instinct</span></i> without having to charge <i>Of the Abyss</i>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Emits a strong electromagnetic field: it must have come into contact with the Upside Down.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
+				"modifications": []
+			},
+			"vermilion_webcap": {
+				"name": "Vermilion Webcap",
+				"description": "<td>A bright red poisonous mushroom from the <span style=\"color: #4287f5\">Upside Down</span>.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+1 second\">Moderately increases</span></b> <i><b><span style=\"color: #4287f5\">Undetectable</span> </b></i> <b>Status Effect</b> duration after emerging from <b>Portals</b>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Still experimenting with this specimen, so far our results are inconsistent.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
+				"modifications": []
+			},
+			"upside_down_resin": {
+				"name": "Upside Down Resin",
+				"description": "<td>A sticky, flammable sap that fortifies the gateway to the inter-dimensional tunnels.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+28 %\">Moderately increases</span></b> <b>Portal</b> Sealing time for Survivors.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A sample taken from the bark of the tree once used as a gate. So far our conclusion as to its effect are inconclusive.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
+				"modifications": []
+			},
+			"unknown_egg": {
+				"name": "Unknown Egg",
+				"description": "<td>A large, warm egg coated in gruesome webbing.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1.5 seconds\">Considerably reduces</span></b> <i>Of the Abyss</i> Recovery time after traversing the <span style=\"color: #4287f5\">Upside Down</span>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A large egg was sighted in the Upside Down, but no sample survived the trip to the lab for proper examination.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
+				"modifications": []
+			},
+			"leprose_lichen": {
+				"name": "Leprose Lichen",
+				"description": "<td>A potent lichen that grows like dust on the rocks in the Upside Down.\n<ul><li>Reveals the <span style=\"color: #4287f5\">Aura</span>  of all Survivors while traversing the <span style=\"color: #4287f5\">Upside Down</span> and for <b><span class=\"clr\" style=\"color: #e8c252 ;\">3 seconds</span></b> after emerging from a <b>Portal</b>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"One small dose can cause severe hallucinations.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
+				"modifications": []
+			},
+			"red_moss": {
+				"name": "Red Moss",
+				"description": "<td>A psychedelic moss that grows on tree barks in the Upside Down.\n<ul><li><b>The Demogorgon</b> emerges from <b>Portals</b> silently, but more slowly.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+8 seconds\">Tremendously increases</span></b> <i><b><span style=\"color: #4287f5\">Undetectable</span> </b></i> <b>Status Effect</b> duration after emerging from <b>Portals</b>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Consuming its leaf enhances athletic performance and causes euphoria.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
+				"modifications": []
+			}
+		}
+	},
 	"the_trapper": {
 		"name": "Evan MacMillan",
 		"nickname": "The Trapper",
@@ -2707,226 +3299,6 @@
 			"compound_thirty_three": {
 				"name": "Compound Thirty-Three",
 				"description": "<td>Talbot's penultimate attempt at a serum. Though it did not facilitate his escape, it did have powerful side effects.\n<ul><li>Any Survivor within <b><span class=\"clr\" style=\"color: #e8c252 ;\">16 metres</span></b> of a <i>Slam</i> will suffer from the <i><b><span style=\"color: #4287f5\">Hindered</span> </b></i> <b>Status Effect</b> for <b><span class=\"clr\" style=\"color: #ff8800 ;\">3 seconds</span></b>.</li>\n<li><i>Slamming</i> <span style=\"color: #4287f5\">Pallets</span>  or <span style=\"color: #4287f5\">Breakable Walls</span>  will destroy them and stun The Blight for <b><span class=\"clr\" style=\"color: #d41c1c ;\">1.5 seconds</span></b>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Time is scarce. Let this be the one...\" — Talbot Grimes</span></i>\n</p>\n</td>",
-				"modifications": []
-			}
-		}
-	},
-	"the_demogorgon": {
-		"name": "The Demogorgon",
-		"nickname": "The Demogorgon",
-		"back_story": "",
-		"weapon": {},
-		"power": {},
-		"attributes": {},
-		"addons": {
-			"rotten_pumpkin": {
-				"name": "Rotten Pumpkin",
-				"description": "<td>Pumpkin flesh infected by the rotten soil in Hawkins.\n<ul><li>Traversing the <span style=\"color: #4287f5\">Upside Down</span> will destroy the <b>Portal</b> you entered.</li></ul>\n<p><i>Rotten Pumpkin</i> grants an additional <b><span class=\"clr\" style=\"color: #e8c252 ;\">200 Bloodpoints</span></b> for traversing the Upside Down.\n</p>\n</td>",
-				"modifications": []
-			},
-			"black_heart": {
-				"name": "Black Heart",
-				"description": "<td>A black fermented heart ripped from the chest of a tentacled creature in the Upside Down.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"0.8 c/s (sets new value)\">Slightly increases</span></b> <i>Shred</i> Recovery speed after successful <i>Shred</i> attacks.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"rat_liver": {
-				"name": "Rat Liver",
-				"description": "<td>A soggy pile of salty, soft liver.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+3.5 %\">Slightly increases</span></b> The Demogorgon's Movement speed while charging <i>Of the Abyss</i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"rat_tail": {
-				"name": "Rat Tail",
-				"description": "<td>A chewy rat tail for The Demogorgon to consume.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+25 %\">Slightly increases</span></b> <b>Portal</b> Opening speed.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"sticky_lining": {
-				"name": "Sticky Lining",
-				"description": "<td>A fetid, viscous layer that covers and expands the inter-dimensional tunnels.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+2.5 metres\">Slightly increases</span></b> <i><span style=\"color: #4287f5\">Killer Instinct</span></i> Detection range when charging <i>Of the Abyss</i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"viscous_webbing": {
-				"name": "Viscous Webbing",
-				"description": "<td>Wet, elastic webs that broaden the inter-dimensional tunnels.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+14 %\">Slightly increases</span></b> <b>Portal</b> Sealing time for Survivors.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"rotten_green_tripe": {
-				"name": "Rotten Green Tripe",
-				"description": "<td>Rotten tripe that fuels The Demogorgon.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+15 %\">Slightly increases</span></b> The Demogorgon's Movement speed while traversing the <span style=\"color: #4287f5\">Upside Down</span>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"mews_guts": {
-				"name": "Mew's Guts",
-				"description": "<td>The tasty guts of an unfortunate victim.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.25 seconds\">Slightly reduces</span></b> Cool-down for missed <i>Shred</i> attacks.</li>\n<li>Increases the number of available <b>Portals</b> by <b><span class=\"clr\" style=\"color: #e8c252 ;\">1</span></b>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"barbs_glasses": {
-				"name": "Barb's Glasses",
-				"description": "<td>A broken pair of glasses that travelled to the Upside Down.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"0.8 c/s (sets new value)\">Slightly increases</span></b> <i>Shred</i> Recovery speed after using it to break a <span style=\"color: #4287f5\">Breakable Wall</span>  or <span style=\"color: #4287f5\">Pallet</span> .</li></ul>\n</td>",
-				"modifications": []
-			},
-			"elevens_soda": {
-				"name": "Eleven's Soda",
-				"description": "<td>A soda can charged with psychic energy.\n<ul><li>Reveals the <span style=\"color: #4287f5\">Auras</span>  of <span style=\"color: #4287f5\">Generators</span>  being repaired in <b><span class=\"clr\" style=\"color: #e8c252 ;\">yellow</span></b> while traversing the <span style=\"color: #4287f5\">Upside Down</span>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"thorny_vines": {
-				"name": "Thorny Vines",
-				"description": "<td>Thick, thorny vines that stretch and reinforce the inter-dimensional tunnels.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+10 %\">Slightly increases</span></b> <b>Portal</b> Sealing time for Survivors.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+1 metre\">Slightly increases</span></b> <i><span style=\"color: #4287f5\">Killer Instinct</span></i> Detection range when charging <i>Of the Abyss</i>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"brass_case_lighter": {
-				"name": "Brass Case Lighter",
-				"description": "<td>A lighter used to ignite trouble.\n<ul><li>Survivors under the effect of an <b><span class=\"clr\" style=\"color: #e8c252 ;\">activated Portal</span></b> suffer from the <i><b><span style=\"color: #4287f5\">Blindness</span> </b></i> <b>Status Effect</b>.<br/>Once out of contact with the <b>Portal</b>, this effect persists for <b><span class=\"clr\" style=\"color: #e8c252 ;\">60 seconds</span></b>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Emits a strong electromagnetic field: it must have come into contact with the Upside Down.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
-				"modifications": []
-			},
-			"violet_waxcap": {
-				"name": "Violet Waxcap",
-				"description": "<td>A dark fleshed mushroom from the <span style=\"color: #4287f5\">Upside Down</span> that allows The Demogorgon to telepathically distort the senses in its prey.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.5 seconds\">Slightly increases</span></b> <i><b><span style=\"color: #4287f5\">Undetectable</span> </b></i> <b>Status Effect</b> duration after emerging from <b>Portals</b>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"deer_lung": {
-				"name": "Deer Lung",
-				"description": "<td>A raw, rubbery lung that reinvigorates The Demogorgon.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+30 %\">Considerably increases</span></b> <b>The Demogorgon's</b> Movement speed while traversing the <span style=\"color: #4287f5\">Upside Down</span>.</li>\n<li>Reduces the number of available <b>Portals</b> by <b><span class=\"clr\" style=\"color: #e8c252 ;\">2</span></b>.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"lifeguard_whistle": {
-				"name": "Lifeguard Whistle",
-				"description": "<td>A rusty, metal whistle that once ruled the Hawkins public pool.\n<ul><li>Survivors near <b><span class=\"clr\" style=\"color: #e8c252 ;\">activated Portals</span></b> are indicated by <i><span style=\"color: #4287f5\">Killer Instinct</span></i> without having to charge <i>Of the Abyss</i>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Emits a strong electromagnetic field: it must have come into contact with the Upside Down.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
-				"modifications": []
-			},
-			"vermilion_webcap": {
-				"name": "Vermilion Webcap",
-				"description": "<td>A bright red poisonous mushroom from the <span style=\"color: #4287f5\">Upside Down</span>.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+1 second\">Moderately increases</span></b> <i><b><span style=\"color: #4287f5\">Undetectable</span> </b></i> <b>Status Effect</b> duration after emerging from <b>Portals</b>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Still experimenting with this specimen, so far our results are inconsistent.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
-				"modifications": []
-			},
-			"upside_down_resin": {
-				"name": "Upside Down Resin",
-				"description": "<td>A sticky, flammable sap that fortifies the gateway to the inter-dimensional tunnels.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+28 %\">Moderately increases</span></b> <b>Portal</b> Sealing time for Survivors.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A sample taken from the bark of the tree once used as a gate. So far our conclusion as to its effect are inconclusive.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
-				"modifications": []
-			},
-			"unknown_egg": {
-				"name": "Unknown Egg",
-				"description": "<td>A large, warm egg coated in gruesome webbing.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1.5 seconds\">Considerably reduces</span></b> <i>Of the Abyss</i> Recovery time after traversing the <span style=\"color: #4287f5\">Upside Down</span>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"A large egg was sighted in the Upside Down, but no sample survived the trip to the lab for proper examination.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
-				"modifications": []
-			},
-			"leprose_lichen": {
-				"name": "Leprose Lichen",
-				"description": "<td>A potent lichen that grows like dust on the rocks in the Upside Down.\n<ul><li>Reveals the <span style=\"color: #4287f5\">Aura</span>  of all Survivors while traversing the <span style=\"color: #4287f5\">Upside Down</span> and for <b><span class=\"clr\" style=\"color: #e8c252 ;\">3 seconds</span></b> after emerging from a <b>Portal</b>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"One small dose can cause severe hallucinations.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
-				"modifications": []
-			},
-			"red_moss": {
-				"name": "Red Moss",
-				"description": "<td>A psychedelic moss that grows on tree barks in the Upside Down.\n<ul><li><b>The Demogorgon</b> emerges from <b>Portals</b> silently, but more slowly.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+8 seconds\">Tremendously increases</span></b> <i><b><span style=\"color: #4287f5\">Undetectable</span> </b></i> <b>Status Effect</b> duration after emerging from <b>Portals</b>.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Consuming its leaf enhances athletic performance and causes euphoria.\" — Hawkins National Laboratory</span></i>\n</p>\n</td>",
-				"modifications": []
-			}
-		}
-	},
-	"the_oni": {
-		"name": "Kazan Yamaoka",
-		"nickname": "The Oni",
-		"back_story": "",
-		"weapon": {},
-		"power": {},
-		"attributes": {},
-		"addons": {
-			"yakuyoke_talisman": {
-				"name": "Yakuyoke Talisman",
-				"description": "<td>Considering his goals pure and just, Kazan carried a trinket to ward off evil that might lead him astray.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+4 m/s\">Slightly increases</span></b> Blood Orb Absorption speed.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"rotting_rope": {
-				"name": "Rotting Rope",
-				"description": "<td>Had the rope been stronger it would have likely held Kazan. As it was, he escaped and butchered his captors.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+2 metres\">Slightly increases</span></b> Blood Orb Aura Detection range.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Though Death is focused, he has been known to blink.\" — Renjiro's Doctrine 14:5</span></i>\n</p>\n</td>",
-				"modifications": []
-			},
-			"cracked_sakazuki": {
-				"name": "Cracked Sakazuki",
-				"description": "<td>A cup from Kazan's wedding ceremony. It never made it through the night before being damaged.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Slightly reduces</span></b> <i>Blood Fury</i> Activation time.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Slightly reduces</span></b> <i>Blood Fury</i> Deactivation time.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"blackened_toenail": {
-				"name": "Blackened Toenail",
-				"description": "<td>Fell off during one of Kazan's hundred winter treks to the temple. Despite his pilgrimage, Akito's leg would never heal.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.3 m/s\">Slightly increases</span></b> Absorption Movement speed.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"If a father sacrifices not for his children, then who does he father?\" — Renjiro's Doctrine 11:12</span></i>\n</p>\n</td>",
-				"modifications": []
-			},
-			"polished_maedate": {
-				"name": "Polished Maedate",
-				"description": "<td>A horned crest Kazan tore from his helmet after being compared to a demon.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.1 c/s\">Slightly increases</span></b> <i>Yamaoka's Wrath</i> Passive Charge rate.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"ink_lion": {
-				"name": "Ink Lion",
-				"description": "<td>An ink painting that once hung in the <span style=\"color: #4287f5\">Yamaoka Estate</span>. Depicts the story of a lion eaten by mice.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Slightly reduces</span></b> <i>Blood Fury</i> Activation time.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Slightly reduces</span></b> <i>Blood Fury</i> Deactivation time.</li>\n<li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-2 seconds\">Moderately reduces</span></b> <i>Blood Fury</i> Duration penalty when downing a Survivor.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"chipped_saihai": {
-				"name": "Chipped Saihai",
-				"description": "<td>A baton that belonged to Renjiro. It was stolen by Kazan upon his departure.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+6 seconds\">Slightly increases</span></b> <i>Blood Fury</i> duration.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"childs_wooden_sword": {
-				"name": "Child's Wooden Sword",
-				"description": "<td>Akito's practice sword. The child had little use for it after his injury.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+3 metres\">Moderately increases</span></b> Blood Orb Aura Detection range.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"bloody_sash": {
-				"name": "Bloody Sash",
-				"description": "<td>Blood from a boy who called Kazan <i>\"The Noble Impostor\"</i>. Kazan hid evidence of the fight from his father, often revelling at the sash in secret.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.6 m/s\">Moderately increases</span></b> Absorption Movement speed.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"yamaoka_sashimono": {
-				"name": "Yamaoka Sashimono",
-				"description": "<td>The banner of the Yamaoka family, Kazan felt an overwhelming pride from it.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+8 seconds\">Moderately increases</span></b> <i>Blood Fury</i> duration.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"wooden_oni_mask": {
-				"name": "Wooden Oni Mask",
-				"description": "<td>A mask that a young Kazan bought to celebrate Setsubun, its repulsively fanged mouth began haunting his nightmares.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-0.5 seconds\">Slightly reduces</span></b> the Passive Blood Orb Drop Rate cool-down.</li>\n<li>Survivors drop <b>1</b> extra Blood Orb on Game Events.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"It is no coincidence that man is so familiar with demons.\" — Renjiro's Doctrine 3:8</span></i>\n</p>\n</td>",
-				"modifications": []
-			},
-			"shattered_wakizashi": {
-				"name": "Shattered Wakizashi",
-				"description": "<td>The fragments of an ancestral blade, destroyed by Kazan in a fit of rage.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.2 c/s\">Moderately increases</span></b> <i>Yamaoka's Wrath</i> Passive Charge rate.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"scalped_topknot": {
-				"name": "Scalped Topknot",
-				"description": "<td>The topknot of a samurai who questioned Kazan's honour. The roots cling to a thin strip of bloody skin.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1 second\">Considerably reduces</span></b> <i>Demon Dash</i> Activation time while <i>Blood Fury</i> is active.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"kanai_anzen_talisman": {
-				"name": "Kanai-Anzen Talisman",
-				"description": "<td>A trinket given to Kazan at birth, its powers are meant to protect his family from harm.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+0.64 m/s\">Moderately increases</span></b> <i>Demon Dash</i> Movement speed while <i>Blood Fury</i> is active.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"tear_soaked_tenugui": {
-				"name": "Tear Soaked Tenugui",
-				"description": "<td>The cloth that Kazan's mother cried into when he left on his pilgrimage to cleanse the samurai.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-4 seconds\">Considerably reduces</span></b> <i>Blood Fury</i> Duration penalty when downing a Survivor.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"splintered_hull": {
-				"name": "Splintered Hull",
-				"description": "<td>Fragments of a ship that carried <span style=\"color: #4287f5\">Renjiro Yamaoka</span>. Against all odds, the legendary samurai seemed to survive.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"-1 seconds\">Moderately reduces</span></b> the Passive Blood Orb Drop Rate cool-down.</li>\n<li>Survivors drop <b>1</b> extra Blood Orb on Game Events.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"To plan subterfuge, begin with a counsel of none.\" — Renjiro's Doctrine 7:9</span></i>\n</p>\n</td>",
-				"modifications": []
-			},
-			"lion_fang": {
-				"name": "Lion Fang",
-				"description": "<td>A tooth sold from an exotic vendor, it symbolises power and nobility.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+10 seconds\">Considerably increases</span></b> <i>Blood Fury</i> duration.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"akitos_crutch": {
-				"name": "Akito's Crutch",
-				"description": "<td>The crutch used by Kazan's son after falling from a tree. Akito's playmate and her family were punished for the boy's injury.\n<ul><li><b><span class=\"rt-commentedText tooltip-value\" style=\"border-bottom:1px dotted; border-color: #3c3c3c;\" title=\"+1.0 m/s\">Considerably increases</span></b> <i>Demon Dash</i> Movement speed while <i>Blood Fury</i> is active.</li></ul>\n</td>",
-				"modifications": []
-			},
-			"renjiros_bloody_glove": {
-				"name": "Renjiro's Bloody Glove",
-				"description": "<td>The glove Renjiro held to his sternum following the strike dealt by his son Kazan.\n<ul><li>All Survivors can see Blood Orbs.</li>\n<li>A Survivor's Aura is revealed for <b><span class=\"clr\" style=\"color: #e8c252 ;\">2 seconds</span></b> whenever they come into contact with a Blood Orb, absorbing it in the process.</li>\n<li>This effect stacks for each Blood Orb absorbed.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"When all else spills out, cling only to your honour.\" — Renjiro's Doctrine 14:12</span></i>\n</p>\n</td>",
-				"modifications": []
-			},
-			"iridescent_family_crest": {
-				"name": "Iridescent Family Crest",
-				"description": "<td>A crest that denotes its owner as being a part of the Yamaoka family.\n<ul><li>While <i>Blood Fury</i> is active, missing a <i>Demon Strike</i> will cause all Survivors within <b><span class=\"clr\" style=\"color: #e8c252 ;\">12 metres</span></b> to scream and reveal their current location to you.</li></ul>\n<p><i><span class=\"clr\" style=\"color: #e7cda2 ;\">\"Know who you are so you may shield your heart.\" — Renjiro's Doctrine 11:2</span></i>\n</p>\n</td>",
 				"modifications": []
 			}
 		}

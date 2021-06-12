@@ -2674,8 +2674,7 @@
 				"measurement": "%",
 				"title": "Portal Opening speed",
 				"category": "power"
-			},
-			
+			}
 		},
 		"addons": {
 			"rotten_pumpkin": {
@@ -2698,7 +2697,7 @@
 				"modifications": [
 					{
 						"applied_on": "shred_recovery_speed_successful",
-						"value": "0.8"
+						"value": "=0.8"
 					}
 				]
 			},

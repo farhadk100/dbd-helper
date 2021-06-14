@@ -1911,7 +1911,7 @@
 				"modifications": [
 					{
 						"applied_on": "movement_speed_cloaked",
-						"value": "+0.05%"
+						"value": "*0.05"
 					}
 				]
 			},
@@ -1941,7 +1941,7 @@
 				"modifications": [
 					{
 						"applied_on": "movement_speed_cloaked",
-						"value": "+0.0667%"
+						"value": "*0.0667"
 					}
 				]
 			},
@@ -1995,7 +1995,7 @@
 				"modifications": [
 					{
 						"applied_on": "movement_speed_cloaked",
-						"value": "+0.0833%"
+						"value": "*0.0833"
 					}
 				]
 			},
